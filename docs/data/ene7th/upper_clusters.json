@@ -1,0 +1,1668 @@
+[
+  {
+    "cluster_id": "T01",
+    "level": "upper",
+    "size": 560,
+    "original_embedding_cohesion": 0.81363,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-meeting-58-min58-u21:r3",
+        "source": "分科会",
+        "request_summary": "原子力の安全な活用を拡大するため、再稼働にとどまらず、原子力発電所のリプレース・新増設に向けた政策の具体化を早急に進めることを求めている。",
+        "target_topic": "原子力発電所のリプレース・新増設に向けた政策具体化",
+        "centroid_similarity": 0.907504
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000129:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の検討において、脱炭素の手段として原子力発電に頼る考え方を再考すること。",
+        "target_topic": "脱炭素政策における原子力発電の位置付け",
+        "centroid_similarity": 0.897835
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000842:r10",
+        "source": "意見箱",
+        "request_summary": "原子力発電に関する避難計画を見直す。",
+        "target_topic": "原子力発電に関する避難計画",
+        "centroid_similarity": 0.896538
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-55-min55-u24:r2",
+        "source": "分科会",
+        "request_summary": "原子力発電の開発・事業展開のステップを明確にする。再稼働と既存発電所内での新設を第一段階とするならば、その次に安全性に配慮した次世代原子炉の開発・立地を、船やメガフロートなど立地条件を柔軟にする方策も含めて示し、さらに核融合・核種変更・貯蔵技術等へ至る段階像を明確にするよう求める。",
+        "target_topic": "原子力発電の開発・事業展開のロードマップ",
+        "centroid_similarity": 0.895609
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-222-2:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案の原子力政策について、立地地域との共生に向けた政策や国民全体の原子力理解の深化と併せて、核燃料サイクル、廃炉、最終処分といったバックエンドプロセスの加速化を、官民一体となって国が責任を持って進めるよう求める。",
+        "target_topic": "原子力のバックエンドプロセス（核燃料サイクル、廃炉、最終処分）の加速化、立地地域との共生及び国民理解",
+        "centroid_similarity": 0.894767
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-56-min56-u20:r4",
+        "source": "分科会",
+        "request_summary": "国が、将来必要となる原子力の規模と、その確保に向けた道筋を含む原子力の将来像を明確に示すことを求めている。",
+        "target_topic": "原子力の将来規模と確保への道筋",
+        "centroid_similarity": 0.892416
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-104-3:r2",
+        "source": "パブコメ",
+        "request_summary": "原子力発電所のリプレースを強力に推進する方針を計画案に位置付けることを求める。",
+        "target_topic": "原子力発電所のリプレース",
+        "centroid_similarity": 0.892057
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-172-1:r2",
+        "source": "パブコメ",
+        "request_summary": "原子力発電について、既設炉を再稼働するのみに留めることを計画案に明記するよう求める。",
+        "target_topic": "原子力発電の利用範囲と既設炉の再稼働",
+        "centroid_similarity": 0.891191
+      }
+    ],
+    "child_cluster_ids": [
+      "L025",
+      "L026",
+      "L028",
+      "L030",
+      "L031",
+      "L055",
+      "L063",
+      "L065",
+      "L091",
+      "L098",
+      "L104",
+      "L110",
+      "L128",
+      "L142",
+      "L147",
+      "L150",
+      "L160",
+      "L168",
+      "L169",
+      "L172",
+      "L178",
+      "L192",
+      "L203",
+      "L207",
+      "L214",
+      "L217",
+      "L220",
+      "L228",
+      "L248",
+      "L254",
+      "L255",
+      "L257",
+      "L264",
+      "L285"
+    ],
+    "label": "原子力の将来利用・安全・廃棄物政策の明確化",
+    "description": "第7次エネルギー基本計画における原子力の位置付け、再稼働・新増設・次世代炉開発または脱原発方針、安全規制・事故・避難対策、核燃料サイクル・廃炉・最終処分、国民的議論、立地地域支援、技術・産業基盤強化を具体化する要求。推進と縮小・中止の相反する方針を含む。",
+    "included_topics": [
+      "原発の再稼働・新増設・リプレース",
+      "原子力の将来規模・電源構成上の位置付け",
+      "安全規制・重大事故・被ばく・避難対策",
+      "次世代革新炉・高速炉・高温ガス炉の開発",
+      "核燃料サイクル・再処理・直接処分",
+      "廃炉・使用済燃料・最終処分",
+      "国民理解・情報公開・合意形成",
+      "原子力立地地域の振興・避難道路整備",
+      "原子力技術・人材・サプライチェーン"
+    ],
+    "boundary_note": "原子力の最大限活用・新増設を求める要求と、原子力を脱炭素電源と位置付けない要求、核燃料サイクル中止・新型炉開発中止を求める要求が併存する。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T02",
+    "level": "upper",
+    "size": 506,
+    "original_embedding_cohesion": 0.804495,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-opinion-box-000318:r7",
+        "source": "意見箱",
+        "request_summary": "エネルギー政策を「脱炭素」という理念や言葉だけで立案する考え方を改める。",
+        "target_topic": "脱炭素とエネルギー安定供給の政策上の位置付け",
+        "centroid_similarity": 0.88972
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000023:r3",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の改定を、持続可能な将来の実現と日本の国力増大という視点から議論する。",
+        "target_topic": "脱炭素社会に向けた計画改定の政策的な位置付けと議論の視点",
+        "centroid_similarity": 0.889709
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-66-min66-u104:r1",
+        "source": "分科会",
+        "request_summary": "次期エネルギー基本計画を、脱炭素に向けた野心的なビジョンを掲げながら、不確実性の下でも経済成長を確保し、国民生活を守るという現実を踏まえた計画とする。",
+        "target_topic": "次期エネルギー基本計画における脱炭素、経済成長及び国民生活の位置付け",
+        "centroid_similarity": 0.889668
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-50-3:r1",
+        "source": "パブコメ",
+        "request_summary": "カーボンバジェットを踏まえて、2030年の計画を見直すことを求めている。",
+        "target_topic": "2030年のエネルギー計画",
+        "centroid_similarity": 0.888236
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-62-min62-u25:r7",
+        "source": "分科会",
+        "request_summary": "第7次エネルギー基本計画を、脱炭素のみを目的とする計画として位置付けない。",
+        "target_topic": "エネルギー基本計画の目的及び政策上の位置付け",
+        "centroid_similarity": 0.886859
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000349:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画につながる脱炭素化政策を、パリ協定の1.5℃目標に整合させ、早急に進める。",
+        "target_topic": "脱炭素化政策とパリ協定の1.5℃目標との整合性",
+        "centroid_similarity": 0.883868
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-35-3:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案における2050年に向けた線形的な削減経路をIPCCのネットゼロ達成に向けた推奨事項と整合させ、排出削減目標を国際的な約束や科学的推奨事項とより良く整合させることを求める。",
+        "target_topic": "2050年に向けた線形的な排出削減経路および排出削減目標",
+        "centroid_similarity": 0.883779
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000319:r2",
+        "source": "意見箱",
+        "request_summary": "2030年の温室効果ガス削減目標を2013年比で最低でも62％とし、さらに高い目標値を設定して、その目標に沿った政策を決定・推進する。",
+        "target_topic": "2030年温室効果ガス削減目標と関連政策",
+        "centroid_similarity": 0.88347
+      }
+    ],
+    "child_cluster_ids": [
+      "L003",
+      "L008",
+      "L017",
+      "L058",
+      "L061",
+      "L082",
+      "L093",
+      "L108",
+      "L116",
+      "L121",
+      "L126",
+      "L140",
+      "L154",
+      "L173",
+      "L174",
+      "L175",
+      "L177",
+      "L184",
+      "L204",
+      "L208",
+      "L209",
+      "L218",
+      "L219",
+      "L222",
+      "L224",
+      "L230",
+      "L256",
+      "L259",
+      "L265",
+      "L269",
+      "L270",
+      "L272",
+      "L277"
+    ],
+    "label": "1.5℃整合の脱炭素目標と実行計画",
+    "description": "第7次エネルギー基本計画を1.5℃目標・科学的根拠・国際的責任に整合させ、2030年以降の削減目標、カーボンニュートラル時期、電源構成、省エネ量、移行経路を具体化する要求。カーボンプライシング、脱炭素価値とコスト・負担の明示、複数シナリオ、S＋3E、公平性、将来世代への責任、進捗検証と柔軟な見直しも含む。",
+    "included_topics": [
+      "温室効果ガス削減目標の引上げとCN達成時期の前倒し",
+      "1.5℃目標・次期NDCとの整合",
+      "国際水準のカーボンプライシング導入",
+      "脱炭素コスト・社会的負担・脱炭素価値の明示",
+      "2035年・2040年・2050年のロードマップと将来像",
+      "複数シナリオと不確実性に応じた柔軟な政策運用",
+      "第6次計画の進捗・未達検証とPDCA",
+      "S＋3E、公平性、倫理、世代間衡平の反映",
+      "省エネ・電源脱炭素化・系統増強",
+      "国際的責任、技術輸出、独自の脱炭素戦略"
+    ],
+    "boundary_note": "共通の中心は脱炭素目標と計画運用だが、原子力・LNG・再生可能エネルギー、系統整備、CCUS・水素等の個別技術論、他国での削減寄与の国際評価、エネルギー貧困や生物多様性などは関連する異質な下位論点として含まれる。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T03",
+    "level": "upper",
+    "size": 501,
+    "original_embedding_cohesion": 0.844049,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-117-3:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案のエネルギー供給方針を、太陽光、風力、地熱などの再生可能エネルギーへ転換する方向とすることを求めている。",
+        "target_topic": "太陽光、風力、地熱などの再生可能エネルギーへの転換",
+        "centroid_similarity": 0.934826
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000358:r2",
+        "source": "意見箱",
+        "request_summary": "エネルギー政策の見直しにおいて、再生可能エネルギーの利用促進を政策の方向性とすることを求めている。",
+        "target_topic": "再生可能エネルギーの利用促進",
+        "centroid_similarity": 0.931471
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000732:r3",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーの促進を求めている。",
+        "target_topic": "再生可能エネルギーの促進",
+        "centroid_similarity": 0.930959
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000986:r2",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーの導入を、より積極的に増加させる方針とすることを求めている。",
+        "target_topic": "再生可能エネルギーの導入拡大",
+        "centroid_similarity": 0.930077
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000648:r1",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーを増やすことを求めている。",
+        "target_topic": "再生可能エネルギーの拡大",
+        "centroid_similarity": 0.928469
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000101:r2",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーを主力電源とする政策方向へ転換することを求めている。",
+        "target_topic": "再生可能エネルギーの主力電源化",
+        "centroid_similarity": 0.928017
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-114-2:r2",
+        "source": "パブコメ",
+        "request_summary": "計画案において再生可能エネルギーを増やす方針を採用するよう求める。",
+        "target_topic": "再生可能エネルギーの導入拡大",
+        "centroid_similarity": 0.927559
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000647:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画において、再生可能エネルギーをさらに増やす方向とすることを求めている。",
+        "target_topic": "再生可能エネルギーの導入・拡大",
+        "centroid_similarity": 0.926354
+      }
+    ],
+    "child_cluster_ids": [
+      "L005",
+      "L011",
+      "L037",
+      "L041",
+      "L042",
+      "L045",
+      "L064",
+      "L081",
+      "L089",
+      "L103",
+      "L105",
+      "L106",
+      "L107",
+      "L114",
+      "L119",
+      "L123",
+      "L133",
+      "L191",
+      "L210",
+      "L215",
+      "L227",
+      "L231",
+      "L237",
+      "L243",
+      "L244",
+      "L251",
+      "L281",
+      "L289"
+    ],
+    "label": "再エネ主力化と導入拡大の政策転換",
+    "description": "原子力・化石燃料への依存を抑え、省エネと再生可能エネルギーを中心とする電源構成への転換、再エネの主力化・優先接続・導入加速を求める要求。地熱・太陽光・風力・水力等の拡大、地域分散型・地産地消、技術開発や送電網整備、関連投資の促進も含む。",
+    "included_topics": [
+      "再エネ主力電源化・最優先原則",
+      "原子力・化石燃料から再エネへの投資転換",
+      "太陽光・風力・地熱・水力等の導入拡大",
+      "地熱発電の規制緩和と重点化",
+      "地域共生・地産地消・分散型供給",
+      "送電網・蓄電池・需給調整の整備",
+      "再エネ導入コストと国民負担の抑制",
+      "再エネ関連の技術開発・国産化"
+    ],
+    "boundary_note": "一部に、変動型再エネの導入抑制、再エネ主力化への反対、経済合理性やS＋3Eを重視する意見が含まれる。また、賦課金の廃止・見直し、外国資本規制、水素・CCS等への投資選別などは、再エネ拡大そのものから派生する異質な制度・財政論点である。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T04",
+    "level": "upper",
+    "size": 449,
+    "original_embedding_cohesion": 0.874595,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-opinion-box-000997:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画原案の原子力推進方針を改め、今すぐ原発をやめられないのであれば、今後限りなく低減させる方針を採ることを求めている。",
+        "target_topic": "原子力発電の将来的な位置付けと依存度",
+        "centroid_similarity": 0.948988
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000468:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の原子力政策について、原発の停止・廃炉を進め、脱原発の方向を採用することを求める。",
+        "target_topic": "原子力発電の停止・廃炉と脱原発",
+        "centroid_similarity": 0.946157
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000917:r2",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画における原子力政策を、原発を廃止する方向とする。",
+        "target_topic": "原子力発電の扱い",
+        "centroid_similarity": 0.944122
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000770:r5",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の原子力政策について、原発を廃止する方向とすることを求めている。",
+        "target_topic": "原子力発電の利用・存続方針",
+        "centroid_similarity": 0.940925
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-178-1:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案において、原子力発電を廃止する方針とすることを求めている。",
+        "target_topic": "原子力発電の利用方針",
+        "centroid_similarity": 0.939353
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-212-1:r2",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画において、脱原発を進める方針とすることを求めている。",
+        "target_topic": "原子力政策及び脱原発の推進",
+        "centroid_similarity": 0.938994
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000997:r2",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画において、原子力発電所を再稼働させない方針を採ることを求めている。",
+        "target_topic": "原子力発電所の再稼働",
+        "centroid_similarity": 0.937642
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000730:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画における原子力政策の判断として、原子力発電所を廃止することを求めている。",
+        "target_topic": "原子力発電所の存廃",
+        "centroid_similarity": 0.935747
+      }
+    ],
+    "child_cluster_ids": [
+      "L001",
+      "L006",
+      "L016",
+      "L043",
+      "L048",
+      "L062",
+      "L067",
+      "L069",
+      "L071",
+      "L076",
+      "L095",
+      "L117",
+      "L127",
+      "L129",
+      "L152",
+      "L198",
+      "L206",
+      "L212",
+      "L235"
+    ],
+    "label": "原発回帰を止め脱原発へ転換する政策要求",
+    "description": "第7次エネルギー基本計画で原発の最大限活用・再稼働・運転延長・新増設・リプレースを撤回または行わず、原発依存度を低減し、段階的な廃止・脱原発へ転換する方針と工程を明記することを求める。",
+    "included_topics": [
+      "原発の即時停止・廃炉・全廃",
+      "原発依存度の低減と脱原発の明記",
+      "再稼働・運転延長の中止",
+      "新設・増設・リプレースの中止",
+      "原子力発電の段階的ゼロ化",
+      "原発事故防災と福島復興の優先",
+      "放射性廃棄物・核のゴミ対策の優先",
+      "原発の最大限活用方針の撤回",
+      "原子力の「準国産」表現の見直し"
+    ],
+    "boundary_note": "放射性廃棄物の処分・再利用、福島第一原発の廃炉・復興、避難計画は、脱原発方針に付随する優先課題として含まれるが、個別の廃棄物処理制度や復興施策そのものが主論点ではない。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T05",
+    "level": "upper",
+    "size": 421,
+    "original_embedding_cohesion": 0.826128,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-109-2:r2",
+        "source": "パブコメ",
+        "request_summary": "計画案において、石炭火力をフェードアウトする方針とすることを求めている。",
+        "target_topic": "石炭火力のフェードアウト",
+        "centroid_similarity": 0.91424
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-288-1:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案の電源政策について、ＧＸ排出量取引制度や化石燃料賦課金等の導入後の経済優位性を考慮しても、石炭火力をなるべく早期に廃止し、LNG火力や脱炭素電源へ切り替える方針とすることを求める。",
+        "target_topic": "石炭火力の早期廃止とLNG火力・脱炭素電源への転換",
+        "centroid_similarity": 0.911905
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-288-5:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案において、再エネの変動性を補う調整電力としての重要な機能を確保しつつ、石炭火力を廃止して脱炭素電源に置き換える方針とすること。",
+        "target_topic": "石炭火力の廃止と脱炭素電源への置き換え",
+        "centroid_similarity": 0.911664
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-59-min59-u35:r5",
+        "source": "分科会",
+        "request_summary": "対策が取られていない石炭火力の発電量を可能な限り最小化するとともに、ガス火力がトランジション期の重要な役割を果たせる制度設計を行う。",
+        "target_topic": "無対策石炭火力の発電抑制と移行期のガス火力を支える制度設計",
+        "centroid_similarity": 0.91012
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-281-1:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案において、石炭火力やガス火力を含む化石燃料から早急に脱却する政策方針を示すことを求めている。",
+        "target_topic": "石炭火力・ガス火力を含む化石燃料からの脱却",
+        "centroid_similarity": 0.909667
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000138:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画を、化石燃料からの脱却を進める内容とすることを求めている。",
+        "target_topic": "化石燃料への依存と火力発電",
+        "centroid_similarity": 0.907175
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000767:r2",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の政策方向として、CO2を多く排出する石炭火力の廃止期限を設定し、化石燃料からの脱却を進めることを求めている。",
+        "target_topic": "石炭火力の廃止期限設定と化石燃料からの脱却",
+        "centroid_similarity": 0.906389
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-116-2:r1",
+        "source": "パブコメ",
+        "request_summary": "計画案において、石炭火力を含む化石燃料からの脱却を強力に進める方針とすることを求めている。",
+        "target_topic": "石炭火力を含む化石燃料からの脱却",
+        "centroid_similarity": 0.902134
+      }
+    ],
+    "child_cluster_ids": [
+      "L022",
+      "L032",
+      "L034",
+      "L047",
+      "L070",
+      "L084",
+      "L085",
+      "L086",
+      "L087",
+      "L097",
+      "L101",
+      "L112",
+      "L124",
+      "L131",
+      "L134",
+      "L145",
+      "L149",
+      "L151",
+      "L162",
+      "L163"
+    ],
+    "label": "火力発電の安定供給確保と脱炭素移行方針",
+    "description": "LNG・石油・天然ガスや既存・高効率火力を移行期の安定供給源として確保・活用する要求と、石炭火力を中心に化石燃料火力を早期廃止・縮減し、再エネ、原子力、蓄電池、水素・アンモニア、CCUS等へ転換する要求を含む。供給量、費用、発電比率、廃止時期、脱炭素化経路の明示も求める。",
+    "included_topics": [
+      "LNG・天然ガスの長期契約、備蓄、調達先分散",
+      "石油・液体燃料の供給基盤と備蓄維持",
+      "既存・高効率火力の維持、新設、更新",
+      "石炭火力の削減・廃止期限設定・早期全廃",
+      "LNG火力を含む化石燃料からの脱却",
+      "水素・アンモニア混焼、CCUS、IGCC等による火力脱炭素化",
+      "火力発電比率と脱炭素化経路の明示"
+    ],
+    "boundary_note": "石炭火力やLNG火力の早期廃止を求める意見と、安定供給のため維持・新設・活用を求める意見が併存する。廃止対象・時期、火力脱炭素技術の位置付けにも相反する要求がある。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T06",
+    "level": "upper",
+    "size": 331,
+    "original_embedding_cohesion": 0.842593,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-41-4:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画の策定において、最初から多様な世代・業界・地域のステークホルダーが参加して議論する場を政府が設け、国民からもっと意見を聴くことを求めている。",
+        "target_topic": "第7次エネルギー基本計画の策定過程における多様なステークホルダーの参加と国民意見の聴取",
+        "centroid_similarity": 0.942319
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000671:r2",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の策定過程に、多様な立場の専門家、環境団体、市民が参加する国民的議論の場を設けることを求めている。",
+        "target_topic": "エネルギー基本計画の策定過程における市民参加と国民的議論",
+        "centroid_similarity": 0.941467
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-36-1:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画の形成過程において、民主的で透明なプロセスによる国民的議論を行うことを求める。",
+        "target_topic": "第7次エネルギー基本計画案の形成・意見聴取手続",
+        "centroid_similarity": 0.938983
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-38-2:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案の形成過程を、国民不在ではなく国民が参加できるものに改善すること。",
+        "target_topic": "計画案形成過程における国民参加",
+        "centroid_similarity": 0.932316
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000845:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の形成過程に、次世代や一次産業従事者を含む多様な立場の国民が議論へ参加できる仕組みを設けることを求めている。",
+        "target_topic": "計画形成過程への国民参加",
+        "centroid_similarity": 0.931547
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000901:r1",
+        "source": "意見箱",
+        "request_summary": "エネルギー基本計画の策定プロセスに市民参加を確保し、民主的な国民議論を行うことを求めている。",
+        "target_topic": "エネルギー基本計画の策定における市民参加と国民議論",
+        "centroid_similarity": 0.931143
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000710:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の策定に当たり、市民・国民の意見を受け止めながら国民的議論を重ねることを求めている。",
+        "target_topic": "エネルギー基本計画の審議における国民参加と意見聴取",
+        "centroid_similarity": 0.928369
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000082:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の検討を、幅広い世代・ジェンダー・専門家などを巻き込み、国民的議論となるよう進めることを求めている。",
+        "target_topic": "第7次エネルギー基本計画の議論への参加者の多様性と国民参加",
+        "centroid_similarity": 0.926326
+      }
+    ],
+    "child_cluster_ids": [
+      "L010",
+      "L020",
+      "L033",
+      "L036",
+      "L057",
+      "L060",
+      "L072",
+      "L073",
+      "L077",
+      "L094",
+      "L141",
+      "L159",
+      "L195",
+      "L233"
+    ],
+    "label": "多様な市民参加と透明な計画策定",
+    "description": "第7次エネルギー基本計画の策定・見直しにおいて、審議過程やスケジュールを透明化し、若者、女性、地域、一次産業関係者、被災・事故当事者、専門家、環境団体、市民など多様な主体の参加と意見反映を確保する。公聴会、意見箱、パブリックコメント等を実効化し、十分な情報提供と時間を通じて国民的な理解・合意形成を進める。",
+    "included_topics": [
+      "民主的・透明な計画策定",
+      "多様な世代・地域・立場の参加",
+      "審議会の委員構成の多様化",
+      "若者・市民・専門家・環境団体の参加",
+      "公聴会・意見箱・パブリックコメントの実効化",
+      "審議過程・スケジュール・政策情報の透明化",
+      "複数シナリオの比較提示と参加型合意形成",
+      "分かりやすい情報発信と理解促進",
+      "パブリックコメント後の再審議と計画案修正"
+    ],
+    "boundary_note": "複数シナリオの比較やエネルギー情報の広報は、参加・理解促進の手段として含まれるが、シナリオの技術的内容やエネルギーミックス自体の政策評価は主論点ではない。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T07",
+    "level": "upper",
+    "size": 308,
+    "original_embedding_cohesion": 0.794036,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-opinion-box-000426:r6",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーの拡大を支える具体策として、蓄電池を充実させることを求めている。",
+        "target_topic": "再生可能エネルギーの活用に向けた蓄電池の充実",
+        "centroid_similarity": 0.904105
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-60-min60-u15:r4",
+        "source": "分科会",
+        "request_summary": "再生可能エネルギーの導入加速と最大限活用に向け、出力抑制を極力抑える施策、連系線の増強及び蓄電池の導入をさらに加速する。",
+        "target_topic": "再生可能エネルギーの導入、出力抑制、連系線及び蓄電池",
+        "centroid_similarity": 0.900719
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000426:r7",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーの拡大を支える具体策として、広域電力融通網を充実させることを求めている。",
+        "target_topic": "再生可能エネルギーの活用に向けた広域電力融通網の充実",
+        "centroid_similarity": 0.896711
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-259-2:r2",
+        "source": "パブコメ",
+        "request_summary": "再生可能エネルギーの有効活用と系統混雑の解消に資する蓄電池について、継続的な導入支援を行うことを求めている。",
+        "target_topic": "蓄電池の導入支援",
+        "centroid_similarity": 0.893328
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-59-min59-u21:r8",
+        "source": "分科会",
+        "request_summary": "2030年の全電源脱炭素化に向け、再生可能エネルギーと組み合わせて慣性力を備えた蓄電池の普及に力を入れることを求めている。",
+        "target_topic": "再生可能エネルギーと慣性力を備えた蓄電池の普及",
+        "centroid_similarity": 0.890437
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-57-2:r3",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案に関わる再生可能エネルギーの供給能力最大化のため、デマンド・レスポンス、蓄電池、連系線の増強を求めている。",
+        "target_topic": "再生可能エネルギーの供給能力最大化を支えるデマンド・レスポンス、蓄電池、連系線",
+        "centroid_similarity": 0.887709
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000335:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の脱炭素化の道筋として、徹底した省エネルギーを行った上で再生可能エネルギー100％を目指し、再生可能エネルギー発電所、電力会社間で電力を融通する送電網及び電力貯蔵装置を拡充する方針を採用する。",
+        "target_topic": "省エネルギー、再生可能エネルギー100％及び送電・蓄電インフラの拡充",
+        "centroid_similarity": 0.886501
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-28-2:r3",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案に関し、変動性のある再生可能エネルギーの主力電源化を実現するため、蓄電を充実させることを求めている。",
+        "target_topic": "変動性再生可能エネルギーの主力電源化に向けた蓄電の充実",
+        "centroid_similarity": 0.884391
+      }
+    ],
+    "child_cluster_ids": [
+      "L018",
+      "L019",
+      "L023",
+      "L027",
+      "L050",
+      "L056",
+      "L075",
+      "L113",
+      "L146",
+      "L161",
+      "L196",
+      "L205",
+      "L223",
+      "L249",
+      "L276"
+    ],
+    "label": "再エネ拡大を支える蓄電・系統・資源循環政策",
+    "description": "再生可能エネルギーの導入拡大を前提に、蓄電池・揚水・水素等による調整力、送配電網・連系線の強化、需要側資源の活用を進める。併せて、水力、EV・公共交通、廃棄物・下水のエネルギー利用を促進し、重要鉱物の供給リスク、LCA、資源循環、国内リサイクル、人権・環境負荷を踏まえて導入方針を評価・調整する。",
+    "included_topics": [
+      "蓄電池・揚水・水素等の貯蔵技術と調整力",
+      "送配電網・連系線・変電所の計画的強化",
+      "需給柔軟化、DR・DSM、分散リソース、電力データ連携",
+      "水力発電・ダム活用の拡大",
+      "EV・商用車の電動化と公共交通への転換",
+      "変動再エネの経済合理的接続と地産地消",
+      "重要鉱物の需要削減、LCA評価、資源循環・国内リサイクル",
+      "廃棄物・下水・バイオガスのエネルギー利用と化石燃料禁止"
+    ],
+    "boundary_note": "再エネ・EV・蓄電池の導入促進と、レアメタル・中国依存や環境負荷を理由とする導入抑制・再検討が併存する。また、系統・調整力政策、交通政策、資源循環政策、廃棄物政策は異質な下位論点であり、化石燃料禁止や罰則提案も独立性が高い。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T08",
+    "level": "upper",
+    "size": 281,
+    "original_embedding_cohesion": 0.820158,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-339-2:r2",
+        "source": "パブコメ",
+        "request_summary": "燃料サプライチェーン構築を含む火力発電所の脱炭素化に向け、水素・アンモニア等の技術革新や普及拡大の現実的な時間軸を考慮した、セカンドムーバーへの切れ目のない支援を求めている。",
+        "target_topic": "水素・アンモニア等に関するセカンドムーバーへの継続的支援",
+        "centroid_similarity": 0.907673
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-20-4:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案の技術活用方針について、技術的・コスト的に未確立なCCUS、水素・アンモニア混焼による脱炭素化は必要ないとの立場から、これらによって再生可能エネルギーの導入を遅らせないよう求める。",
+        "target_topic": "CCUS及び水素・アンモニア混焼による脱炭素化と再生可能エネルギー導入との関係",
+        "centroid_similarity": 0.893149
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-116-3:r1",
+        "source": "パブコメ",
+        "request_summary": "計画案において、水素・アンモニアやCCSに頼りながら火力発電を使い続ける方針をやめることを求めている。",
+        "target_topic": "水素・アンモニアやCCSを利用した火力発電の継続",
+        "centroid_similarity": 0.891294
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000873:r2",
+        "source": "意見箱",
+        "request_summary": "火力発電のアンモニアまたは水素混焼、CCS、ペロブスカイトなど、これから開発・実用化を進める技術の推進や資金投入の姿勢を示す前に、再生可能エネルギーの電気が普及しやすい制度整備を優先する。",
+        "target_topic": "新技術への支援と再生可能エネルギー普及制度の政策上の優先順位",
+        "centroid_similarity": 0.890755
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-314-2:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案について、技術的実現可能性が乏しくコストが高いことを理由に、水素・アンモニア、CCUS等を活用した火力の脱炭素化を推進しないことを求めている。",
+        "target_topic": "水素・アンモニア、CCUS等を活用した火力の脱炭素化",
+        "centroid_similarity": 0.890671
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000926:r3",
+        "source": "意見箱",
+        "request_summary": "水素、アンモニア、CCS等の化石燃料関連の新技術に頼りすぎない方針をエネルギー基本計画に盛り込むことを求めている。",
+        "target_topic": "水素、アンモニア、CCS等の化石燃料関連新技術への依存",
+        "centroid_similarity": 0.889582
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-116-2:r2",
+        "source": "パブコメ",
+        "request_summary": "計画案において、CCSや水素・アンモニアによる発電よりも再生可能エネルギーの拡大を優先して推進することを求めている。",
+        "target_topic": "CCS、水素・アンモニアによる発電と再生可能エネルギーの政策上の優先順位",
+        "centroid_similarity": 0.888289
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-59-min59-u13:r3",
+        "source": "分科会",
+        "request_summary": "火力電源の脱炭素化に向け、水素・アンモニア、CCSの取組と新技術の適用を進め、脱炭素化を急ぐ。",
+        "target_topic": "水素・アンモニア、CCSなどの新技術による火力電源の脱炭素化の推進",
+        "centroid_similarity": 0.887196
+      }
+    ],
+    "child_cluster_ids": [
+      "L007",
+      "L029",
+      "L038",
+      "L054",
+      "L080",
+      "L083",
+      "L100",
+      "L130",
+      "L132",
+      "L166",
+      "L171",
+      "L183",
+      "L234",
+      "L280"
+    ],
+    "label": "水素等次世代燃料・CCSの火力脱炭素政策",
+    "description": "水素・アンモニア・合成燃料・合成メタン・SAF・CCS等の供給、利用、技術開発、コスト支援、制度整備を進め、火力発電の脱炭素化や国産化を図る要求と、化石燃料延命につながるとして推進・発電利用を抑制し、再エネ・省エネを優先する要求が併存する。",
+    "included_topics": [
+      "水素・アンモニアの供給網・利用拡大",
+      "水素等による火力発電の脱炭素化",
+      "CCS・CCUSの費用分析と支援制度",
+      "合成燃料・合成メタン・SAFの普及",
+      "国産グリーン水素・国内技術の推進",
+      "化石燃料延命技術への投資抑制",
+      "再エネ・省エネ優先と支援配分見直し"
+    ],
+    "boundary_note": "高温ガス炉による水素製造、メタンハイドレート、バイオマス支援、水素支援資金の再エネ振替は、中心論点からやや異質な下位論点として含まれる。推進要求と抑制要求が明確に対立する。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T09",
+    "level": "upper",
+    "size": 245,
+    "original_embedding_cohesion": 0.816677,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-opinion-box-001001:r3",
+        "source": "意見箱",
+        "request_summary": "原発と再エネの費用などに関するデータを踏まえて、計画上のエネルギー源の評価や判断を説明する。",
+        "target_topic": "原発・再エネの費用評価及びエネルギーミックスの根拠",
+        "centroid_similarity": 0.902246
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000033:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の方針決定に当たり、脱炭素化効果と経済合理性の双方を勘案し、国内外の実績、欧州等の変動再エネ主力電源化実施国の実績、日本の国土事情及び科学的原理原則を踏まえてコストを精査することを求めている。変動再エネの導入比率上昇に伴う系統・需給調整コストなど、電力供給システム全体の費用を評価対象とする。",
+        "target_topic": "脱炭素化効果と経済合理性を踏まえた電力供給システムの費用評価",
+        "centroid_similarity": 0.892485
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-213-3:r1",
+        "source": "パブコメ",
+        "request_summary": "原子力発電について、立地から核燃料サイクル、廃棄物処理、廃炉に至るまでのライフサイクルコストを明確化し、国民に示すことを求める。",
+        "target_topic": "原子力発電の「他電源と遜色ないコスト」との記載および将来的な国民負担",
+        "centroid_similarity": 0.8906
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-54-5:r1",
+        "source": "パブコメ",
+        "request_summary": "原子力の発電コストを「他電源と遜色がない」とする計画案の評価を、廃炉費用、核燃料サイクル・最終処分費用、事故対応費用、政策経費などを含めた場合には他電源より高いとの評価に修正する。",
+        "target_topic": "原子力発電のコスト評価",
+        "centroid_similarity": 0.88531
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000441:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の方針決定に当たり、脱炭素効果と経済合理性を勘案して国内外のコスト実績を精査し、欧州等の変動再エネ主力電源化の実績、日本の国土事情、科学的原理原則を踏まえて議論することを求めている。精査では、自給率約12％、偏西風域外で平地が少ない日本の条件と、建設費・発電量・調整火力の燃料費の差によるコストの不利を考慮する。",
+        "target_topic": "脱炭素効果と経済合理性を踏まえたコスト評価・方針決定",
+        "centroid_similarity": 0.884948
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-56-min56-u35:r1",
+        "source": "分科会",
+        "request_summary": "第7次エネルギー基本計画の検討に当たり、新設電源のコストを改めて検証し、その結果を示すことを求めている。",
+        "target_topic": "新設電源のコスト",
+        "centroid_similarity": 0.883668
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000034:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の方針決定に当たり、国際動向によってエネルギーコストと脱炭素レベルの最適点が変わり得ることを踏まえ、脱炭素化効果と経済合理性の双方を勘案する。国内外の実績、欧州等の変動再エネ主力電源化、日本の国土・資源条件、導入比率上昇に伴う系統・需給調整費用を精査し、科学的な原理原則を踏まえて方針を決定する。",
+        "target_topic": "脱炭素化及び変動再エネ導入に伴う電力・エネルギーシステムのコストと計画方針",
+        "centroid_similarity": 0.88177
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-57-2:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案の検討において、電力システム全体のコストに基づいて議論することを求めている。",
+        "target_topic": "再生可能エネルギーなどのコスト評価の枠組み",
+        "centroid_similarity": 0.880142
+      }
+    ],
+    "child_cluster_ids": [
+      "L013",
+      "L053",
+      "L074",
+      "L088",
+      "L090",
+      "L092",
+      "L109",
+      "L120",
+      "L122",
+      "L135",
+      "L138",
+      "L261"
+    ],
+    "label": "電源別総費用の公平比較と原発・火力の必要性説明",
+    "description": "原発・再エネ・火力のライフサイクル費用、統合費用、政策経費、事故・廃棄物費用などを共通条件で透明かつ公平に比較し、国民負担や前提を示すことを求める。同時に、再エネ・蓄電池の制約を踏まえ、原発・高効率火力の安定供給上の必要性を国内外に説明する要求。",
+    "included_topics": [
+      "原発の新増設費用の電気料金転嫁回避",
+      "原子力発電の廃炉・事故・廃棄物等を含むライフサイクルコスト評価",
+      "再エネの蓄電池・送電網・需給調整等の統合費用評価",
+      "電源別発電コストの前提・政策経費・消費者負担の公開",
+      "脱炭素効果と経済合理性を含む電力供給システム全体のコスト精査",
+      "原発・高効率火力の必要性と再エネ制約の国内外への発信"
+    ],
+    "boundary_note": "費用試算の透明性・公平性に関する要求と、原発・高効率火力の必要性を発信する政策広報的要求が併存する。個別技術の是非そのものより、比較評価の前提、費用負担、説明・発信を主な境界とする。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T10",
+    "level": "upper",
+    "size": 242,
+    "original_embedding_cohesion": 0.792625,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-meeting-60-min60-u15:r1",
+        "source": "分科会",
+        "request_summary": "省エネルギー機器の導入と住宅リノベーションに対する省エネルギー施策を、引き続き強化する。",
+        "target_topic": "省エネルギー機器の導入及び住宅リノベーション支援",
+        "centroid_similarity": 0.897127
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-71-4:r1",
+        "source": "パブコメ",
+        "request_summary": "計画案において、家庭の省エネおよび省エネルギー型社会への移行につながる施策を強化することを求める。",
+        "target_topic": "家庭の省エネおよび省エネルギー型社会への移行施策",
+        "centroid_similarity": 0.892698
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000748:r1",
+        "source": "意見箱",
+        "request_summary": "温室効果ガスを排出しないため、徹底した省エネルギー推進の施策を強化することを求める。",
+        "target_topic": "省エネルギー施策の強化",
+        "centroid_similarity": 0.883886
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-71-1:r1",
+        "source": "パブコメ",
+        "request_summary": "エネルギー需要量の大幅縮小を可能にする社会の構築に向け、計画案における支援制度を拡充することを求める。",
+        "target_topic": "エネルギー需要量の縮小に向けた支援制度",
+        "centroid_similarity": 0.880837
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000270:r5",
+        "source": "意見箱",
+        "request_summary": "省エネルギーへの支援を進める方向へ政策を転換することを求めている。",
+        "target_topic": "省エネルギーへの支援",
+        "centroid_similarity": 0.880701
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-94-3:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案において、「デコ活」など、消費者がライフスタイルを転換して家庭の省エネに取り組めるようにする支援施策を強化する。",
+        "target_topic": "家庭部門の省エネ施策及び消費者の行動変容・ライフスタイル転換への支援",
+        "centroid_similarity": 0.87648
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-94-1:r2",
+        "source": "パブコメ",
+        "request_summary": "計画案の業務・家庭部門の取組について、省エネルギー型社会への移行を促進する多様な施策を実施することを求めている。",
+        "target_topic": "省エネルギー型社会への移行を促進する多様な施策",
+        "centroid_similarity": 0.875222
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-71-2:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案において、政府としてエネルギー消費を削減する姿勢を明確に示すことを求める。",
+        "target_topic": "省エネルギー及びエネルギー消費の削減方針",
+        "centroid_similarity": 0.873547
+      }
+    ],
+    "child_cluster_ids": [
+      "L004",
+      "L014",
+      "L046",
+      "L068",
+      "L137",
+      "L157",
+      "L167",
+      "L170",
+      "L189",
+      "L199",
+      "L216",
+      "L240",
+      "L271",
+      "L282"
+    ],
+    "label": "需要側省エネ・電化・熱利用の総合推進",
+    "description": "住宅・業務・産業・運輸等の省エネを徹底し、断熱、高効率機器、ヒートポンプ、蓄熱、廃熱利用、電化・非化石転換、需要最適化を進める。需要量と効率の総合的な把握、行動変容、投資支援、税制、価格高騰時の限定支援、負担の予見性確保も求める。",
+    "included_topics": [
+      "住宅・建物の断熱基準強化と省エネ",
+      "生活・産業全般のエネルギー需要削減",
+      "ヒートポンプ・蓄熱・廃熱利用",
+      "家庭・業務部門の省エネ型社会への移行",
+      "暖房・給湯機器の高効率化・電化",
+      "省エネ強化とディマンドサイドコントロール",
+      "電力・熱・燃料等の総合的な需要・効率検討",
+      "需要側の省エネ・電化・非化石転換",
+      "省エネ・再エネ行動を促す税制と負担調整",
+      "価格高騰支援の限定化と省エネ転換",
+      "国民参加型の省エネ行動と負担見通し",
+      "森林資源循環を踏まえた木質バイオマス利用",
+      "植林・緑地保全と木材利用による吸収促進",
+      "脱炭素に向けた消費行動の情報発信"
+    ],
+    "boundary_note": "中心論点は需要側の省エネ・電化・熱利用である。木質バイオマス、植林・緑地保全・木材利用は供給・吸収源政策として異質だが、熱利用や脱炭素化との接点から併記されている。税制、価格高騰支援、情報発信は実施手段・社会的受容に関する横断論点である。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T11",
+    "level": "upper",
+    "size": 240,
+    "original_embedding_cohesion": 0.794727,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-244-2:r2",
+        "source": "パブコメ",
+        "request_summary": "産業競争力の強化とエネルギーの安価・安定供給を前提に、本計画で掲げた方針を具体的な政策として早急に推進することを求めている。",
+        "target_topic": "本計画に掲げられた脱炭素化方針の具体的な政策化と早期推進",
+        "centroid_similarity": 0.895945
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-23-3:r1",
+        "source": "パブコメ",
+        "request_summary": "日本の脱炭素政策が軌道に乗るまで、DX・GXの進展による電力需要を遅らせるなど、規制を強化することを求める。",
+        "target_topic": "DX・GXの進展に伴う電力需要への規制と脱炭素政策との調整",
+        "centroid_similarity": 0.873728
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000601:r1",
+        "source": "意見箱",
+        "request_summary": "二酸化炭素を削減するため、脱石炭火力に向けた政策をさらに検討し、実行することを求めている。",
+        "target_topic": "二酸化炭素削減と石炭火力からの脱却",
+        "centroid_similarity": 0.870672
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-58-min58-u44:r1",
+        "source": "分科会",
+        "request_summary": "我が国のエネルギー政策上の道筋を打ち出すに当たり、投資、技術開発及び実装に必要なリードタイムを考慮して、具体的かつ踏み込んだ議論を行う。",
+        "target_topic": "電力需要増加に対応するための我が国のエネルギー政策の道筋",
+        "centroid_similarity": 0.868377
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-50-2:r1",
+        "source": "パブコメ",
+        "request_summary": "脱炭素に向けてエネルギー転換を進める方針を計画に明記する。",
+        "target_topic": "脱炭素に向けたエネルギー転換の方針",
+        "centroid_similarity": 0.868343
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-67-min67-u27:r2",
+        "source": "分科会",
+        "request_summary": "水素、アンモニア、脱炭素燃料、e-メタン、CCUSなどの技術革新による電源・燃料の転換について、GX2040ビジョンとの関係、確実な実施に向けた姿勢及び具体的な結び付きを計画原案でより強調する。",
+        "target_topic": "脱炭素技術の開発・実装とGX2040ビジョンとの連携",
+        "centroid_similarity": 0.86512
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-320-1:r2",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案に、DACCS・BECCSに対する政策支援の方向性を具体的に示す。",
+        "target_topic": "DACCS・BECCSに対する政策支援の方向性",
+        "centroid_similarity": 0.864905
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-68-min68-u24:r2",
+        "source": "分科会",
+        "request_summary": "計画推進に当たり、産業界による脱炭素と事業創生への取組を国が全面的に責任を持って支援する。",
+        "target_topic": "産業界の脱炭素・事業創生への国の支援",
+        "centroid_similarity": 0.86326
+      }
+    ],
+    "child_cluster_ids": [
+      "L049",
+      "L111",
+      "L144",
+      "L148",
+      "L164",
+      "L165",
+      "L187",
+      "L194",
+      "L202",
+      "L213",
+      "L225",
+      "L226",
+      "L232",
+      "L236",
+      "L238",
+      "L241",
+      "L242",
+      "L252",
+      "L253",
+      "L258",
+      "L267",
+      "L278",
+      "L279"
+    ],
+    "label": "脱炭素移行・GX投資と技術実装の総合強化",
+    "description": "原子力・化石燃料依存から再エネ・省エネ中心への公正な移行を軸に、脱炭素政策、GX・産業政策、国際連携、地域・中小企業支援を進める要求群。次世代エネルギー、再エネ、水素・アンモニア、CCUS、炭素除去、バイオ炭素循環などの研究開発から社会実装までを支援し、脱炭素電源への大型投資、長期制度、市場設計、資金調達、電力投資の予見可能性を強化することを求める。併せて、国際標準化、産業競争力、グリーン製品需要、海外展開、GX拠点選定、コスト抑制を重視する。",
+    "included_topics": [
+      "原子力・化石燃料から再エネへの公正な移行",
+      "次世代エネルギー技術の開発・実装支援",
+      "脱炭素政策・カーボンニュートラル方針",
+      "GX国際規則・標準化と国際連携",
+      "GX・産業政策と脱炭素エネルギー転換",
+      "脱炭素電源投資・資金調達支援",
+      "DACCS・BECCS・ネイチャーベース除去",
+      "中小企業・地域の脱炭素移行支援",
+      "水素・アンモニア・CCUS等の社会実装",
+      "電力投資環境と市場設計の予見可能性",
+      "長期脱炭素電源オークション改革",
+      "脱炭素政策表現と原子力・火力リスク",
+      "GX・省エネの国際展開と需要形成",
+      "環境保全・温室効果ガス削減",
+      "化石燃料依存削減と移行工程",
+      "脱炭素価格・海外展開・産業競争力",
+      "GX拠点選定と高コスト対策の限定実証",
+      "革新電炉・炭素循環・バイオ燃料",
+      "投資・技術開発・海外事業支援"
+    ],
+    "boundary_note": "脱炭素化を推進する要求と、カーボンニュートラル政策からの離脱、CO2目標不設定、大規模予算抑制を求める要求が併存する。また、原子力・高効率火力の活用を求める論点と、原子力・化石燃料からの移行を求める論点、高コスト対策の限定実証と大型投資を求める論点も含む。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T12",
+    "level": "upper",
+    "size": 193,
+    "original_embedding_cohesion": 0.878901,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-opinion-box-000659:r3",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画における2035年の再生可能エネルギー電力目標を80％以上にすることを求めている。",
+        "target_topic": "2035年の再生可能エネルギー電力目標",
+        "centroid_similarity": 0.951191
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000779:r3",
+        "source": "意見箱",
+        "request_summary": "2035年の再生可能エネルギーによる電力の目標を80％以上に設定することを求めている。",
+        "target_topic": "2035年の再生可能エネルギー電力目標",
+        "centroid_similarity": 0.946635
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-21-1:r2",
+        "source": "パブコメ",
+        "request_summary": "2050年の再生可能エネルギー比率を100％とする目標を計画案に設定することを求めている。",
+        "target_topic": "2050年の再生可能エネルギー目標",
+        "centroid_similarity": 0.942347
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000699:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画に、2035年の再生可能エネルギー電力比率80％以上という目標を設定することを求めている。",
+        "target_topic": "2035年の再生可能エネルギー電力目標",
+        "centroid_similarity": 0.938374
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000545:r7",
+        "source": "意見箱",
+        "request_summary": "2050年の再生可能エネルギー比率100％を目標とすること。",
+        "target_topic": "2050年の再生可能エネルギー導入目標",
+        "centroid_similarity": 0.937222
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000698:r3",
+        "source": "意見箱",
+        "request_summary": "エネルギー基本計画を改正し、2035年の再生可能エネルギー電力目標を80％以上に設定することを求めている。",
+        "target_topic": "2035年の再生可能エネルギー電力目標",
+        "centroid_similarity": 0.936231
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000783:r2",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画において、再生可能エネルギーを100％に向けて大幅に増やす方向とすることを求める。",
+        "target_topic": "再生可能エネルギーの導入割合と拡大方針",
+        "centroid_similarity": 0.935496
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000742:r3",
+        "source": "意見箱",
+        "request_summary": "エネルギー基本計画を早急に改正し、2035年の再生可能エネルギー電力目標を80％以上とするよう求めている。",
+        "target_topic": "2035年の再生可能エネルギー電力目標",
+        "centroid_similarity": 0.93538
+      }
+    ],
+    "child_cluster_ids": [
+      "L009",
+      "L035",
+      "L051",
+      "L066",
+      "L078",
+      "L099",
+      "L155",
+      "L186"
+    ],
+    "label": "再エネ中心への転換と導入目標の大幅引上げ",
+    "description": "2030年・2035年・2040年の再生可能エネルギー比率や導入目標を現行案より大幅に引き上げ、COP28の設備容量3倍化や1.5℃目標に整合させるとともに、2050年の再エネ100％を明記し、原子力・化石燃料から再エネ中心へ転換することを求める。",
+    "included_topics": [
+      "2030年・2035年・2040年の再エネ比率目標引上げ",
+      "2050年再生可能エネルギー100％目標の明記",
+      "COP28に沿った2030年再エネ設備容量3倍化",
+      "原子力・化石燃料からの脱却",
+      "原子力に頼らない2035年電源脱炭素化",
+      "1.5℃目標に整合した再エネ導入拡大"
+    ],
+    "boundary_note": "共通の中心論点は再エネ導入目標の大幅引上げと再エネ中心への転換。目標年・数値水準、COP28対応、1.5℃目標との整合、原子力・化石燃料からの脱却は異なる下位論点として含まれる。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T13",
+    "level": "upper",
+    "size": 191,
+    "original_embedding_cohesion": 0.812768,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-meeting-56-min56-u31:r1",
+        "source": "分科会",
+        "request_summary": "地域間の電力需給のアンバランス拡大を避けるため、データセンターの建設、新たな再生可能エネルギー発電所の立地、各地方の産業振興のバランス・マッチングを、国がある程度調整することを求める。",
+        "target_topic": "データセンター及び再生可能エネルギー発電所の立地と地方産業振興の調整",
+        "centroid_similarity": 0.897421
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-55-min55-u16:r4",
+        "source": "分科会",
+        "request_summary": "AIデータセンターの電力需要増加と産業政策に対応し、必要な電力をどのように確保するかについて、エネルギーミックスの検討で議論を具体化する。",
+        "target_topic": "AIデータセンター及び産業政策に必要な電力の確保",
+        "centroid_similarity": 0.89339
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-55-min55-u14:r4",
+        "source": "分科会",
+        "request_summary": "今後のエネルギー政策を産業政策と一体として検討する。",
+        "target_topic": "エネルギー政策と産業政策の関係",
+        "centroid_similarity": 0.891002
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000999:r5",
+        "source": "意見箱",
+        "request_summary": "データセンターや半導体工場の増加と、それらが求める変動の少ない高品質電力を考慮し、各電源のベースロード・調整電源としての特性を科学的に議論して、最適電源構成を第7次エネルギー基本計画に反映することを求めている。",
+        "target_topic": "データセンター・半導体工場の需要と電源特性を踏まえた最適電源構成",
+        "centroid_similarity": 0.889374
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-56-min56-u12:r4",
+        "source": "分科会",
+        "request_summary": "データセンター需要の海外流出を防ぐため、オンサイトPPA（電力直結）、プライベート発電所、原発などの発電所近傍へのデータセンター配置といった供給モデルを念頭に、公衆電力網と別系統のプライベート電力網をハイブリッドで整備することを求める。",
+        "target_topic": "データセンター向けの電力直結モデル及び公衆・プライベート電力網のハイブリッド整備",
+        "centroid_similarity": 0.887599
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-55-min55-u34:r4",
+        "source": "分科会",
+        "request_summary": "第7次計画の電力需要見通しについて、半導体の電力効率向上やAI計算量の最適化も考慮し、科学的かつ冷静に議論する。その際、エネルギーが日本の産業構造転換、DXの進展、国際競争力向上の制約にならないという視点を持つ。",
+        "target_topic": "電力需要見通しと産業構造転換・DX・国際競争力への配慮",
+        "centroid_similarity": 0.886395
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000436:r10",
+        "source": "意見箱",
+        "request_summary": "現在設定されている2030年の国内電力需要想定を見直すことを求めている。",
+        "target_topic": "2030年の国内電力需要想定",
+        "centroid_similarity": 0.885671
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-60-min60-u11:r6",
+        "source": "分科会",
+        "request_summary": "データセンター、半導体工場、ヒートポンプ等による電力需要増大に対応した供給体制の整備・拡充を計画に位置付ける。",
+        "target_topic": "電力需要増大に対応する供給体制",
+        "centroid_similarity": 0.884346
+      }
+    ],
+    "child_cluster_ids": [
+      "L021",
+      "L039",
+      "L096",
+      "L118",
+      "L180",
+      "L182",
+      "L190",
+      "L197",
+      "L211",
+      "L260",
+      "L262",
+      "L268",
+      "L274",
+      "L283",
+      "L287",
+      "L288"
+    ],
+    "label": "将来需要対応の電源・系統・料金制度改革",
+    "description": "AI・DX、データセンター、半導体、EV・電化による需要増減を見通し、脱炭素・安定供給・価格抑制を両立する電源構成、発電・送配電網、地域連携、投資環境、料金制度、再エネ目標を第7次計画に具体化する要求。",
+    "included_topics": [
+      "電力需要見通しと計画への反映",
+      "電源構成・発電量・容量目標の具体化",
+      "データセンター等への安定・高品質電力供給",
+      "発電・送配電網の整備と中立化",
+      "広域系統・地域分散型供給の推進",
+      "電源・系統投資と費用負担の明確化",
+      "再エネ導入量・出力制御率の数値目標",
+      "電気料金・情報開示・価格安定策",
+      "産業競争力を支える安価で安定した供給",
+      "人手不足下でのインフラ整備加速"
+    ],
+    "boundary_note": "主軸は需要増加に対応する電力供給システムの再設計だが、所有権分離、料金規制・情報開示、再エネ目標など制度論も含む。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T14",
+    "level": "upper",
+    "size": 190,
+    "original_embedding_cohesion": 0.829353,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-opinion-box-000476:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画に向けたエネルギー政策の議論を、脱炭素化一辺倒ではなく、エネルギー安全保障上のリスクと安定確保を加味した現実的な枠組みに改めることを求めている。",
+        "target_topic": "脱炭素化、エネルギー安全保障及びエネルギーの安定確保の関係",
+        "centroid_similarity": 0.914369
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000164:r3",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画では、脱炭素を過剰に優先せず、日本のエネルギー安全保障を第一の政策判断基準に位置付ける。",
+        "target_topic": "脱炭素とエネルギー安全保障の政策上の優先順位",
+        "centroid_similarity": 0.900467
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-67-min67-u23:r5",
+        "source": "分科会",
+        "request_summary": "自給できない8割強のエネルギーをどう確保するか、地球温暖化などの環境問題、エネルギーの安定供給及び社会経済との関係にどう対応するかを整理し、地政学的な不確実性の増大も踏まえて最適解を追求していることが分かる計画案とする。",
+        "target_topic": "低いエネルギー自給率と環境・安定供給・社会経済・地政学的リスクの関係",
+        "centroid_similarity": 0.899432
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-65-min65-u61:r1",
+        "source": "分科会",
+        "request_summary": "第7次エネルギー基本計画に向けた政策検討において、地政学的不確実性が前回よりさらに一段高まっていることを考慮するよう求めている。",
+        "target_topic": "エネルギー政策策定における地政学的不確実性と安全保障上のリスク",
+        "centroid_similarity": 0.892612
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-59-min59-u27:r1",
+        "source": "分科会",
+        "request_summary": "エネルギー・電源構成の目標を、脱炭素外交の道具ではなく、国土、資源需給を含む地政学、国内経済情勢、産業構造を踏まえた供給力計画として位置付けることを求めている。",
+        "target_topic": "エネルギー・電源構成の目標の位置付け",
+        "centroid_similarity": 0.88914
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000977:r1",
+        "source": "意見箱",
+        "request_summary": "原発依存および火力依存を大幅に減らす方向で、計画案のエネルギー政策を修正することを求めている。",
+        "target_topic": "原子力発電および火力発電への依存度",
+        "centroid_similarity": 0.889031
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000639:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画の政策上の優先順位を、経済性よりも安全性を優先する方向へ転換することを求める。",
+        "target_topic": "エネルギー政策における経済性と安全性の優先順位",
+        "centroid_similarity": 0.885459
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-60-min60-u11:r5",
+        "source": "分科会",
+        "request_summary": "地政学的リスクを踏まえ、低いエネルギー自給率を引き上げる方針を第7次エネルギー基本計画に反映する。",
+        "target_topic": "エネルギー自給率と地政学的リスク",
+        "centroid_similarity": 0.884125
+      }
+    ],
+    "child_cluster_ids": [
+      "L102",
+      "L136",
+      "L139",
+      "L143",
+      "L156",
+      "L176",
+      "L179",
+      "L181",
+      "L185",
+      "L201",
+      "L239",
+      "L246",
+      "L247",
+      "L250",
+      "L263",
+      "L273",
+      "L275",
+      "L284"
+    ],
+    "label": "エネルギー安全保障軸の現実的な電源構成",
+    "description": "脱炭素化だけを優先せず、安全性、安定供給、コスト、産業競争力、経済成長を踏まえ、多様な電源の役割を明確化する。国産再エネ・原子力・火力を含むエネルギーミックス、エネルギー自給率向上、燃料・部品の国産化、備蓄・インフラ・サプライチェーン強靭化、地政学・災害・有事・サイバーリスクへの対応を第7次計画に明記することを求める。",
+    "included_topics": [
+      "エネルギー安全保障と安定供給の最優先化",
+      "コスト・為替影響を踏まえた電源構成",
+      "再エネ・原子力・化石燃料の役割整理と併用",
+      "国産再エネ拡大とエネルギー自給率向上",
+      "燃料・部品・技術の国内製造・内製化",
+      "地政学・災害・有事への備蓄と供給網強化",
+      "再エネ設備のサイバー攻撃等への安全保障対応",
+      "国際情勢・海外政策を踏まえた柔軟な政策運営",
+      "エネルギー需給変化と貿易収支への影響検討"
+    ],
+    "boundary_note": "主軸は安全保障・安定供給を基準とする総合的な電源政策だが、円安対策と金融政策の連携、貿易収支・経常収支、再エネ設備のサイバーリスク、原発事故を含む安全性など、周辺的で異質な論点も含む。",
+    "coherence": "high"
+  },
+  {
+    "cluster_id": "T15",
+    "level": "upper",
+    "size": 177,
+    "original_embedding_cohesion": 0.829173,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-139-1:r2",
+        "source": "パブコメ",
+        "request_summary": "各家庭の屋根やビルの壁面などへの太陽光パネル設置について、蓄電設備もセットにして法律改正により義務化するなどの対策を求める。",
+        "target_topic": "各家庭の屋根・ビルの壁面などへの太陽光パネル及び蓄電設備の設置促進・義務化",
+        "centroid_similarity": 0.903899
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000426:r4",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギー拡大の具体策として、国が規制緩和を行い、耕作放棄地で太陽光発電を進めることを求めている。",
+        "target_topic": "耕作放棄地での太陽光発電と規制緩和",
+        "centroid_similarity": 0.89809
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000633:r6",
+        "source": "意見箱",
+        "request_summary": "個人住宅の屋根に太陽光発電設備を搭載できるよう、既存の支援をさらに拡充することを求めている。",
+        "target_topic": "住宅屋根への太陽光発電導入支援",
+        "centroid_similarity": 0.893844
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000221:r1",
+        "source": "意見箱",
+        "request_summary": "第7次エネルギー基本計画に関わる太陽光発電の導入方針として、日本中の建物の屋根や屋上へのソーラーパネル設置を推進することを求める。",
+        "target_topic": "屋根・屋上など既存建築物への分散型太陽光発電の導入促進",
+        "centroid_similarity": 0.889849
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000377:r1",
+        "source": "意見箱",
+        "request_summary": "再生可能エネルギーの大幅な拡大に当たり、自然を壊すメガソーラーではなく、建物・駐車場の屋根すべてで太陽光発電を行うくらいに、屋根を利用した太陽光発電を普及させることを求めている。",
+        "target_topic": "再生可能エネルギーの拡大手段と太陽光発電の設置場所",
+        "centroid_similarity": 0.888505
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-68-min68-u12:r2",
+        "source": "分科会",
+        "request_summary": "計画に盛り込まれた屋根設置太陽光発電及び次世代のペロブスカイト太陽電池について、時間軸を明確にした具体的施策を設定し、実行・推進することを求めている。",
+        "target_topic": "屋根設置太陽光発電及びペロブスカイト太陽電池の具体的施策と実施時期",
+        "centroid_similarity": 0.88732
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-140-3:r2",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案に関わる施策として、新築建物への対応だけでなく、既存建物への太陽光パネル・蓄電池の設置と断熱化、ビニールハウスへの太陽光パネル・蓄電池の設置を進め、既設の建物・施設をエネルギー消費から生産へ転換する施策・助成を求める。",
+        "target_topic": "既存建物の太陽光発電・蓄電・断熱化、ビニールハウスの太陽光発電・蓄電と、それらを進める施策・助成",
+        "centroid_similarity": 0.887065
+      },
+      {
+        "request_id": "sol_astra:energy-opinion-box-000215:r1",
+        "source": "意見箱",
+        "request_summary": "新築に限らず、太陽光発電パネルを取り付け可能な全ての家屋・マンション・ビルについて、期限を定めて設置を義務付け、設置費用の80％を国税及び地方税で負担する施策に着手することを求めている。",
+        "target_topic": "建造物への太陽光発電パネル設置義務と設置費用の公費負担",
+        "centroid_similarity": 0.885658
+      }
+    ],
+    "child_cluster_ids": [
+      "L002",
+      "L044",
+      "L052",
+      "L059",
+      "L079",
+      "L153"
+    ],
+    "label": "太陽光発電の導入拡大と環境配慮・制度整備",
+    "description": "建物・農地・既存インフラ等への太陽光発電導入、蓄電池併設や次世代電池の普及を進める一方、森林・自然環境の破壊を防ぐ国の規制、系統受入、廃棄・リサイクル制度の整備を求める。",
+    "included_topics": [
+      "屋根・壁面太陽光と蓄電池の義務化・支援",
+      "自然環境を守る国の再エネ規制",
+      "太陽光発電の導入、系統受入、出力抑制",
+      "太陽光パネルの廃棄・リサイクル",
+      "ペロブスカイト等次世代太陽電池の普及",
+      "農地・耕作放棄地での営農型太陽光",
+      "建物・駐車場・交通インフラ等の活用",
+      "森林伐採を避けた導入と維持管理"
+    ],
+    "boundary_note": "導入拡大・支援を求める要求と、太陽光発電の停止・縮小を求める要求が併存する。また、次世代電池の積極推進と慎重な検討、系統受入・廃棄対策など制度運用上の論点も含む。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T16",
+    "level": "upper",
+    "size": 154,
+    "original_embedding_cohesion": 0.811002,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-185-3:r1",
+        "source": "パブコメ",
+        "request_summary": "原子力分野について、資金を投じた上で、国が前面に立って早急に推進する方針とすることを求める。",
+        "target_topic": "原子力政策における国の責任、主導的役割及び資金投入",
+        "centroid_similarity": 0.901419
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-185-4:r1",
+        "source": "パブコメ",
+        "request_summary": "原子力利用について国策民営の立場を脱し、特に大型軽水炉への国のコミットメントと関与をこれまで以上に強化する方針とすることを求める。",
+        "target_topic": "原子力利用、特に大型軽水炉における国の関与と責任",
+        "centroid_similarity": 0.899772
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-55-min55-u30:r9",
+        "source": "分科会",
+        "request_summary": "火力・原子力の新設・リプレースを実現するため、巨額の長期資金の調達・回収、原子力損害賠償制度、バックエンド費用、国民理解・立地地域対策を含め、国が現状から踏み出して電力会社を支える手立てを講じ、産業政策の根幹として他の産業政策以上に責任を持って強く関与するよう求めている。",
+        "target_topic": "火力・原子力の新設・リプレースを支える国の支援及び関与",
+        "centroid_similarity": 0.895735
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-101-3:r2",
+        "source": "パブコメ",
+        "request_summary": "原子力事業の投資予見性の確保に向けた実効性のある制度措置を早期に検討することを求めている。",
+        "target_topic": "原子力事業における投資予見性の確保",
+        "centroid_similarity": 0.888814
+      },
+      {
+        "request_id": "sol_astra:energy-additional-meeting-66-add66-u1:r2",
+        "source": "分科会",
+        "request_summary": "既設炉と次世代革新炉の双方について、事業者が安全対策へ十分に投資できる事業環境を国が整備する方針を示す。",
+        "target_topic": "原子力事業者の安全投資を支える事業環境",
+        "centroid_similarity": 0.887098
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-68-min68-u14:r3",
+        "source": "分科会",
+        "request_summary": "原子力投融資の予見可能性を確保するため、原子力損害賠償制度の有限責任化又は当面の無限責任下でも投融資を可能にする政府保証について官民一体で議論を継続し、その旨の計画への記載も検討する。",
+        "target_topic": "原子力損害賠償制度の責任範囲、政府保証及び原子力投融資環境",
+        "centroid_similarity": 0.88705
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-67-min67-u13:r2",
+        "source": "分科会",
+        "request_summary": "原子力やトランジションとしての高効率ガス火力への大規模投資を電力事業者が決定できるよう、債務補完・債務保証、事故時の有限責任化など、政府が前面に立って事業の予見性を確保する条件を具体化し、成案に盛り込むことを求めている。",
+        "target_topic": "電力事業者による原子力・高効率ガス火力への投資条件と政府支援",
+        "centroid_similarity": 0.885028
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-61-min61-u21:r2",
+        "source": "分科会",
+        "request_summary": "第7次エネルギー基本計画の検討において、事業のダウンサイドケースやワーストケースを勘案し、政府による信用補完など原子力事業のファイナンスを円滑化する施策を検討すること。",
+        "target_topic": "政府の信用補完などによる原子力事業のファイナンス円滑化",
+        "centroid_similarity": 0.884368
+      }
+    ],
+    "child_cluster_ids": [
+      "L012",
+      "L015",
+      "L115",
+      "L125",
+      "L158",
+      "L188",
+      "L245",
+      "L266",
+      "L286"
+    ],
+    "label": "原子力・脱炭素電源の政府支援と人材基盤強化",
+    "description": "原子力・高効率火力・核融合などの投資予見性、資金調達、賠償・信用補完、GX債等による政府支援と、研究開発・規制整備を求める。併せて、電力市場における国の関与、政策継続性、廃炉を含む事業環境、人材育成・教育・技能継承の強化を求める。",
+    "included_topics": [
+      "原子力・高効率火力への投融資予見性と政府支援",
+      "原子力賠償への国の責任・関与強化",
+      "GX債による原子力・高効率火力の新設支援",
+      "原子力・核融合の長期事業環境と資金支援",
+      "核融合の研究投資・規制整備・情報提供",
+      "電力システム改革における国の関与と市場再設計",
+      "原子力・エネルギー分野の人材確保、教育、技能継承",
+      "原発投資・廃炉優先と政策継続性"
+    ],
+    "boundary_note": "原子力政策を中心とするが、高効率火力、CCUS・アンモニア混焼、核融合、人材教育、廃炉優先など異質な下位論点を含む。核融合への投資を求めない意見や、原子力推進より廃炉を優先する意見も含まれる。",
+    "coherence": "medium"
+  },
+  {
+    "cluster_id": "T17",
+    "level": "upper",
+    "size": 105,
+    "original_embedding_cohesion": 0.836621,
+    "representatives": [
+      {
+        "request_id": "sol_astra:energy-public-comment-150-3:r1",
+        "source": "パブコメ",
+        "request_summary": "洋上風力発電の推進に関する国の関与や踏み込みの内容を、計画案で具体化することを求める。",
+        "target_topic": "洋上風力発電の推進における国の関与や踏み込み",
+        "centroid_similarity": 0.916814
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-148-2:r2",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案に示された陸上風力発電の導入目標を、提示値より野心的な目標に修正することを求めている。",
+        "target_topic": "陸上風力発電の導入目標",
+        "centroid_similarity": 0.910569
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-150-4:r1",
+        "source": "パブコメ",
+        "request_summary": "再エネ海域利用法のEEZまでの拡大を目指す改正をはじめ、風力発電を急速に導入する方針を計画案に明記すること。",
+        "target_topic": "洋上風力発電の導入促進と再エネ海域利用法のEEZへの拡大",
+        "centroid_similarity": 0.907551
+      },
+      {
+        "request_id": "sol_astra:energy-meeting-61-min61-u17:r6",
+        "source": "分科会",
+        "request_summary": "EEZへの洋上風力発電の拡張も見据え、野心的な導入目標を明示する。",
+        "target_topic": "EEZへの拡張を見据えた洋上風力発電の導入目標",
+        "centroid_similarity": 0.905703
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-152-3:r3",
+        "source": "パブコメ",
+        "request_summary": "洋上風力案件の規模拡大に向け、海域指定等の制度整備を速やかに進めることを求めている。",
+        "target_topic": "洋上風力案件の規模拡大に必要な海域指定等の制度整備",
+        "centroid_similarity": 0.905052
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-47-2:r2",
+        "source": "パブコメ",
+        "request_summary": "浮体式洋上風力の設置見通しを計画案に記載することを求める。",
+        "target_topic": "浮体式洋上風力の設置見通し",
+        "centroid_similarity": 0.900986
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-46-1:r1",
+        "source": "パブコメ",
+        "request_summary": "第7次エネルギー基本計画案における2040年の風力発電の導入見通しを、増加させる方向で見直すことを求めている。",
+        "target_topic": "2040年の風力発電の導入見通し",
+        "centroid_similarity": 0.900148
+      },
+      {
+        "request_id": "sol_astra:energy-public-comment-148-1:r1",
+        "source": "パブコメ",
+        "request_summary": "陸上風力発電の開発が進みやすくなる買取価格や規制の在り方について、省庁横断的に検討する旨を基本計画に明記する。",
+        "target_topic": "陸上風力発電に関する買取価格及び規制の在り方の省庁横断的検討",
+        "centroid_similarity": 0.89922
+      }
+    ],
+    "child_cluster_ids": [
+      "L024",
+      "L040",
+      "L193",
+      "L200",
+      "L221",
+      "L229"
+    ],
+    "label": "風力・洋上再エネ導入拡大と送電基盤整備要求",
+    "description": "陸上・洋上・浮体式風力を含む再生可能エネルギーの導入目標引上げ、EEZ制度整備、海域指定、地域理解の促進、国内調達基盤や送電網の整備を求める要求。保安林解除方針の見直しや、海底直流送電への投資回収・信用補完制度の整備も含む。",
+    "included_topics": [
+      "陸上・洋上・浮体式風力の導入目標引上げ",
+      "洋上風力の導入加速とEEZ制度整備",
+      "保安林解除方針の削除・禁止または運用見直し",
+      "地域理解、科学的情報提供、国・自治体支援",
+      "送電網・海底直流送電の早期整備と投資回収制度",
+      "国内調達産業基盤、次世代太陽光、総合コスト評価"
+    ],
+    "boundary_note": "風力発電の推進を求める要求と、建設停止を求める要求が併存する。また、保安林解除では原則禁止と迅速化・対象拡大という相反する意見を含む。次世代太陽光や送電投資制度は、風力導入そのものとは異なる基盤・周辺論点である。",
+    "coherence": "medium"
+  }
+]

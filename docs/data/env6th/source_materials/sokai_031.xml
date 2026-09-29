@@ -1,0 +1,1439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="meeting-031" xml:lang="ja">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">中央環境審議会第31回総会議事録</title>
+        <author>
+          <surname>石井</surname>
+          <forename>康平</forename>
+        </author>
+        <respStmt>
+          <resp>TEI符号化</resp>
+          <name>石井康平</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>環境省</publisher>
+        <authority>石井康平</authority>
+        <date>2026-09-07</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>中央環境審議会第31回総会議事録</title>
+          <date when="2023-11-21">2023-11-21</date>
+          <idno type="URI">https://www.env.go.jp/council/01chuo/02_4_00007.html</idno>
+          <idno type="SHA-256">c2e194fa4444d1a69df78c3461e42741a8bc85fb36424fdd3e1a114951166eb9</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作データ。</p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="参加者区分">
+          <category xml:id="区分_環境省">
+            <catDesc>環境省の職員として参加または発言した者</catDesc>
+          </category>
+          <category xml:id="区分_委員">
+            <catDesc>中央環境審議会の委員として参加または発言した者</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="会議役割">
+          <category xml:id="役割_会長">
+            <catDesc>中央環境審議会会長</catDesc>
+          </category>
+          <category xml:id="役割_委員">
+            <catDesc>中央環境審議会委員</catDesc>
+          </category>
+          <category xml:id="役割_事務局">
+            <catDesc>環境省職員、政務三役その他の事務局側発言者</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <head>参加者一覧</head>
+      <person xml:id="粟生木千佳">
+        <persName>
+          <surname>粟生木</surname>
+          <forename>千佳</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（公財）地球環境戦略研究機関持続可能な消費と生産領域</orgName>
+          <roleName>主任研究員／副ディレクター</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="浅見真理">
+        <persName>
+          <surname>浅見</surname>
+          <forename>真理</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>国立保健医療科学院生活環境研究部</orgName>
+          <roleName>上席主任研究官</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="有村俊秀">
+        <persName>
+          <surname>有村</surname>
+          <forename>俊秀</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>早稲田大学政治経済学術院</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>早稲田大学環境経済経営研究所</orgName>
+          <roleName>所長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="井上久美枝">
+        <persName>
+          <surname>井上</surname>
+          <forename>久美枝</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>日本労働組合総連合会</orgName>
+          <roleName>副事務局長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="枝廣淳子">
+        <persName>
+          <surname>枝廣</surname>
+          <forename>淳子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>大学院大学至善館</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>幸せ経済社会研究所</orgName>
+          <roleName>所長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="大久保規子">
+        <persName>
+          <surname>大久保</surname>
+          <forename>規子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>大阪大学大学院法学研究科</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="大塚直">
+        <persName>
+          <surname>大塚</surname>
+          <forename>直</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>早稲田大学法学部</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="大原利眞">
+        <persName>
+          <surname>大原</surname>
+          <forename>利眞</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>埼玉県環境科学国際センター</orgName>
+          <roleName>研究所長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="亀山康子">
+        <persName>
+          <surname>亀山</surname>
+          <forename>康子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>東京大学大学院新領域創成科学研究科附属サステイナブル社会デザインセンター</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="小泉透">
+        <persName>
+          <surname>小泉</surname>
+          <forename>透</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>国立研究開発法人森林研究・整備機構</orgName>
+          <roleName>フェロー</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="小西雅子">
+        <persName>
+          <surname>小西</surname>
+          <forename>雅子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（公財）世界自然保護基金（WWF）ジャパン</orgName>
+          <roleName>専門ディレクター（環境・エネルギー）</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>昭和女子大学</orgName>
+          <roleName>特命教授</roleName>
+        </affiliation>
+        <affiliation n="3">
+          <orgName>京都大学大学院</orgName>
+          <roleName>特任教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="酒井伸一">
+        <persName>
+          <surname>酒井</surname>
+          <forename>伸一</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（公財）京都高度技術研究所</orgName>
+          <roleName>副所長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="崎田裕子">
+        <persName>
+          <surname>崎田</surname>
+          <forename>裕子</forename>
+        </persName>
+        <occupation>ジャーナリスト</occupation>
+        <occupation>環境カウンセラー</occupation>
+      </person>
+      <person xml:id="白石寛明">
+        <persName>
+          <surname>白石</surname>
+          <forename>寛明</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>国立研究開発法人国立環境研究所</orgName>
+          <roleName>名誉研究員</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="勢一智子">
+        <persName>
+          <surname>勢一</surname>
+          <forename>智子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>西南学院大学法学部法律学科</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="関口明">
+        <persName>
+          <surname>関口</surname>
+          <forename>明</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（一社）日本経済団体連合会環境委員会廃棄物・リサイクル部会</orgName>
+          <roleName>部会長</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>DOWAホールディングス（株）</orgName>
+          <roleName>代表取締役社長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="髙橋勝浩">
+        <persName>
+          <surname>髙橋</surname>
+          <forename>勝浩</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>全国市長会環境対策特別委員会</orgName>
+          <roleName>委員長</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>東京都稲城市</orgName>
+          <roleName>市長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="髙村典子">
+        <persName>
+          <surname>髙村</surname>
+          <forename>典子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>国立研究開発法人国立環境研究所</orgName>
+          <roleName>客員研究員</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="高村ゆかり">
+        <persName>
+          <surname>高村</surname>
+          <forename>ゆかり</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>東京大学未来ビジョン研究センター</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="武内和彦">
+        <persName>
+          <surname>武内</surname>
+          <forename>和彦</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（公財）地球環境戦略研究機関</orgName>
+          <roleName>理事長</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>東京大学</orgName>
+          <roleName>特任教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="田中里沙">
+        <persName>
+          <surname>田中</surname>
+          <forename>里沙</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>事業構想大学院大学</orgName>
+          <roleName>学長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="豊岡和美">
+        <persName>
+          <surname>豊岡</surname>
+          <forename>和美</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（一社）徳島地域エネルギー</orgName>
+          <roleName>代表理事</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="中川めぐみ">
+        <persName>
+          <surname>中川</surname>
+          <forename>めぐみ</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（株）ウオー</orgName>
+          <roleName>代表取締役</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="中村太士">
+        <persName>
+          <surname>中村</surname>
+          <forename>太士</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>北海道大学大学院農学研究院</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="西村亮平">
+        <persName>
+          <surname>西村</surname>
+          <forename>亮平</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>東京大学大学院農学生命科学研究科</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="藤田香">
+        <persName>
+          <surname>藤田</surname>
+          <forename>香</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>日経BP 日経ESG</orgName>
+          <roleName>シニアエディター</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>東北大学グリーン未来創造機構／大学院生命科学研究科</orgName>
+          <roleName>教授</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="船越弘文">
+        <persName>
+          <surname>船越</surname>
+          <forename>弘文</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（一社）日本経済団体連合会環境委員会地球環境部会</orgName>
+          <roleName>部会長</roleName>
+        </affiliation>
+        <affiliation n="2">
+          <orgName>日本製鉄（株）</orgName>
+          <roleName>副社長執行役員</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="古米弘明">
+        <persName>
+          <surname>古米</surname>
+          <forename>弘明</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>中央大学研究開発機構</orgName>
+          <roleName>専任研究員（機構教授）</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="松本吉郎">
+        <persName>
+          <surname>松本</surname>
+          <forename>吉郎</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>（公社）日本医師会</orgName>
+          <roleName>会長</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="山神真紀子">
+        <persName>
+          <surname>山神</surname>
+          <forename>真紀子</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>名古屋市環境科学調査センター</orgName>
+          <roleName>主任研究員</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="福島">
+        <persName>
+          <surname>福島</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省大臣官房</orgName>
+          <roleName>総務課長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 福島総務課長</note>
+      </person>
+      <person xml:id="八木哲也">
+        <persName>
+          <surname>八木</surname>
+          <forename>哲也</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境副大臣</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="滝沢求">
+        <persName>
+          <surname>滝沢</surname>
+          <forename>求</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境副大臣</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="朝日健太郎">
+        <persName>
+          <surname>朝日</surname>
+          <forename>健太郎</forename>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境大臣政務官</roleName>
+        </affiliation>
+      </person>
+      <person xml:id="国定">
+        <persName>
+          <surname>国定</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境大臣政務官</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 国定環境大臣政務官</note>
+      </person>
+      <person xml:id="和田">
+        <persName>
+          <surname>和田</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境事務次官</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 和田環境事務次官</note>
+      </person>
+      <person xml:id="上田">
+        <persName>
+          <surname>上田</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>大臣官房長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 上田大臣官房長</note>
+      </person>
+      <person xml:id="土居">
+        <persName>
+          <surname>土居</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>水・大気環境局長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 土居水・大気環境局長</note>
+      </person>
+      <person xml:id="神ノ田">
+        <persName>
+          <surname>神ノ田</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境保健部長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 神ノ田環境保健部長</note>
+      </person>
+      <person xml:id="植田">
+        <persName>
+          <surname>植田</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>地域脱炭素推進審議官</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 植田地域脱炭素推進審議官</note>
+      </person>
+      <person xml:id="大森">
+        <persName>
+          <surname>大森</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省大臣官房</orgName>
+          <roleName>政策立案統括審議官</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 大森政策立案統括審議官</note>
+      </person>
+      <person xml:id="前田">
+        <persName>
+          <surname>前田</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省大臣官房</orgName>
+          <roleName>審議官</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 前田審議官</note>
+      </person>
+      <person xml:id="鑓水">
+        <persName>
+          <surname>鑓水</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>総合環境政策統括官</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 鑓水総合環境政策統括官</note>
+      </person>
+      <person xml:id="大倉">
+        <persName>
+          <surname>大倉</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>担当課長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 大倉担当課長</note>
+      </person>
+      <person xml:id="秦">
+        <persName>
+          <surname>秦</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>地球環境局長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 秦地球環境局長</note>
+      </person>
+      <person xml:id="角倉">
+        <persName>
+          <surname>角倉</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境再生・資源循環局次長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 角倉環境再生・資源循環局次長</note>
+      </person>
+      <person xml:id="前佛">
+        <persName>
+          <surname>前佛</surname>
+        </persName>
+        <affiliation n="1">
+          <orgName>環境省</orgName>
+          <roleName>環境再生・資源循環局長</roleName>
+        </affiliation>
+        <note type="identification">原文話者表記に基づく仮登録: 前佛環境再生・資源循環局長</note>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <div type="prefatory" xml:id="min031-prefatory">
+        <p n="p1-part1-p" xml:id="min031-pre1">令和５年１１月２１日（火）１３：３０～１５：３０</p>
+        <p n="p2-part1-p" xml:id="min031-pre2">日比谷国際ビルコンファレンススクエア（８Ｆ会議室）</p>
+      </div>
+      <div type="debate" xml:id="min031-debate">
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u1">
+          <seg n="p3-part1-br" xml:id="min031-seg1">お待たせいたしました。定刻となりましたので、ただいまから中央環境審議会第31回総会を開会いたします。</seg>
+          <seg n="p3-part2-br" xml:id="min031-seg2">環境省大臣官房総務課長の福島でございます。よろしくお願いいたします。</seg>
+          <seg n="p3-part3-br" xml:id="min031-seg3">現在、委員30名のうち、Webでのリモート参加の委員を含め、23名の委員に出席いただいておりますので、定足数である過半数を満たしており、総会は成立しております。</seg>
+          <seg n="p3-part4-br" xml:id="min031-seg4">リモート参加の委員におかれましては、音声などで不都合がございましたら、システムのチャット機能でお知らせいただくか、事務局までお電話いただきたいと思います。</seg>
+          <seg n="p3-part5-br" xml:id="min031-seg5">また、中央環境審議会の運営方針として、総会は、原則、公開としておりますが、今回は会場での傍聴は行わず、インターネット上での同時配信をもって公開としております。</seg>
+          <seg n="p3-part6-br" xml:id="min031-seg6">最初に、前回の総会から今回までの間に委員の交代がございましたので、ご報告させていただきます。</seg>
+          <seg n="p3-part7-br" xml:id="min031-seg7">11月2日付で、石上千博委員に代わりまして、井上久美枝委員が任命されております。</seg>
+          <seg n="p3-part8-br" xml:id="min031-seg8">では、議事に先立ちまして、環境省の政務三役からご挨拶を申し上げます。</seg>
+          <seg n="p3-part9-br" xml:id="min031-seg9">本日、伊藤環境大臣は国会出席のため、八木環境副大臣から伊藤大臣の挨拶の代読と副大臣としてのご挨拶をお願いいたします。</seg>
+        </u>
+        <u n="八木副大臣" who="#八木哲也" ana="#区分_環境省 #役割_事務局" cert="medium" xml:id="min031-u2">
+          <seg n="p3-part10-br" xml:id="min031-seg10">改めまして、皆さん、こんにちは。ただいまご紹介賜りました環境副大臣を仰せつかっております八木哲也でございます。</seg>
+          <seg n="p3-part11-br" xml:id="min031-seg11">本日、伊藤環境大臣は、国会の予算委員会に出席のため、私のほうから大臣のご挨拶を代読させていただきます。</seg>
+          <seg n="p3-part12-br" xml:id="min031-seg12">委員の皆様には、ご多忙のところ、ご参集いただき、心から御礼申し上げます。</seg>
+          <seg n="p3-part13-br" xml:id="min031-seg13">私は環境大臣に就任し、様々な方からお話を伺い、また、現場を拝見する中で、環境問題には地域の課題から地球規模の課題まで多くの課題があり、いずれも重要で、しっかり取り組んでいかなければならないと感じております。</seg>
+          <seg n="p3-part14-br" xml:id="min031-seg14">まず、東日本大震災、原発事故からの復興・再生・推進と環境省の不変の原点である、人の命と環境を守る基盤的な取組をしっかり進めなくてはなりません。そしてネット・ゼロの実現、ネイチャーポジティブの達成、サーキュラーエコノミーへの移行といった新たな課題に取り組んでいかなければなりません。</seg>
+          <seg n="p3-part15-br" xml:id="min031-seg15">これらの環境問題は相互に連関し、かつ、様々な経済社会課題とも密接に絡み合う複合的な問題であるからこそ、課題ごとの個別対応ではなく、統合的な視点で取り組む総合的アプローチが必要であると考えます。</seg>
+          <seg n="p3-part16-br" xml:id="min031-seg16">こうした取組や、個人や地域の取組が我が国全体の経済社会の在り方、そして地球全体の未来につながるという意味において、個人、地域、国、地球が同心円の問題であると考えています。</seg>
+          <seg n="p3-part17-br" xml:id="min031-seg17">本日、ご審議いただく第六次環境基本計画は、政府全体の中長期的な環境政策に関するグランドデザインをお示しいただくものです。こうした同心円の問題にいかなる統合的なアプローチで取り組んでいくべきか、委員の皆様の活発なご議論を期待しております。</seg>
+          <seg n="p3-part18-br" xml:id="min031-seg18">以上が伊藤大臣のご挨拶でございます。</seg>
+          <seg n="p3-part19-br" xml:id="min031-seg19">引き続きまして、私、環境副大臣として一言ご挨拶申し上げたいと思います。</seg>
+          <seg n="p3-part20-br" xml:id="min031-seg20">今日は本当にありがとうございました。</seg>
+          <seg n="p3-part21-br" xml:id="min031-seg21">今、環境大臣から同心円的な位置づけという発言がありました。実は日曜日の19日の日に、全国環境教育ポスターコンクールというのがありました。5,745名の小中高校生の皆さんからの応募がありました。その作品の表彰式に、私も出させていただいたわけでございますが、正直言ってショックでありました。といいますのは、最優秀の内閣総理大臣賞を取った子が小学生でありました。そのポスターのタイトルは、何と「地球にごめんなさい」であります。10歳前後の子どもが「地球にごめんなさい」なんていうことは、まさに我々が何を今までやってきたんだという反省に立たされると同時に、我々が、大人が「地球にごめんなさい」と言わなければいけない立場なのに、小学生が既にもう感性に至っているということであります。</seg>
+          <seg n="p3-part22-br" xml:id="min031-seg22">かといって、子どもからの教育は大事な教育の視点でありますので、この同心円という言葉は個人が同心円になりますけれども、そういう個人の中にも世代間の問題はあると思いますので、ぜひとも、次を担う子どもたちのためにも同心円の中にしっかり引継ぎをして議論していただくことを心からお願い申し上げまして、ご挨拶にさせていただきます。</seg>
+          <seg n="p3-part23-br" xml:id="min031-seg23">どうもありがとうございました。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u3">
+          <seg n="p3-part24-br" xml:id="min031-seg24">続きまして、滝沢副大臣、お願いいたします。</seg>
+        </u>
+        <u n="滝沢副大臣" who="#滝沢求" ana="#区分_環境省 #役割_事務局" cert="medium" xml:id="min031-u4">
+          <seg n="p3-part25-br" xml:id="min031-seg25">環境副大臣の滝沢求でございます。</seg>
+          <seg n="p3-part26-br" xml:id="min031-seg26">委員の皆様方におかれては、お忙しい中、このように足を運んでいただき、この会議に出席していただき、誠にありがとうございます。</seg>
+          <seg n="p3-part27-br" xml:id="min031-seg27">私は、伊藤大臣の下、震災復興、環境保健、水・大気環境、資源循環などを担当しております。特に被災地の環境再生、人の命と環境を守る取組、循環経済への移行に力を入れております。</seg>
+          <seg n="p3-part28-br" xml:id="min031-seg28">委員の皆様方におかれては、皆様方の専門の知見に基づいた忌憚のないご意見等を賜ればと考えておりますので、どうぞよろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u5">
+          <seg n="p3-part29-br" xml:id="min031-seg29">続きまして、朝日大臣政務官、お願いいたします。</seg>
+        </u>
+        <u n="朝日大臣政務官" who="#朝日健太郎" ana="#区分_環境省 #役割_事務局" cert="medium" xml:id="min031-u6">
+          <seg n="p3-part30-br" xml:id="min031-seg30">環境大臣政務官を拝命しております朝日健太郎でございます。</seg>
+          <seg n="p3-part31-br" xml:id="min031-seg31">高村会長をはじめ委員の皆様には、本日はお集まりいただきまして、誠にありがとうございます。引き続きのご指導をよろしくお願いしたいと思います。</seg>
+          <seg n="p3-part32-br" xml:id="min031-seg32">私が担務いたしますのは、気候変動対策、地域脱炭素及び自然環境となっております。</seg>
+          <seg n="p3-part33-br" xml:id="min031-seg33">今朝、我々自民党の熱中症議連というものがあるんですけれども、群馬県の記事が届きまして、今年、特に猛暑だったんですけれども、群馬県内では熱中症による搬送というのが例年よりも低く抑えられたというものが届いております。引き続き、そういった所管の広い我々ではありますけれども、委員の皆様のご指導を賜りながら、しっかりと政策を実現していくことをお約束申し上げ、ご挨拶に代えます。</seg>
+          <seg n="p3-part34-br" xml:id="min031-seg34">本日はよろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u7">
+          <seg n="p3-part35-br" xml:id="min031-seg35">続きまして、国定大臣政務官、お願いいたします。</seg>
+        </u>
+        <u n="国定大臣政務官" who="#国定" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u8">
+          <seg n="p3-part36-br" xml:id="min031-seg36">改めまして、皆さん、こんにちは。環境大臣政務官を仰せつかっております国定と申します。</seg>
+          <seg n="p3-part37-br" xml:id="min031-seg37">私、今回、環境大臣政務官2年目に入りまして、昨年の中央環境審議会でも、皆様方には大変お世話になったところでございます。今日の中央環境審議会の審議も実りあるものとなりますことを、冒頭、ご期待を申し上げたいというふうに思います。</seg>
+          <seg n="p3-part38-br" xml:id="min031-seg38">今回、私自身は、伊藤大臣、そして滝沢副大臣の下、震災復興、環境保健、水・大気環境、資源循環などを担当させていただくこととなります。この担当分野の課題解決、政策推進に向けまして、全力で事に当たってまいりたい、このように考えておりますので、どうかよろしくお願い申し上げます。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u9">
+          <seg n="p3-part39-br" xml:id="min031-seg39">次に本日ご出席の委員の皆様をご紹介させていただきます。</seg>
+          <seg n="p3-part40-br" xml:id="min031-seg40">まず、この会議場においでの先生方からご紹介いたします。</seg>
+          <seg n="p3-part41-br" xml:id="min031-seg41">八木副大臣の左隣から、中央環境審議会の会長を務めていただいている高村ゆかり委員でございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u10">
+          <seg n="p3-part42-br" xml:id="min031-seg42">高村でございます。よろしくお願い申し上げます。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u11">
+          <seg n="p3-part43-br" xml:id="min031-seg43">その後は50音順にご着席いただいておりまして、粟生木千佳委員。</seg>
+        </u>
+        <u n="粟生木委員" who="#粟生木千佳" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u12">
+          <seg n="p3-part44-br" xml:id="min031-seg44">粟生木でございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u13">
+          <seg n="p3-part45-br" xml:id="min031-seg45">大原利眞委員。</seg>
+        </u>
+        <u n="大原委員" who="#大原利眞" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u14">
+          <seg n="p3-part46-br" xml:id="min031-seg46">大原でございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u15">
+          <seg n="p3-part47-br" xml:id="min031-seg47">小泉透委員。</seg>
+        </u>
+        <u n="小泉委員" who="#小泉透" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u16">
+          <seg n="p3-part48-br" xml:id="min031-seg48">小泉です。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u17">
+          <seg n="p3-part49-br" xml:id="min031-seg49">小西雅子委員。</seg>
+        </u>
+        <u n="小西委員" who="#小西雅子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u18">
+          <seg n="p3-part50-br" xml:id="min031-seg50">小西でございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u19">
+          <seg n="p3-part51-br" xml:id="min031-seg51">酒井伸一委員。</seg>
+        </u>
+        <u n="酒井委員" who="#酒井伸一" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u20">
+          <seg n="p3-part52-br" xml:id="min031-seg52">酒井でございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u21">
+          <seg n="p3-part53-br" xml:id="min031-seg53">崎田裕子委員。</seg>
+        </u>
+        <u n="崎田委員" who="#崎田裕子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u22">
+          <seg n="p3-part54-br" xml:id="min031-seg54">崎田です。どうぞよろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u23">
+          <seg n="p3-part55-br" xml:id="min031-seg55">白石寛明委員。</seg>
+        </u>
+        <u n="白石委員" who="#白石寛明" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u24">
+          <seg n="p3-part56-br" xml:id="min031-seg56">白石でございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u25">
+          <seg n="p3-part57-br" xml:id="min031-seg57">豊岡和美委員。</seg>
+        </u>
+        <u n="豊岡委員" who="#豊岡和美" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u26">
+          <seg n="p3-part58-br" xml:id="min031-seg58">豊岡でございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u27">
+          <seg n="p3-part59-br" xml:id="min031-seg59">藤田香委員。</seg>
+        </u>
+        <u n="藤田委員" who="#藤田香" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u28">
+          <seg n="p3-part60-br" xml:id="min031-seg60">藤田です。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u29">
+          <seg n="p3-part61-br" xml:id="min031-seg61">ありがとうございます。</seg>
+          <seg n="p3-part62-br" xml:id="min031-seg62">続きまして、Webでご出席をいただいている委員を50音順で紹介させていただきます。</seg>
+          <seg n="p3-part63-br" xml:id="min031-seg63">浅見真理委員。</seg>
+          <seg n="p3-part64-br" xml:id="min031-seg64">では、読み上げを続けさせていただきます。浅見委員は、途中20分ほどご離席と伺っております。</seg>
+          <seg n="p3-part65-br" xml:id="min031-seg65">有村俊秀委員。</seg>
+        </u>
+        <u n="有村委員" who="#有村俊秀" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u30">
+          <seg n="p3-part66-br" xml:id="min031-seg66">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u31">
+          <seg n="p3-part67-br" xml:id="min031-seg67">枝廣淳子委員。</seg>
+        </u>
+        <u n="枝廣委員" who="#枝廣淳子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u32">
+          <seg n="p3-part68-br" xml:id="min031-seg68">よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u33">
+          <seg n="p3-part69-br" xml:id="min031-seg69">大久保規子委員。</seg>
+        </u>
+        <u n="大久保委員" who="#大久保規子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u34">
+          <seg n="p3-part70-br" xml:id="min031-seg70">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u35">
+          <seg n="p3-part71-br" xml:id="min031-seg71">大塚直委員。</seg>
+        </u>
+        <u n="大塚委員" who="#大塚直" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u36">
+          <seg n="p3-part72-br" xml:id="min031-seg72">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u37">
+          <seg n="p3-part73-br" xml:id="min031-seg73">大塚委員も途中一時ご退席、後、お戻りと伺っております。</seg>
+          <seg n="p3-part74-br" xml:id="min031-seg74">勢一智子委員。</seg>
+        </u>
+        <u n="勢一委員" who="#勢一智子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u38">
+          <seg n="p3-part75-br" xml:id="min031-seg75">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u39">
+          <seg n="p3-part76-br" xml:id="min031-seg76">勢一委員も所用のため、途中でご退席と伺っております。</seg>
+          <seg n="p3-part77-br" xml:id="min031-seg77">関口明委員。</seg>
+        </u>
+        <u n="関口委員" who="#関口明" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u40">
+          <seg n="p3-part78-br" xml:id="min031-seg78">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u41">
+          <seg n="p3-part79-br" xml:id="min031-seg79">髙橋勝浩委員。</seg>
+        </u>
+        <u n="髙橋委員" who="#髙橋勝浩" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u42">
+          <seg n="p3-part80-br" xml:id="min031-seg80">稲城市長の髙橋勝浩です。よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u43">
+          <seg n="p3-part81-br" xml:id="min031-seg81">髙村典子委員。</seg>
+        </u>
+        <u n="髙村委員" who="#髙村典子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u44">
+          <seg n="p3-part82-br" xml:id="min031-seg82">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u45">
+          <seg n="p3-part83-br" xml:id="min031-seg83">武内和彦委員は15時頃からの途中参加と伺っております。</seg>
+          <seg n="p3-part84-br" xml:id="min031-seg84">田中里沙委員。</seg>
+        </u>
+        <u n="田中委員" who="#田中里沙" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u46">
+          <seg n="p3-part85-br" xml:id="min031-seg85">田中です。どうぞよろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u47">
+          <seg n="p3-part86-br" xml:id="min031-seg86">中川めぐみ委員。</seg>
+        </u>
+        <u n="中川委員" who="#中川めぐみ" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u48">
+          <seg n="p3-part87-br" xml:id="min031-seg87">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u49">
+          <seg n="p3-part88-br" xml:id="min031-seg88">西村亮平委員。</seg>
+        </u>
+        <u n="西村委員" who="#西村亮平" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u50">
+          <seg n="p3-part89-br" xml:id="min031-seg89">西村です。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u51">
+          <seg n="p3-part90-br" xml:id="min031-seg90">古米弘明委員。</seg>
+        </u>
+        <u n="古米委員" who="#古米弘明" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u52">
+          <seg n="p3-part91-br" xml:id="min031-seg91">古米です。よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u53">
+          <seg n="p3-part92-br" xml:id="min031-seg92">古米委員もご所用のため、途中でご退席と伺っております。</seg>
+          <seg n="p3-part93-br" xml:id="min031-seg93">山神真紀子委員。</seg>
+        </u>
+        <u n="山神委員" who="#山神真紀子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u54">
+          <seg n="p3-part94-br" xml:id="min031-seg94">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u55">
+          <seg n="p3-part95-br" xml:id="min031-seg95">なお、井上委員、亀山委員、中村委員、船越委員、松本委員は所用のためご欠席と伺っております。</seg>
+          <seg n="p3-part96-br" xml:id="min031-seg96">続きまして、本日この場に出席しております環境省の幹部職員をご紹介いたします。</seg>
+          <seg n="p3-part97-br" xml:id="min031-seg97">まず、こちらから中央、和田環境事務次官でございます。</seg>
+        </u>
+        <u n="和田環境事務次官" who="#和田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u56">
+          <seg n="p3-part98-br" xml:id="min031-seg98">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u57">
+          <seg n="p3-part99-br" xml:id="min031-seg99">上田大臣官房長でございます。</seg>
+        </u>
+        <u n="上田大臣官房長" who="#上田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u58">
+          <seg n="p3-part100-br" xml:id="min031-seg100">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u59">
+          <seg n="p3-part101-br" xml:id="min031-seg101">鑓水総合環境政策統括官でございます。</seg>
+          <seg n="p3-part102-br" xml:id="min031-seg102">後列に移りまして、泰地球環境局長。</seg>
+          <seg n="p3-part103-br" xml:id="min031-seg103">土居水・大気環境局長。</seg>
+        </u>
+        <u n="土居水・大気環境局長" who="#土居" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u60">
+          <seg n="p3-part104-br" xml:id="min031-seg104">よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u61">
+          <seg n="p3-part105-br" xml:id="min031-seg105">白石自然環境局長。</seg>
+          <seg n="p3-part106-br" xml:id="min031-seg106">前佛環境再生・資源循環局長。</seg>
+          <seg n="p3-part107-br" xml:id="min031-seg107">角倉環境再生・資源循環局次長。</seg>
+          <seg n="p3-part108-br" xml:id="min031-seg108">神ノ田環境保健部長。</seg>
+        </u>
+        <u n="神ノ田環境保健部長" who="#神ノ田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u62">
+          <seg n="p3-part109-br" xml:id="min031-seg109">よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u63">
+          <seg n="p3-part110-br" xml:id="min031-seg110">植田地域脱炭素推進審議官。</seg>
+        </u>
+        <u n="植田地域脱炭素推進審議官" who="#植田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u64">
+          <seg n="p3-part111-br" xml:id="min031-seg111">よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u65">
+          <seg n="p3-part112-br" xml:id="min031-seg112">後列に移りまして、大森大臣官房政策立案総括審議官。</seg>
+        </u>
+        <u n="大森大臣官房政策立案統括審議官" who="#大森" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u66">
+          <seg n="p3-part113-br" xml:id="min031-seg113">よろしくお願いいたします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u67">
+          <seg n="p3-part114-br" xml:id="min031-seg114">小川特別国際交渉官。</seg>
+          <seg n="p3-part115-br" xml:id="min031-seg115">前田大臣官房審議官。</seg>
+        </u>
+        <u n="前田大臣官房審議官" who="#前田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u68">
+          <seg n="p3-part116-br" xml:id="min031-seg116">よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u69">
+          <seg n="p3-part117-br" xml:id="min031-seg117">飯田大臣官房審議官。</seg>
+          <seg n="p3-part118-br" xml:id="min031-seg118">神谷大臣官房サイバーセキュリティ・情報化審議官。</seg>
+          <seg n="p3-part119-br" xml:id="min031-seg119">なお、朝日大臣政務官、国定大臣政務官におかれては、公務のため、議事の途中で退席させていただく予定でございます。また、他の幹部職員につきましても、公務のため、途中退席する場合がありますので、あらかじめご承知おきください。</seg>
+          <seg n="p3-part120-br" xml:id="min031-seg120">次に、資料の確認をさせていただきます。お手元のタブレットの指定フォルダの中に、資料1から資料4まで、最後に参考資料が入っております。もし不足がございましたら、事務局までお申しつけください。</seg>
+          <seg n="p3-part121-br" xml:id="min031-seg121">それでは、以後の議事進行は高村会長にお願いいたしたいと存じます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u70">
+          <seg n="p3-part122-br" xml:id="min031-seg122">皆様、本日はご参集いただき、どうもありがとうございます。</seg>
+          <seg n="p3-part123-br" xml:id="min031-seg123">今年も大変暑い夏を経験いたしましたけれども、気候変動、生物多様性、様々な局面で環境保全の取組が一層求められるようになってきているというふうに思っております。</seg>
+          <seg n="p3-part124-br" xml:id="min031-seg124">その中で本日は第六次の環境基本計画について、現在、総合政策部会を中心に検討を進めているところでありますけれども、先般の総会でもございましたように、総会において、それぞれの専門分野の、あるいはそれぞれのステークホルダーの皆様のご意見をいただくことが重要であるというご指摘をいただいて、今回、議事の筆頭に置いております。</seg>
+          <seg n="p3-part125-br" xml:id="min031-seg125">先ほど、八木副大臣と少しお話をさせていただいておりましたけれども、環境基本法、環境政策の目的から考えても、今回、検討されている環境基本計画案、国民のWell-being、高い生活の質をいかに実現するか、そこに大きな役割を果たす環境政策ということが一つのテーマになっているというふうに思っております。</seg>
+          <seg n="p3-part126-br" xml:id="min031-seg126">本日は、ぜひ、忌憚のないご意見をいただければというふうに思っております。</seg>
+          <seg n="p3-part127-br" xml:id="min031-seg127">それでは、早速議事に入ってまいりますけれども、まず最初に、「第六次環境基本計画」について環境省からご説明をお願いしたいと思います。よろしくお願いいたします。</seg>
+        </u>
+        <u n="鑓水総合環境政策統括官" who="#鑓水" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u71">
+          <seg n="p3-part128-br" xml:id="min031-seg128">統括官の鑓水でございます。</seg>
+          <seg n="p3-part129-br" xml:id="min031-seg129">10月に公表いたしました第六次環境基本計画策定に向けた中間取りまとめについてご説明させていただきます。</seg>
+          <seg n="p3-part130-br" xml:id="min031-seg130">私からは資料2①に沿って大枠をご紹介させていただきます。その後で担当課長より資料2②の本文の記述につきましてポイントをご説明申し上げます。</seg>
+          <seg n="p3-part131-br" xml:id="min031-seg131">それでは資料2①、2ページをご覧ください。</seg>
+          <seg n="p3-part132-br" xml:id="min031-seg132">第六次の環境基本計画策定に向けましては、本年5月より中央環境審議会で審議を開始しております。その後、総合政策部会で精力的にご審議していただいておりまして、現在は各種団体との意見交換会を開催してございます。</seg>
+          <seg n="p3-part133-br" xml:id="min031-seg133">今後は、これらの意見を活用しながら、また、本日のご議論を踏まえまして、計画案を策定し、来年4月頃に閣議決定を目指して取り組んでまいりたいというふうに考えてございます。</seg>
+          <seg n="p3-part134-br" xml:id="min031-seg134">次の3ページをご覧いただきたいと思います。</seg>
+          <seg n="p3-part135-br" xml:id="min031-seg135">第五次計画からの発展の方向性について記述してございます。</seg>
+          <seg n="p3-part136-br" xml:id="min031-seg136">上の半分をご覧いただきたいと思います。30年の振り返り、それから課題認識ということでございます。</seg>
+          <seg n="p3-part137-br" xml:id="min031-seg137">ちょうど第一次環境基本計画から30年の節目にございますので、30年の振り返りをしっかりやる、それから、課題認識をしっかり持つということでございます。</seg>
+          <seg n="p3-part138-br" xml:id="min031-seg138">まずは直面する環境の危機ということでございます。人間の活動は、環境収容力を超えつつあり、気候変動、それから生物多様性の損失、汚染という三つの危機に直面しています。</seg>
+          <seg n="p3-part139-br" xml:id="min031-seg139">経済社会システムをネット・ゼロで、循環型で、かつネイチャーポジティブな経済に転換し、統合的に推進していくことが必要という認識を記載したいと思ってございます。</seg>
+          <seg n="p3-part140-br" xml:id="min031-seg140">それから、経済社会面の振り返りといたしましては、人口減少や少子高齢化に加えまして、東京一極集中による地方の疲弊が挙げられます。</seg>
+          <seg n="p3-part141-br" xml:id="min031-seg141">経済は長期低迷が続き、食料、それからエネルギーの危機など、環境は、今や安全保障上の課題の一つとなっております。</seg>
+          <seg n="p3-part142-br" xml:id="min031-seg142">さらに、新型コロナウイルスのまん延、ウクライナ侵攻による社会の不可逆的変化、これらも重要な事項となっております。</seg>
+          <seg n="p3-part143-br" xml:id="min031-seg143">こうした状況を踏まえまして、第六次環境基本計画では、2030年までは決定的に重要な勝負の2030年とした上で、さらに2050年までを見据えた内容としたいと思っております。</seg>
+          <seg n="p3-part144-br" xml:id="min031-seg144">下半分でございます。第五次環境基本計画からの発展の方向性ということで、4点掲げております。</seg>
+          <seg n="p3-part145-br" xml:id="min031-seg145">まず、第1点目、ビジョンでございます。第五次環境基本計画で打ち出しました「循環共生型社会」の発展形といたしまして、第六次環境基本計画におきましては、環境収容力を守り、環境の質を上げることで、経済社会が成長できる文明の構築、こういったことを考えたいと思います。その際、地上資源の徹底的な活用、これが鍵となるということにしております。</seg>
+          <seg n="p3-part146-br" xml:id="min031-seg146">二つ目は、環境政策の役割でございます。第五次環境基本計画では、イノベーションの創出による「新たな成長」並びに経済社会的課題の同時解決というふうにしてございましたけれども、第六次環境基本計画におきましては、先ほど、会長からもございましたように、「Well-being/高い生活の質」に導く「新たな成長」を具体化すべく、ストックとしての自然資本の充実、それから環境価値を活用した経済全体の高付加価値化などを示したいと思います。</seg>
+          <seg n="p3-part147-br" xml:id="min031-seg147">3点目は、環境政策の方向性です。従来の環境・経済・社会の統合的向上といったことに加えまして、第六次環境基本計画におきましては、環境政策間及びその他の政策間との統合・シナジーによる環境負荷の総量削減、さらには良好な環境の創出の実現を打ち出したいと思います。</seg>
+          <seg n="p3-part148-br" xml:id="min031-seg148">4点目でございます。「地域循環共生圏」でございます。第五次計画で打ち出しました自立・分散型の社会を形成しつつ、地域間で支え合う考え方でございますが、第六次環境基本計画では、これを我が国のあるべき姿として、地域における政策、施策の実践、実装の場と位置づけたいと思っています。</seg>
+          <seg n="p3-part149-br" xml:id="min031-seg149">続きまして4ページをお願いいたします。</seg>
+          <seg n="p3-part150-br" xml:id="min031-seg150">以上を踏まえまして、計画の骨格ということで掲げさせていただいております。</seg>
+          <seg n="p3-part151-br" xml:id="min031-seg151">まず、環境政策の最上位の目的を「Well-being/高い生活の質」と位置づけます。</seg>
+          <seg n="p3-part152-br" xml:id="min031-seg152">これを達成するためのビジョンといたしまして、循環と共生、これが支える「循環共生型社会」ということでございます。特に共生につきましては、我が国の伝統的自然観に基づく考え方でございまして、個々の主体の取組と地域、国、地球など、様々なレベルの取組、これは先ほど、八木副大臣からもございました同心円ということで考えたいと思っております。</seg>
+          <seg n="p3-part153-br" xml:id="min031-seg153">方針といたしましては、自然資本の充実、環境価値による高付加価値化などを掲げております。</seg>
+          <seg n="p3-part154-br" xml:id="min031-seg154">それから、実際に政策を展開するに当たりましては、政府と市場、そして国民が共に進化する、すなわち共進化と、それから施策間の統合・シナジー、それらを実践・実装する場としての「地域循環共生圏」、これが重要であるとし、全ての人がビジョンを共有した上で、全員参加型で環境負荷の総量削減、さらに良好な環境を創出していくということが必要であるというコンセプトで計画をつくりたいというふうに思っているところでございます。</seg>
+          <seg n="p3-part155-br" xml:id="min031-seg155">次、5ページをお願いいたします。</seg>
+          <seg n="p3-part156-br" xml:id="min031-seg156">今、申し上げました基本的な考え方をベースといたしまして、お示ししているような横断的な六つの戦略を掲げて、今後、それを支える環境政策の展開内容をさらに詳しく記述をしていきたいというふうに考えているところでございます。</seg>
+          <seg n="p3-part157-br" xml:id="min031-seg157">私からは以上でございますけれども、科学的知見に裏づけられた現在の危機感とそれを踏まえ、我が国だからこそできる今後の目指すべき方向性につきまして、しっかりとしたメッセージを伝え、皆が共有し実践していけるようにしたいというふうに思ってございますので、どうぞ忌憚のないご意見をよろしくお願い申し上げます。</seg>
+          <seg n="p3-part158-br" xml:id="min031-seg158">では、補足を大倉課長からお願いいたします。</seg>
+        </u>
+        <u n="大倉課長" who="#大倉" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u72">
+          <seg n="p3-part159-br" xml:id="min031-seg159">担当課長の大倉でございます。</seg>
+          <seg n="p3-part160-br" xml:id="min031-seg160">今、統括官のほうからポイントの説明がありましたけども、続きまして、資料2②をご覧ください。</seg>
+          <seg n="p3-part161-br" xml:id="min031-seg161">10月3日に総合政策部会のほうで取りまとめられた第六次環境基本計画に向けた中間取りまとめの本体について、簡単に私のほうから説明させていただきます。</seg>
+          <seg n="p3-part162-br" xml:id="min031-seg162">先ほど、統括官のポイントと多少重複があると思いますけども、そこはご容赦ください。</seg>
+          <seg n="p3-part163-br" xml:id="min031-seg163">最初の目次をご覧ください。</seg>
+          <seg n="p3-part164-br" xml:id="min031-seg164">これは現時点の構成案でございますけども、本中間取りまとめは、そのうち、個別の政策を記述した部分を除いた現状と課題認識、思想、哲学、コンセプト部分を記述したものになっています。</seg>
+          <seg n="p3-part165-br" xml:id="min031-seg165">具体的には、第1部第1章の環境・経済・社会の現状と課題認識、第1部第2章の持続可能な社会に向けた今後の環境政策の展開の基本的考え方、第2部第1章1の重点戦略の設定の考え方、第2部第2章の重点戦略ごとの環境政策の展開のうち、それぞれの重点戦略の基本的考え方となります。これは先ほど統括官が説明した資料のスライド4が概ねの構造となってございます。</seg>
+          <seg n="p3-part166-br" xml:id="min031-seg166">次に、3ページをご覧ください。</seg>
+          <seg n="p3-part167-br" xml:id="min031-seg167">第1部第1章は、環境・経済・社会の現状と課題認識を記載してございます。</seg>
+          <seg n="p3-part168-br" xml:id="min031-seg168">1（1）は、現代文明の地球的限界と現下の環境危機を記載してございます。</seg>
+          <seg n="p3-part169-br" xml:id="min031-seg169">人類活動が地球の環境収容力、これはキーワードになると思います、を超えつつあること。G7広島サミット首脳コミュニケにあるとおり、気候変動、生物多様性の損失、汚染の三つの危機にあることに触れてございます。</seg>
+          <seg n="p3-part170-br" xml:id="min031-seg170">総合政策部会においても、先ほど、会長からお話がありましたけれども、今年の異常高温など、危機感に関する記述を増やすよう、多数の委員からご意見いただいておりまして、その方向で、今後の作業を進めたいと思ってございます。</seg>
+          <seg n="p3-part171-br" xml:id="min031-seg171">続きまして、4ページ、（2）でございます。</seg>
+          <seg n="p3-part172-br" xml:id="min031-seg172">このような危機的状況を踏まえ、文明の転換、社会変革（Teansformative Change）といっていますが、の必要性と勝負の10年、2030年の重要性を述べてございます。</seg>
+          <seg n="p3-part173-br" xml:id="min031-seg173">第六次環境基本計画は、2024年から2030年が計画期間となります。なので、まさに第六次環境基本計画に盛り込まれた施策の実施如何によって、将来に大きな影響を与えることになるだろうというふうに委員からもいただいてございました。</seg>
+          <seg n="p3-part174-br" xml:id="min031-seg174">また、5ページ目の（3）、ちょっと駆け足で恐縮です、は第三次環境基本計画で掲げた環境先進国に向け正念場であることを記載してございます。</seg>
+          <seg n="p3-part175-br" xml:id="min031-seg175">続きまして、6ページ目です。</seg>
+          <seg n="p3-part176-br" xml:id="min031-seg176">第六次環境基本計画が、1994年に策定されました、先ほど、統括官からありましたけども、第一次環境基本計画から30年の節目であることを踏まえまして、ローマクラブの「成長の限界」、ストックホルム会議、水俣病の教訓、国際的な枠組みの進展、国土の自然環境の変遷、引き続き課題が残る環境汚染及び化学物質管理、廃棄物の問題、重要な役割を果たしてきた科学的知見、東日本大震災・原発事故等について、過去からの振り返りを記述してございます。</seg>
+          <seg n="p3-part177-br" xml:id="min031-seg177">一つ取り上げますと、14ページ目の（7）、飛んで恐縮ですけども、記述していますとおり、種々、今、述べましたけれども、環境行政は個別政策を統合し、シナジーを発揮させる方向に進んでいると言えると思います。</seg>
+          <seg n="p3-part178-br" xml:id="min031-seg178">続きまして、17ページ目になります。</seg>
+          <seg n="p3-part179-br" xml:id="min031-seg179">経済・社会面の現状と課題を述べてございまして、最初に人口減少の問題を書いてございます。ご案内のとおり、出生率がどんどん下がっているという状況でございますけども、人口減少が加速化し、同時に東京一極集中が進み、地域の疲弊、地域コミュニティの弱体化などが進んでございます。</seg>
+          <seg n="p3-part180-br" xml:id="min031-seg180">19ページ目でございます。</seg>
+          <seg n="p3-part181-br" xml:id="min031-seg181">経済面の現状と課題でございます。ご案内のとおり、この30年、一人当たりGDPの順位が大きく落ちるなど、長期停滞が続いているわけでありますけども、その原因として、今年の骨太の方針にも記載されてございますけども、人件費の抑制とともに未来への投資の不足が指摘されてございます。</seg>
+          <seg n="p3-part182-br" xml:id="min031-seg182">また、環境負荷の低減と経済成長の絶対的なデカップリングに必要な、環境負荷が小さく、かつイノベーションを生む、人的資本投資をはじめとする無形資産投資の不足も挙げられます。</seg>
+          <seg n="p3-part183-br" xml:id="min031-seg183">20ページ目でございます。</seg>
+          <seg n="p3-part184-br" xml:id="min031-seg184">外交・安全保障等に関してでございます。</seg>
+          <seg n="p3-part185-br" xml:id="min031-seg185">近年、新興国・途上国が台頭し、相対的にG7の地位が低下する等の変化が生じてございます。また、民主主義国家と非民主主義国家の分断が指摘されたりしています。</seg>
+          <seg n="p3-part186-br" xml:id="min031-seg186">他方、環境危機の顕在化に伴って、環境問題が安全保障の側面を強くするなど、環境の主流化が進んでいると思われます。</seg>
+          <seg n="p3-part187-br" xml:id="min031-seg187">21ページ目でございますけども、21ページ目の一番下から、現状の課題のまとめになる部分でございますけども、環境・経済・社会の統合的向上の次なるステップ・高度化、現状と課題認識のまとめに関する部分でございます。</seg>
+          <seg n="p3-part188-br" xml:id="min031-seg188">22ページ目の15行目に、環境危機の顕在化は、その背景にある経済社会システムの構造的な問題を解決する必要性、すなわち持続可能な社会の実現の必要性に対しての認識を広めることとなったと書いてございます。</seg>
+          <seg n="p3-part189-br" xml:id="min031-seg189">さきに述べましたように、環境・経済・社会の諸課題について、新型コロナのパンデミックやウクライナ情勢等で世界が大きく変化する中で、23ページの24行目にありますとおり、「環境収容力を守り、環境の質を上げることによる経済社会の成長・発展」、すなわち環境を軸とした環境・経済・社会の統合的向上の高度化を目指すこととしています。これが現状と課題のまとめになります。</seg>
+          <seg n="p3-part190-br" xml:id="min031-seg190">そういったものを踏まえて、今後どうすべきかということでございますが、25ページになります。</seg>
+          <seg n="p3-part191-br" xml:id="min031-seg191">25ページから26ページにかけまして、このような問題意識の下、「目指すべき持続可能な社会の姿」について記述してございます。</seg>
+          <seg n="p3-part192-br" xml:id="min031-seg192">先ほど、高村会長からも言及がありましたとおり、環境行政の最上位の目的について、環境基本法第1条の趣旨を現在の文脈に照らし、現在及び将来の国民の「Well-being/高い生活の質」の実現を目指すことを明確に位置づけたいと考えてございます。</seg>
+          <seg n="p3-part193-br" xml:id="min031-seg193">この「Well-being/高い生活の質」は、市場的価値と非市場的価値の合算であって、環境収容力を超えることがないよう現在及び将来の国民の生存権を守る、環境・経済・社会の統合的向上の高度化を図って、将来に希望が持てる、よりよい生活を具体化していくことが含まれています。</seg>
+          <seg n="p3-part194-br" xml:id="min031-seg194">そのため、実現すべき持続可能な社会像として、第五次計画で掲げた「循環共生型社会」を継承、発展させることにつきましては、先ほど、統括官が説明したとおりでございます。</seg>
+          <seg n="p3-part195-br" xml:id="min031-seg195">また、27ページにありますとおり、「地域循環共生圏」、これは第五次計画の目玉でございましたが、循環共生型社会を実践する地域の将来像、言わば目標に格上げいたしてございます。</seg>
+          <seg n="p3-part196-br" xml:id="min031-seg196">続きまして、第1部第2章2、今後の環境政策の果たすべき役割ということでございますが、27ページになります。</seg>
+          <seg n="p3-part197-br" xml:id="min031-seg197">現在及び将来の国民の「Well-being/高い生活の質」をもたらす「循環共生型社会」、「地域循環共生圏」を実現するための環境政策の切り口として、将来にわたって質の高い生活をもたらす「新たな成長」の具体化を図りたいと思っています。この概念は第五次環境基本計画で提唱されておりましたが、今回それを具体化いたします。</seg>
+          <seg n="p3-part198-br" xml:id="min031-seg198">「Well-being/高い生活の質」を上位に置いて考えた場合、言わば「変え方を変える」ための大事な視点が見えてまいります。</seg>
+          <seg n="p3-part199-br" xml:id="min031-seg199">28ページにあるとおり、GDPに代表されるフローだけでなく、ストックの充実を図ること、今だけ、自分だけではなく、先ほど、副大臣からもお話がありましたけれども、世代間の公平性とか、長期的・包括的・利他的に考えること。供給者目線だけでなく、科学の要請を含む国民の本質的なニーズを踏まえること。物質的な豊かだけでなく、国民の関心の高い心の豊かさ、環境価値を含む無形の価値を充実した経済全体の高付加価値化を図ること。コミュニティを重視すること。一極集中ではなく、自立分散型の社会を目指すこと、この六つの視点を挙げてございます。</seg>
+          <seg n="p3-part200-br" xml:id="min031-seg200">そう考えますと、29ページにあるとおり、「新たな成長」にとって最も基盤となるストックは自然資本でございます。気候変動、生物多様性の損失、汚染が進行し、環境負荷の総量が増え、自然資本が臨界的水準を超えて損なわれていきますと、人類は存続できません。逆に、自然資本を充実させ、良好な環境を創出することで、健康、快適など「Well-being/生活の質」に結びついていきます。</seg>
+          <seg n="p3-part201-br" xml:id="min031-seg201">他方、現状は温室効果ガスの排出など、巨大な環境負荷がかかっている状況で、放っておいては自然資本はよくなりません。資源も毀損され続けていきます。そのため、自然資本を維持・回復・充実させるべく、人工資本、人的資本、経済社会システムについて、先ほど述べた「Well-being/高い生活の質」のための六つの視点を意識して、国民自身が、あるべき、ありたい状態を描いて、それに向けて努力する必要があります。</seg>
+          <seg n="p3-part202-br" xml:id="min031-seg202">29ページ、26行目にありますとおり、「Well-being/高い生活の質」と「自然資本とそれを維持・回復・充実させる資本・システム」は、お互いに影響を与えながら共に高みを目指していく共進化の関係にあると言えます。</seg>
+          <seg n="p3-part203-br" xml:id="min031-seg203">また、この共進化の過程において、ストックとしての「自然資本、自然資本を維持・回復・充実させる資本・システム」の、あるべき、ありたい水準に向けて、市場の失敗の是正、また長期的視点に立った国内における、官民が協力した巨大な有形・無形の投資が必要となります。これがイノベーション、経済成長をもたらし、我が国の特定課題からの脱却に寄与すると期待されてございます。</seg>
+          <seg n="p3-part204-br" xml:id="min031-seg204">以上のことについては、先ほど、統括官がご説明しました資料のスライド8、9に図式化をしてございます。</seg>
+          <seg n="p3-part205-br" xml:id="min031-seg205">30ページからは持続可能な社会の姿、それを実現するための切り口、方針を踏まえた環境政策の展開や在り方を記述してございます。</seg>
+          <seg n="p3-part206-br" xml:id="min031-seg206">31ページに、政策の統合・シナジーを記載してございます。</seg>
+          <seg n="p3-part207-br" xml:id="min031-seg207">32ページに第一次環境基本計画以来の長期的目標の一つである「参加」の在り方として、政府、市場、国民の共進化の考え方を書いてございます。これは先ほどの資料2①のスライド10に概念図を参考に載せてございます。</seg>
+          <seg n="p3-part208-br" xml:id="min031-seg208">33ページは、環境政策共通の目標である「地域循環共生圏」の創造を掲げてございます。</seg>
+          <seg n="p3-part209-br" xml:id="min031-seg209">続きまして、第2部に入りますけども、38ページからマクロ経済、国土、地域、暮らし、技術、イノベーション、国際の六つの柱の重点戦略の基本的考え方を示してございます。それぞれの基本的考え方に沿って、各省と連携しつつ、個別の政策群を現在検討しているところでございます。</seg>
+          <seg n="p3-part210-br" xml:id="min031-seg210">また、第3部以降についても、今、具体化の作業を進めてございます。</seg>
+          <seg n="p3-part211-br" xml:id="min031-seg211">中間まとめの概要は以上でございます。本日のご議論を踏まえて全体像を形成していきたいと思ってございます。</seg>
+          <seg n="p3-part212-br" xml:id="min031-seg212">ありがとうございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u73">
+          <seg n="p3-part213-br" xml:id="min031-seg213">ご説明、ありがとうございました。</seg>
+          <seg n="p3-part214-br" xml:id="min031-seg214">それでは、ただいまいただきましたご説明につきまして、委員からご意見等をいただきたいと思います。</seg>
+          <seg n="p3-part215-br" xml:id="min031-seg215">なお、ご発言の順番についてですけれども、中間の取りまとめ、これまで総合政策部会におきまして多くの議論を重ねてきた経緯がございます。また、今後もインテンシブにヒアリングも含めて審議をしている過程でもございますので、大変恐縮ではございますけれども、総合政策部会に所属をされていない委員の皆様に優先的にご発言をいただきたいというふうに思っております。総合政策部会に所属されている委員の皆様には大変申し訳ないんですけれども、もしお時間が許せば、ぜひご発言いただきたいと思います。</seg>
+          <seg n="p3-part216-br" xml:id="min031-seg216">約１時間のお時間を予定しております。したがいまして、お一人２分程度を目途にご発言いただけますとありがたく思います。</seg>
+          <seg n="p3-part217-br" xml:id="min031-seg217">細かな点も含めまして、追加でのご発言が、時間がなかったご意見につきましては、当然、この後に事務局宛にお寄せいただければ、総合政策部会の中での議論に生かせていただきたいと思っております。</seg>
+          <seg n="p3-part218-br" xml:id="min031-seg218">それでは、まず、会場でご発言のある委員はネームプレートを立ててご発言の意思をお示しいただければと思います。</seg>
+          <seg n="p3-part219-br" xml:id="min031-seg219">Web参加の委員の皆様はWebexの挙手機能を使っていただきまして、ご発言のご希望をお知らせいただければというふうに思っております。</seg>
+          <seg n="p3-part220-br" xml:id="min031-seg220">見合わせてしまって申し訳ございません。発言を推奨するつもりでございますので、よろしくお願いいたします。</seg>
+          <seg n="p3-part221-br" xml:id="min031-seg221">それでは、こちら、私の隣からですけれども、粟生木委員からご発言、お願いできますでしょうか。よろしくお願いいたします。</seg>
+        </u>
+        <u n="粟生木委員" who="#粟生木千佳" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u74">
+          <seg n="p3-part222-br" xml:id="min031-seg222">ご指名、ありがとうございます。</seg>
+          <seg n="p3-part223-br" xml:id="min031-seg223">多様な方針を示していただきましてありがとうございます。全体的に、私が普段感じているというところも網羅していただきまして、全体として違和感なく賛同させていただきたいと思います。</seg>
+          <seg n="p3-part224-br" xml:id="min031-seg224">個人的には特に地上資源ですとか、自然資本、人工資本も含むストックの活用という点について大きく関心を持っております。</seg>
+          <seg n="p3-part225-br" xml:id="min031-seg225">私が普段見ております各国の循環経済政策の中で、フィンランドなどは、彼らが持つ森林という資源をベースにして国家の経済戦略というものをつくっておりますけれども、我々が持っているもの、持てるものをいかに活用して絶対的なデカップリングを達成していくかというところに私自身も非常に関心を持っております。</seg>
+          <seg n="p3-part226-br" xml:id="min031-seg226">国内のデカップリングの状況というところをしっかりモニタリングしつつ、計画の実行というところをお願いしたいと思います。</seg>
+          <seg n="p3-part227-br" xml:id="min031-seg227">統合ですとか、シナジーの関連ですけども、後ほどご紹介もいただけると思うんですけれども、先日、プラスチックの条約に関する会合に参加しまして議論を拝聴してまいりました。本条約は、プラスチックの製造から廃棄、排出と、それに伴う汚染への対応について、ライフサイクル全体をカバーする幅広い議論であったのですけれども、これはすなわち海洋プラスチック、プラスチック廃棄物といった各種プラスチック汚染を防止するための議論のみならず、資源循環、化学物質管理、持続可能な消費と生産、脱炭素、特にバイオプラスチックロードマップを掲げる日本にとっては、生物資源の問題でもあるというふうに感じました。成長、外交、資源安全保障の課題にも関わってくると思っております。</seg>
+          <seg n="p3-part228-br" xml:id="min031-seg228">今回のご方針に掲げられている多面的かつ多様的な方針にも多くに関連するという認識を今回新たにしたところでございます。</seg>
+          <seg n="p3-part229-br" xml:id="min031-seg229">ですので、ここでの本条約での議論とそれへの日本の対応と、本計画のご方針が、よりシナジーを発揮していただけるような統合的な議論を、省を挙げて、また関連省庁とともに、いま一度お願いしたいと思います。</seg>
+          <seg n="p3-part230-br" xml:id="min031-seg230">以上になります。ありがとうございました。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u75">
+          <seg n="p3-part231-br" xml:id="min031-seg231">ありがとうございました。</seg>
+          <seg n="p3-part232-br" xml:id="min031-seg232">それでは、続きまして、小泉委員、お願いできますでしょうか。</seg>
+        </u>
+        <u n="小泉委員" who="#小泉透" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u76">
+          <seg n="p3-part233-br" xml:id="min031-seg233">ありがとうございます。小泉です。</seg>
+          <seg n="p3-part234-br" xml:id="min031-seg234">私、地域循環共生圏について少し意見させていただきます。</seg>
+          <seg n="p3-part235-br" xml:id="min031-seg235">今回の中間取りまとめの16ページに地域循環共生圏についての実績が記載されていて、200近い自治体・団体が地域循環共生圏づくりに明示的に取り組んでいる、という報告がありまして、大変好ましく思っております。</seg>
+          <seg n="p3-part236-br" xml:id="min031-seg236">環境省のほうで出されている事例集を見せていただきました。自立分散型社会の形成というところは、第五次の基本計画の中で大変よく進んだように思われますが、地域循環共生圏の基本的な考え方、もう一つの大事な考え方というのは、都市と農山漁村の間の投資と生態系サービスの供給をどういうふうに循環づけていくかというのが大きな課題だというふうに感じております。事例集でいきますと、神奈川県が水資源を通じて、都市と農山漁村を結ぶというような試みをしております。こういったような都市と農山漁村の循環が成立するように第六次のほうでは、少しアクセントを置いて施策をお願いしたいというふうに思います。</seg>
+          <seg n="p3-part237-br" xml:id="min031-seg237">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u77">
+          <seg n="p3-part238-br" xml:id="min031-seg238">ありがとうございます。</seg>
+          <seg n="p3-part239-br" xml:id="min031-seg239">それでは、小西委員、お願いできますでしょうか。</seg>
+        </u>
+        <u n="小西委員" who="#小西雅子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u78">
+          <seg n="p3-part240-br" xml:id="min031-seg240">ありがとうございます。</seg>
+          <seg n="p3-part241-br" xml:id="min031-seg241">3点、手短にお話しさせていただければと思います。</seg>
+          <seg n="p3-part242-br" xml:id="min031-seg242">最初に、これは例えば地下資源から地上資源とか、よく読み込むと本当に今必要なことが網羅されて入っていると思いました。</seg>
+          <seg n="p3-part243-br" xml:id="min031-seg243">ただ、非常にスピード感が足りないなという気がいたしました。2030年までのクリティカルな10年で、こちらの自然資本も生物多様性も、そして脱炭素化も、ここができなければ、本当にこの後、回復できないかもしれないという、そういう危機感、そこに基づいたスピード感があふれるというところが、ここの文章全体から伝わりにくいのがあるかなと思いました。</seg>
+          <seg n="p3-part244-br" xml:id="min031-seg244">といいますのは、今、GXリーグですとか、カーボンプライシングですとか、エネルギー基本計画ですとか、この環境政策を考える上で避けて通れない、こうしたことに本当は環境基本計画と整合させていくべきところ、そこをちょっと背中をかくような、まだ、そこに具体的に触れることができないまま書いているというところがあるかなという気がしまして、致し方ないことだと思いながら、そこにある程度具体的にクリティカルな10年にやるべきことみたいな形で言及があるといいなという点が1点です。</seg>
+          <seg n="p3-part245-br" xml:id="min031-seg245">あと一つ、特に28ページとかを拝見していますと、これまでの反省が、日本の中の分析がよくされているなと思います。経路依存性とか、このまま日本が炭素生産性でも資源生産性でも低迷してきた。これは今あるものを高度成長期から抜け出せない、既存の路線をずっと保全しようとしてきたから、イノベーションが起きにくくなっているというようなことは、非常によく書かれていると思います。そこは、じゃあどうするかというところで、経路依存から抜け出すということを、もう少し具体化して書いていただけるといいかなという気がいたしました。これはこうなので、じゃあということをですね。</seg>
+          <seg n="p3-part246-br" xml:id="min031-seg246">3点目としまして、市民と、それからメディアとというような三つの政策というような、ここは共進化という方向で、産業と出ているんですけれども、何となく、また国民運動に走ってしまうんじゃないかなという気がちょっとして、そこが懸念されました。</seg>
+          <seg n="p3-part247-br" xml:id="min031-seg247">というのは、もちろん、国民の意識を上げていく、醸成していくということは、非常に重要なんですけれども、基本的には、政策があって、政策のインセンティブづけで初めて産業界も国民も意識が変わっていくものだと思いますので、国民の意識醸成が先にあるのではなく、政策で誘導するというところを、そこをしっかりお願いできればなと思いました。</seg>
+          <seg n="p3-part248-br" xml:id="min031-seg248">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u79">
+          <seg n="p3-part249-br" xml:id="min031-seg249">ありがとうございます。</seg>
+          <seg n="p3-part250-br" xml:id="min031-seg250">それでは続きまして、循環型社会部会長、酒井委員、お願いいたします。</seg>
+        </u>
+        <u n="酒井委員" who="#酒井伸一" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u80">
+          <seg n="p3-part251-br" xml:id="min031-seg251">高村先生、ありがとうございます。</seg>
+          <seg n="p3-part252-br" xml:id="min031-seg252">今、ご紹介いただきましたとおり、循環型社会部会に関係をしておりますので、その点とこの環境基本計画との関係で1点、お願いを含めて発言させていただきます。</seg>
+          <seg n="p3-part253-br" xml:id="min031-seg253">今回の第六次の計画、自然資本、それからWell-being、そして新たな成長といったようなこういう新たな概念で次の環境を考えていこうという方向が明確に打ち出されておりますので、その点、非常にありがたく思っております。</seg>
+          <seg n="p3-part254-br" xml:id="min031-seg254">循環型社会との関係で参りますと、自然資本ということの関係性でいきますと、先ほど、粟生木委員からご紹介のあったプラスチック条約、これはプラスチック問題というのは生物資源の問題でもあるという指摘を出されましたが、国内のプラスチック資源循環法、これが数年前に施行いただいているわけですが、その問題を考える際に、3Rプラスリニューアブル、これはごみ対策としてのリデュース、リユース、リサイクル、ごみを減らし、再度使い、そして再生して使うということに加えて、再生可能性をプラスチック問題の解決のために導入していかねばならない。こういうことの原則で議論をしてきた経緯がございます。</seg>
+          <seg n="p3-part255-br" xml:id="min031-seg255">そういった意味で、あらゆるものの循環に再生可能性、そして、その延長線上にも自然資本という考え方とつながっていく部分があろうというふうに理解をしております。</seg>
+          <seg n="p3-part256-br" xml:id="min031-seg256">そういった意味で、自然資本という方向をしっかりと打ち出していただいているということは、部会間の連携、協調という意味でも、うまく今後議論できるのではないかということでは、ありがたく思っております。</seg>
+          <seg n="p3-part257-br" xml:id="min031-seg257">ただ、Well-being、あるいは、新たな成長というところを、物の循環を中心に考える循環型社会部会、あるいは廃棄物管理を考える場では、まだ十分にこなし切れておりません。特に定量的な意味での整理ということが、まだまだ不十分というか、ほとんど緒に就いたところというところでございますので、ぜひ、総合政策部会、あるいは環境基本計画を考える中で、統合的に他分野とこういう共通軸で考えていこうじゃないかというような、そういう方向が見えてきたら、ぜひ、具体的な指標を含めて、一緒に話をさせていただけないかというように願っております。</seg>
+          <seg n="p3-part258-br" xml:id="min031-seg258">ぜひよろしくお願いいたします。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u81">
+          <seg n="p3-part259-br" xml:id="min031-seg259">ありがとうございます。</seg>
+          <seg n="p3-part260-br" xml:id="min031-seg260">それでは、豊岡委員、総政部会の委員でいらっしゃるので、先に藤田委員からお願いできればと思います。</seg>
+          <seg n="p3-part261-br" xml:id="min031-seg261">藤田委員、よろしくお願いします。</seg>
+        </u>
+        <u n="藤田委員" who="#藤田香" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u82">
+          <seg n="p3-part262-br" xml:id="min031-seg262">ありがとうございます。</seg>
+          <seg n="p3-part263-br" xml:id="min031-seg263">今回の計画、Well-beingを最上位概念に掲げて、その基盤として自然資本というものを位置づけたというのは大変よいと思っています。よくまとまっていると思いますし、また、統合化、シナジーを入れられたのも大変すばらしいと思います。</seg>
+          <seg n="p3-part264-br" xml:id="min031-seg264">その評価の上で、2、3点、指摘できればと思います。</seg>
+          <seg n="p3-part265-br" xml:id="min031-seg265">今もご指摘があったように、自然資本のストックというものを書き込んだのは大変重要でいいと思うんですけども、自然資本が豊かなのは地域です。地域の人が自然資本の価値というものをどれだけ認識しているかというと、正直、メリットをあまり、私も地域出身ですけれども、感じていないと。やはり、ここに単なる理念倒れではなくて、政策とか金融を通して、ぜひ地域の自然資本に価値をつける方法というものを、実現してほしいと思いますし、それが地域のWell-beingにもつながるという、そういう道筋をつくることのほうが大変重要であると思います。</seg>
+          <seg n="p3-part266-br" xml:id="min031-seg266">ですので、そういうふうにつなげていただく、ストックだけではなくて、フローも含めて自然資本の価値を経済システムに内部化していくというところを、ぜひ進めていただきたいのが1点目です。</seg>
+          <seg n="p3-part267-br" xml:id="min031-seg267">それから、2点目は、シナジー、とても重要だと思います。</seg>
+          <seg n="p3-part268-br" xml:id="min031-seg268">一方で、トレードオフを気にされる産業界の方や金融もいらっしゃいますので、そちらの考え方も少し盛り込んでいただきたいというのが2点目です。</seg>
+          <seg n="p3-part269-br" xml:id="min031-seg269">3点目は、これはテクニカルなことなんですけども、私、メディアもやっているので、地上、地下資源と、読むとすごく分かりやすいんですが、このワーディングが分かりにくいなと思いまして、恐らく、石油・石炭や鉱物資源などの短期的には再生不可能なものを地下資源、それから地上の再エネとか都市鉱山とか森林とかを地上資源というふうにおっしゃっているんだとは思うんですけども、一方で、地中熱とか地熱発電とか、地下で活用するものもありますので、これを使うときは、ぜひ冠をつけた「☓☓」などを指した地上資源とか地下資源というふうに説明していただけると、国民にもよく分かるんではないかと思います。</seg>
+          <seg n="p3-part270-br" xml:id="min031-seg270">私からは以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u83">
+          <seg n="p3-part271-br" xml:id="min031-seg271">ありがとうございます。</seg>
+          <seg n="p3-part272-br" xml:id="min031-seg272">それでは、大気・騒音振動部会の部会長を務めていただいていますけれども、大原委員、お願いできますでしょうか。</seg>
+        </u>
+        <u n="大原委員" who="#大原利眞" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u84">
+          <seg n="p3-part273-br" xml:id="min031-seg273">ありがとうございます。</seg>
+          <seg n="p3-part274-br" xml:id="min031-seg274">私が所掌している大気・騒音振動のところにつきましては、地球が抱えている三大危機の一つであるポリューション、汚染に関して、第六次の環境基本計画においては、自然資本の整備・充実といったような中に位置づけられていると認識しております。</seg>
+          <seg n="p3-part275-br" xml:id="min031-seg275">今後、環境基本計画の議論が進んでいく中で、この部分をしっかりと書き込んでいただければと思いますが、本日は、地域で仕事をしている立場から、地域循環共生圏等に関して、少しコメントしたいと思います。</seg>
+          <seg n="p3-part276-br" xml:id="min031-seg276">現在、重点戦略、六つ掲げられておりまして、私なりに整理しますと、1番目が新たな成長、それから2番目の自然資本の整備、これを進めていく中で4番目のWell-being/高い生活の質を実現していく。この取組を実際に推進していく、実践していくのが3番目の地域循環共生圏であり、それらを支えるのが5番目の科学技術である。そういう整理をストーリー立てて言うならば、できようかと思います。</seg>
+          <seg n="p3-part277-br" xml:id="min031-seg277">そうなりますと順番を変える、テクニカルなことで申し訳ありませんけれども、3番と4番を入れ替えるといったようなことが必要なのではないでしょうか。それ以上に重要なことは、持続可能な地域づくり、それからそれを支える環境保全、これらを地域でいかに具体的に進めていけるのかということが、まさに第六次環境基本計画がうまくいったかどうかの試金石になるのではないかと考えています。地域循環共生圏については、第五次においてうたわれているわけですけれども、まだまだ力不足かなという印象も持っておりますので、第六次では、これをいかに強い力で実現できるのかというのが大事なのかなと思っています。</seg>
+          <seg n="p3-part278-br" xml:id="min031-seg278">そういう意味で、パートナーシップの充実、あるいは強化を図りつつ、国の役割、地方の役割、これを明確にしつつ、地域の力に依存はするが、国としても能動的にコミットメントをしていくという姿勢、メッセージを環境基本計画の中に力強い出していくということが非常に重要だろうと考えております。ぜひ、その方向での今後の検討もよろしくお願いいたします。</seg>
+          <seg n="p3-part279-br" xml:id="min031-seg279">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u85">
+          <seg n="p3-part280-br" xml:id="min031-seg280">ありがとうございます。</seg>
+          <seg n="p3-part281-br" xml:id="min031-seg281">それでは、崎田委員、よろしいでしょうか。お願いいたします。</seg>
+        </u>
+        <u n="崎田委員" who="#崎田裕子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u86">
+          <seg n="p3-part282-br" xml:id="min031-seg282">ありがとうございます。</seg>
+          <seg n="p3-part283-br" xml:id="min031-seg283">総合政策部会でかなり発言させていただいているので、そこではあまり発言していないところを2点ほどお話ししたいんですが、先ほど、副大臣のお話でもありましたけれども、環境学習とか、そういう次世代への普及啓発は大変重要という話がありました。</seg>
+          <seg n="p3-part284-br" xml:id="min031-seg284">やはり行動変容を起こす情報提供とか、環境学習、環境教育、その辺の重要性というのは、こちらの環境基本計画でもかなり明確に位置づけておくということが重要なのではないかなというふうに感じています。</seg>
+          <seg n="p3-part285-br" xml:id="min031-seg285">また学校教育だけではなくて、大人とかビジネス世代の方の学び直しというのが大変このところ増えてきておりますので、企業とか大学、研究機関などと連携した社会学習機会の重要性をしっかりと位置づけてもよろしいんではないかと思います。</seg>
+          <seg n="p3-part286-br" xml:id="min031-seg286">私自身、現在、市民や企業の参加と協働で、ライフスタイルの転換を目指す環境学習センターを運営しながら環境まちづくりを実施するという立場ですので、少しそういう社会の視点からの学習機会の明確化を位置づけてもいいんではないかというふうに思いました。</seg>
+          <seg n="p3-part287-br" xml:id="min031-seg287">そして、少し関連はしますけれども、別の視点で申し上げますと、現在地球環境の三つの危機が言われる中で、汚染というテーマが入ってきています。これは化学物質の問題とか、放射線にしろ、いろいろな、様々な問題が含まれていると思うのですが、それに関するリスクコミュニケーションをもっと徹底するということが、これからの社会の在り方では大変重要になってくるというふうに思っております。その辺のところを先ほどの社会学習機会のところと連携して位置づけていただいてもいいのかもしれませんけれども、リスクコミュニケーションの重要性というのは明確にしたほうがいいのではないかなと感じがいたしました。</seg>
+          <seg n="p3-part288-br" xml:id="min031-seg288">よろしくお願いいたします。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u87">
+          <seg n="p3-part289-br" xml:id="min031-seg289">ありがとうございます。</seg>
+          <seg n="p3-part290-br" xml:id="min031-seg290">それでは、豊岡委員、お願いいたします。</seg>
+        </u>
+        <u n="豊岡委員" who="#豊岡和美" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u88">
+          <seg n="p3-part291-br" xml:id="min031-seg291">ありがとうございます。</seg>
+          <seg n="p3-part292-br" xml:id="min031-seg292">今日はせっかく先生方がお見えになっているので、普段十分発言させていただいているんですけども、ぜひとも地域の立場からお願いをしたいと思いまして発言をさせていただきます。</seg>
+          <seg n="p3-part293-br" xml:id="min031-seg293">この目指すべき社会の目標がWell-beingであり、自然資本を維持・回復・充実させる資本・システムであるということは、これは相違はございません。けれども、地域においては、事業機会や、その権利がすごく曖昧で、競争にさらされたときに負け続けていくということで、風力をやろうにしても、太陽光の土地利用にしても、バイオマスの森林利用にしても、地域にポテンシャルがあるにもかかわらず、事業機会から外されているという面がございます。</seg>
+          <seg n="p3-part294-br" xml:id="min031-seg294">なので、どこにどんなポテンシャルがあるかというようなことと国土の利用の計画と、さらに漁業権や水利権と同じように、エネルギーにも地域に権利があるというような考え方の下、もちろん地域だけではできないので、都市と手を組むということで、事業をしっかりと地域に持ってくるということでも、こういう法制化が必要なように思います。ここのところが弱がために、地域は競争にさらされて負け続けながら、太陽光にしても、災害を誘発するような計画などで苦戦をしたり、風力についても、反対運動が起こって、なかなか和合ができないというようなことがございますので、ぜひ地域の参画機会を促すような、そういう国土利用並びに法制化にお力をお貸しいただいて、地域に参画の機会を持たせていただければ、非常に地域にとっての資本のシステムを経済に回していくというような機会が生まれますので、ぜひ、これだけお願いをして、発言させていただきました。</seg>
+          <seg n="p3-part295-br" xml:id="min031-seg295">ありがとうございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u89">
+          <seg n="p3-part296-br" xml:id="min031-seg296">ありがとうございます。</seg>
+          <seg n="p3-part297-br" xml:id="min031-seg297">今、会場でご発言希望は一巡終わったかと思います。</seg>
+          <seg n="p3-part298-br" xml:id="min031-seg298">お待たせいたしました。オンラインでご出席をいただいている委員からご発言をいただこうというふうに思います。</seg>
+          <seg n="p3-part299-br" xml:id="min031-seg299">それでは、まず、大久保委員、お願いいたします。その後、枝廣委員、お願いいたします。</seg>
+          <seg n="p3-part300-br" xml:id="min031-seg300">大久保委員、よろしくお願いいたします。</seg>
+        </u>
+        <u n="大久保委員" who="#大久保規子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u90">
+          <seg n="p3-part301-br" xml:id="min031-seg301">ありがとうございます。</seg>
+          <seg n="p3-part302-br" xml:id="min031-seg302">私からは大きく2点申し上げたいと思います。</seg>
+          <seg n="p3-part303-br" xml:id="min031-seg303">一つ目は、先ほどから出てくるシナジーのお話でございます。</seg>
+          <seg n="p3-part304-br" xml:id="min031-seg304">31ページ目の12行のところにシナジーのお話が出てくるわけでございますけれども、トレードオフを回避し、シナジーをもたらす統合的な解決というのは、それ自体、大変重要なことと考えており、また、本来、シナジーを持つにもかかわらず、それが十分発揮できていないといったことが多数見受けられるということにも全く異存がなく、その点でこの記述は重要であると考えております。</seg>
+          <seg n="p3-part305-br" xml:id="min031-seg305">他方で、トレードオフを回避すると、できないこともあって、ここのトレードオフの回避というのは、できる限り回避するとか、トレードオフを回避できない場合に、どのような原則に基づいてそれを調整していくのかということを、しっかり捉えていく必要があるというふうに考えております。</seg>
+          <seg n="p3-part306-br" xml:id="min031-seg306">基本的には、環境法の基本原則であるポリューター・ペイ・プリンシプル、汚染者負担原則といったことも踏まえる。また、その他の環境政策の原則に照らした調整方法を考えていくということがないと、書かれていることは、多数の人が賛成できることだと思うのですけれども、実際にこれを実施していく上では、調整機能を発揮できないということになりかねないので、この点を、今回、主に理念の部分中心に書かれておりますので、具体的な重点施策部分に落とすときには、きちんとこれを踏まえた考え方を示していくべきであると考えます。</seg>
+          <seg n="p3-part307-br" xml:id="min031-seg307">具体的には、今、お話が出ましたように、例えば、再エネと自然・景観の保全といったものがあつれきを生じている現状があるわけで、現在生じている課題もきちんと言及した上で、それをどのように解決していくのかという点が示されてしかるべきという観点です。</seg>
+          <seg n="p3-part308-br" xml:id="min031-seg308">具体的には、そのように考えますと、シナジーを多くして、そして、できる限りトレードオフを回避するためには、政策決定のかなり早い段階で検討が行われることが有益であって、そういう意味では、政策評価、あるいはSEA、SAいったような政策的な仕組みを、これは環境基本計画だけのことではありませんが、環境基本計画は閣議決定されるものですので、横断的な政策として、しっかり入れていく。その基礎になるオープンデータとしての地域資源の情報をきちんと出していくといったことが必要であると考えます。</seg>
+          <seg n="p3-part309-br" xml:id="min031-seg309">また、同じことを別の面で言うと、第2点目ですが、自主的なグッドプラクティスを推進するということは、これは極めて重要で、具体像が見えないと、一体何を目指しているかが分かりませんので、そういう意味で脱炭素の先進地域等の取組というのは重要であると考えますが、それだけでは、恐らく頭打ちになって、日本規模での広がりにはなかなか限界があるだろうと。</seg>
+          <seg n="p3-part310-br" xml:id="min031-seg310">そうしますと、そのような政策に日本全体が誘導されていくという仕組みが重要になってくると。この点が、先ほど言いました政策評価等の視点の必要性ということと重なり合っております。</seg>
+          <seg n="p3-part311-br" xml:id="min031-seg311">このことと加えまして、2点と申し上げましたが、3点目ですが、Well-beingが何か、あるいは国民の本質的なニーズが何を指すのかということにつきましては、先ほどから出ておりますようなコミュニティ、あるいは幅広い市民の参画というものの中で、その内容が地域ごとに具体化されていき、そしてそれが全国のニーズと調整されていくということだと思いますが、その観点で言いますと、環境の価値、利益というものを組織的に捉えていく、環境NGO、環境団体の役割というものが極めて重要だというのが国際的なトレンドだと思いますが、この今の中に、経済団体という言葉は1か所出てくるのですけども、環境団体、NGO、NPOといった言葉が欠けている。コミュニティは出てくるのですけれども、こういう環境団体、環境NGOと各種のノンプロフイットの活動というものの位置づけも、もう少し明確にしていただけるといいかと思います。</seg>
+          <seg n="p3-part312-br" xml:id="min031-seg312">以上、3点でございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u91">
+          <seg n="p3-part313-br" xml:id="min031-seg313">ありがとうございます。</seg>
+          <seg n="p3-part314-br" xml:id="min031-seg314">それでは、枝廣委員、お願いいたします。その次、中川委員、お願いいたします。</seg>
+          <seg n="p3-part315-br" xml:id="min031-seg315">枝廣委員、よろしくお願いします。</seg>
+        </u>
+        <u n="枝廣委員" who="#枝廣淳子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u92">
+          <seg n="p3-part316-br" xml:id="min031-seg316">ありがとうございます。</seg>
+          <seg n="p3-part317-br" xml:id="min031-seg317">今回、本当にあらゆるところを網羅して、よい組立てになっていると思います。環境・社会・経済、3本柱が最上位にWell-beingがあると。Well-beingのところからしっかり下ろしていると思っています。</seg>
+          <seg n="p3-part318-br" xml:id="min031-seg318">その認識の上で、２点申し上げたいところがあります。</seg>
+          <seg n="p3-part319-br" xml:id="min031-seg319">一つ目は、大久保委員からのお話がありましたが、国民の本質的なニーズというところです。これは事前説明のときに担当の方にお伺いしたときには、「こういうこと」とご説明いただいたのですが、逆に国民の本質的なニーズを十把一絡げに環境省が何で知っているんだという反発もあり得ると思っています。ここは、もう少しセグメンテーションするなり、本質的なニーズの見極め方のプロセスを大事にするといった観点も大事かと思います。</seg>
+          <seg n="p3-part320-br" xml:id="min031-seg320">二つ目はより大きなポイントですが、今回の基本計画でいうと、「新たな成長」とは何かというのが非常に大事になってくると思います。つまり「成長」といったときに、何が増えることなのか。今回の資料を読ませていただいていると、Well-beingをもたらすものがGDPだけではないという文言がありますので、新たな成長といっても、やっぱり経済成長のことをかなり指しているという印象があります。</seg>
+          <seg n="p3-part321-br" xml:id="min031-seg321">一方、2030年までを考えた基本計画ということでいうと、今、世界的にはEUを中心に「ポスト成長」の動きが非常に大きくなってきています。特にロシア－ウクライナの情勢と地政学的な情勢を踏まえて、サバイバル戦略としての「ポスト成長」という動きだと私は認識しています。そういったところの成長や、経済成長をどう捉えるか、もう少し踏み込んでいただいてもいいかと思います。特に2030年に向けて、この辺りは非常に大きく変わっていくところだと思うので、その認識を国民とも共有していただける形になると、ありがたいと思っています。</seg>
+          <seg n="p3-part322-br" xml:id="min031-seg322">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u93">
+          <seg n="p3-part323-br" xml:id="min031-seg323">ありがとうございます。</seg>
+          <seg n="p3-part324-br" xml:id="min031-seg324">それでは、続きまして、中川委員、お願いいたします。その後、早くご退席と伺っておりますので、総政部会のメンバーではありますけれども、有村委員にお願いしたいと思います。</seg>
+          <seg n="p3-part325-br" xml:id="min031-seg325">それでは、中川委員、お願いいたします。</seg>
+        </u>
+        <u n="中川委員" who="#中川めぐみ" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u94">
+          <seg n="p3-part326-br" xml:id="min031-seg326">ありがとうございます。</seg>
+          <seg n="p3-part327-br" xml:id="min031-seg327">私からは2点です。</seg>
+          <seg n="p3-part328-br" xml:id="min031-seg328">まず一つ目に、私もほかの委員の皆様がお話しされているように、Well-beingが最重要項目になっているところにすごく賛同しております。</seg>
+          <seg n="p3-part329-br" xml:id="min031-seg329">その上で、Well-beingに対しての指標みたいなものをつくるのかどうかという議論をどれぐらいされているのか、伺いたいです。現状を把握したり、目標を定めて観測していくために、ある程度の数値化をするのかという意図です。例えば私が出身であります富山県のほうで、令和4年度からWell-beingを県の最重要の目標にしているんですけれども、Well-being指標という数値で計れるものをつくっております。主観、持続性、多様性、多面性というような要素を計れるようにつくっているというところで、もし今後、指標を検討されるのであれば、一つの参考にしていただけたらと思いました。</seg>
+          <seg n="p3-part330-br" xml:id="min031-seg330">ただ、Well-beingは、皆様がおっしゃっているとおり、多様性や多面性があり、誰にでも当てはまる正解はないと思うので、つくられる場合には、押しつけにならない、どういった指標をつくっていくのかというところが、すごく重要な議論かなと思っております。</seg>
+          <seg n="p3-part331-br" xml:id="min031-seg331">もう一点につきましては、計画の10ページのほうにありました共進化の部分です。こちらについて、先ほど、違う委員の方から政策のインセンティブが重要で、そこから国民にというご意見がありました。それもあるなと思いつつ、その一方、政治や企業を動かす最も大きなものは、実は国民の一人一人の声という、そういった両面があることを思うと、個人的には国民が最初から置いてけぼりにならずに、きちんと考えられるような情報が得られたり、意見が述べられる場というのは重要だと思っております。</seg>
+          <seg n="p3-part332-br" xml:id="min031-seg332">その上で、現状ですと、省庁からの呼びかけは届きやすい年代や属性がちょっと限られているのかなというような印象を個人的に持っています。例えば、義務教育を受けられる年代であれば、最初にお話しのあったポスター作成などの形で考えたり、手を動かす場面もあったりすると思うんですが、実は、それ以降の10代から30代、もしくは40代ぐらいのある程度の若者層や、ビジネス層などにどう届けるか、その意見を吸い取るかというところだと、よほど意識が高い層以外には、なかなか伝わるのが難しいのかなと思います。だからそういった層の方たちにどう届けていくかというところ、共進化の中でも、ぜひそちらを議論の中にしっかりと入れていただければと思いました。</seg>
+          <seg n="p3-part333-br" xml:id="min031-seg333">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u95">
+          <seg n="p3-part334-br" xml:id="min031-seg334">ありがとうございます。</seg>
+          <seg n="p3-part335-br" xml:id="min031-seg335">それでは、有村委員、お願いいたします。その後、勢一委員、お願いいたします。</seg>
+          <seg n="p3-part336-br" xml:id="min031-seg336">有村委員、よろしくお願いします。</seg>
+        </u>
+        <u n="有村委員" who="#有村俊秀" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u96">
+          <seg n="p3-part337-br" xml:id="min031-seg337">はい。ご配慮ありがとうございます。</seg>
+          <seg n="p3-part338-br" xml:id="min031-seg338">総政部会のほうで委員もやっておりまして、全体としては大変よい中間取りまとめになっていると思います。</seg>
+          <seg n="p3-part339-br" xml:id="min031-seg339">最初に、全体のコメントをした上で、2点ほど書きぶりについて申し上げたいと思います。</seg>
+          <seg n="p3-part340-br" xml:id="min031-seg340">資料2の①にあったように、環境・経済・社会全てにおいて「勝負の2030年」ということがありました。これは、気候変動、ネイチャーポジティブ、循環経済について、環境保全の目的を達成しながら、同時に経済の活性化を行う、そういう重要な機会にも直面しているということだと思います。</seg>
+          <seg n="p3-part341-br" xml:id="min031-seg341">特に脱炭素目標に向かっていろんな投資が行われて、気候変動対策と経済の循環、好循環が進んでいくというのが重要だと思います。その点においては、何度か申し上げておりますけれども、環境省でもこれまでしっかり議論されてきたカーボンプライシングを活用されていくということが重要だと思っています。</seg>
+          <seg n="p3-part342-br" xml:id="min031-seg342">その上で、ちょっと書きぶりについて2点だけ申し上げたいと思います。</seg>
+          <seg n="p3-part343-br" xml:id="min031-seg343">一つ目は、民間企業の役割ですね。先ほどどなたか、何人かの委員からもありましたけれども、地域循環共生圏、もちろんこれはとても大事な動きですけども、それと並んでやっぱり民間のイノベーション・投資というのが、今後非常に重要になってくるというふうに思います。</seg>
+          <seg n="p3-part344-br" xml:id="min031-seg344">その上では、民間企業も重要なプレーヤーであるというようなことが伝わるような書きぶりがもう少しあってもいいのかなと、改めて全体を見回して思いました。そういったところがあると、この今回の計画というのは、環境省にとどまらず、政府全体での環境に関する計画だということですので、その辺が民間企業も大きなプレーヤーであるということが伝わるといいなと思いました。</seg>
+          <seg n="p3-part345-br" xml:id="min031-seg345">それから二つ目は、特にカーボンプライシングなどの政策面を含めてなんです。先ほど小西委員からスピード感が足りないのではないかというような指摘がありました。そのスピード感、スピードの重要性ですね。そういったものについて、もう少し伝わるような書きぶりもあるといいのかなと、今回改めて見て思いました。</seg>
+          <seg n="p3-part346-br" xml:id="min031-seg346">以上、2点が私からのコメントです。ありがとうございました。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u97">
+          <seg n="p3-part347-br" xml:id="min031-seg347">ありがとうございました。</seg>
+          <seg n="p3-part348-br" xml:id="min031-seg348">それでは、勢一委員、お願いいたします。その後、古米委員、山神委員とお願いいたします。</seg>
+          <seg n="p3-part349-br" xml:id="min031-seg349">勢一委員、よろしくお願いします。</seg>
+        </u>
+        <u n="勢一委員" who="#勢一智子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u98">
+          <seg n="p3-part350-br" xml:id="min031-seg350">はい。ありがとうございます。勢一です。</seg>
+          <seg n="p3-part351-br" xml:id="min031-seg351">今回の中間取りまとめ、非常に幅広く多角的な視点から重要なキーワードを提示してお示しいただいています。私も基本的な部分については賛同しておりまして、総合政策部会でのご議論に感謝を申し上げたいと思います。</seg>
+          <seg n="p3-part352-br" xml:id="min031-seg352">その上で、私からは3点ほどコメントをさせていただきます。</seg>
+          <seg n="p3-part353-br" xml:id="min031-seg353">まず1点目は、人口減少による変化についての課題の部分についてです。人口減少は少なくとも止められない状況に今のところなっております。人口減少が特に地方で起こっていくと、居住地域自体が縮減していく形になります。そうすると、人が住まなくなった場所をどうするかというのも非常に大きな環境に関する課題につながってくるだろうと思います。</seg>
+          <seg n="p3-part354-br" xml:id="min031-seg354">国の推計では、現在人が住んでいる地域のうち、2050年には20％が無居住地域になるというようなデータも出ているところです。そうしますと、そうした地域が出ることを想定した土地利用の在り方も考える必要があろうかと思います。</seg>
+          <seg n="p3-part355-br" xml:id="min031-seg355">自然環境に対して、開発による過剰利用というようなご指摘は入っていましたけれども、それのみならず、過少利用も生じることになります。特に里地・里山の維持が行えなくなっていくという点からは、中長期的な視点から土地利用のマネジメントをしっかりしていくというような問題提起も必要ではないかと思いました。恐らく、これは先ほどご指摘があった地域における自然資本の在り方にも関わってくるところだろうと思います。</seg>
+          <seg n="p3-part356-br" xml:id="min031-seg356">2点目としましては、目指すべき姿に関してです。生活の質であるとか、幸福度、Well-being、現在から将来に向けて社会が共有していく価値を示していただいているキーワードで、いずれも重要であろうと思います。これらは、環境に限らず、国家の政策全般に共通する視点であると思われます。</seg>
+          <seg n="p3-part357-br" xml:id="min031-seg357">ただ、そうしますと、環境の要素がどこにポイントがあるのかが少し見えにくくなっている印象を持ちます。それだけ環境があらゆる政策に関わっているという証左でもあると思うのですが、環境基本計画として打ち出すポイントを少し強調できるような書きぶりがよろしいのかなと感じました。目指すべき姿の環境主流化として捉える場合の解題を加えていくような作業があるとよろしいのかなと思った次第です。</seg>
+          <seg n="p3-part358-br" xml:id="min031-seg358">典型例としては、地域循環共生圏が挙げられます。既に何人かの委員の方からご指摘がありましたけれども、この考え方は、特に地域社会にいますと、人口減少社会における地域を支えるコンセプトにもなる概念だと思います。こうした概念などを地域社会の目線から、多様な政策を統合していく形で環境価値の向上につなげていくようなイメージを発信するのも一つの例かと思ったところです。</seg>
+          <seg n="p3-part359-br" xml:id="min031-seg359">最後、3点目ですけれども、自然資本に関してです。これは、目指すべき姿の基盤としては非常に環境らしい重要な概念で示されているところだと思っています。ちなみに、これは環境省だけではなくて、恐らく、農地や森林を所管しているような農水省であるとか、最近は国交省もグリーンインフラを打ち出しています。生物多様性とも関わって、最近では、国際的にもESG投資や金融の動きも出ているところになりますので、この自然資本を重要なキーワードとして温めていくのは、長期的にも重要な視点になるだろうと思います。</seg>
+          <seg n="p3-part360-br" xml:id="min031-seg360">そのときに、政策の統合とかシナジーも今回打ち出していただいていて非常に重要だと思いますし、トレードオフの回避も進めていく。それをやるべき象徴的なテーマが自然資本であろうと思います。</seg>
+          <seg n="p3-part361-br" xml:id="min031-seg361">この自然資本は、極めて多様、かつ幅広いものが関わっていますし、法制度や自治体の区域を越えてシームレスに存在しているものになりますので、関係省庁で取り組む際には、政策の具体化であるとか、施策の実施体制に留意が必要であろうと思います。重複や競合をしないということも重要ですし、データを共有して協働で取り組んでいくとか、自然資本の視点から省庁横断で共通のルールや基準で取り組むこと、つまり民間や市民や自治体の取組を分断しないということも重要になってこようかと思います。</seg>
+          <seg n="p3-part362-br" xml:id="min031-seg362">特に政策の具体化、設計の段階から協働して取り組むことで政策実施をうまく現場で動かしていくところ、恐らく、実施の段階だけ協働というのは遅いと思いますので、そうした取組の体制についても、ぜひ今後、施策に展開していくときにもご留意をお願いできればと思います。</seg>
+          <seg n="p3-part363-br" xml:id="min031-seg363">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u99">
+          <seg n="p3-part364-br" xml:id="min031-seg364">ありがとうございます。</seg>
+          <seg n="p3-part365-br" xml:id="min031-seg365">大変恐縮ですけれども、ご発言希望の全ての委員にご発言をお願いしたいと思っておりますので、時間について厳守をお願いしたいと思います。よろしくお願いします。</seg>
+          <seg n="p3-part366-br" xml:id="min031-seg366">それでは、続きまして、古米委員、お願いいたします。古米委員は水環境・土壌農薬部会長でもございます。よろしくお願いいたします。</seg>
+        </u>
+        <u n="古米委員" who="#古米弘明" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u100">
+          <seg n="p3-part367-br" xml:id="min031-seg367">はい、どうもありがとうございます。</seg>
+          <seg n="p3-part368-br" xml:id="min031-seg368">私からは2点申し上げたいと思います。</seg>
+          <seg n="p3-part369-br" xml:id="min031-seg369">全体として環境・経済・社会の課題を解決するため、統合的、横断的な六つの戦略がうまくバランスよく示されていると思います。その中に新たな成長であるとか、Well-beingという高い生活の質というように分かりやすいキーワードを入れた形で設定されていて、なおかつ、もう既に求められていますけれども、それがバラバラで存在しているのではなくて、相互に関わった形で実行していくということを明確に打ち出していただいている点は、今後の発展においても非常に重要かなと思うのが1点目です。</seg>
+          <seg n="p3-part370-br" xml:id="min031-seg370">二つ目は、この六つの戦略の中で繰り返し出てきているキーワードである、自然資本の維持、回復、充実に関するものです。いわゆる社会経済を支える資本として自然を捉えて、その自然資本をどう活用しながら維持、あるいは回復、充実させるかというところが戦略のバックボーンになっているような記述になっています。環境を保全し、良好な環境を維持していくという観点からも魅力的なまとめ方だと思っています。</seg>
+          <seg n="p3-part371-br" xml:id="min031-seg371">一方で、先ほどもご指摘がありましたけれども、Well-beingであるとか、自然資本というものがどういう状態になるのかを、ある程度分かりやすい形で示さないと、言葉だけになってしまいます。言い換えると、自然資本が今どういう状態なのかという健康診断をまず行う。例えば水循環がどうなっているのかだとか、その中で物資循環がどうなっているのかという自然の中での現象をある程度定量化したり、分かりやすく指標化するというようなことが求められているのではないかと思います。</seg>
+          <seg n="p3-part372-br" xml:id="min031-seg372">自然環境とは異なり、社会経済の中でのマテリアルフローというのは比較的定量化しやすいんですけれども、自然は環境モニタリングだとかが必要です。しかし、それは大変なものです。したがって、そういったところに若干力点を入れた形で、この自然資本を維持、回復、充実させていくんだというような具体的な方向性を追加いただくと非常にいいのかなというのが2点目です。</seg>
+          <seg n="p3-part373-br" xml:id="min031-seg373">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u101">
+          <seg n="p3-part374-br" xml:id="min031-seg374">ありがとうございます。</seg>
+          <seg n="p3-part375-br" xml:id="min031-seg375">それでは、続きまして、山神委員、お願いいたします。山神委員の後、西村委員、お願いいたします。</seg>
+          <seg n="p3-part376-br" xml:id="min031-seg376">山神委員、よろしくお願いします。</seg>
+        </u>
+        <u n="山神委員" who="#山神真紀子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u102">
+          <seg n="p3-part377-br" xml:id="min031-seg377">はい。ありがとうございます。</seg>
+          <seg n="p3-part378-br" xml:id="min031-seg378">私からは質問なんですけれども、私は、地方自治体に所属しておりますので、この第六次で新たに加わった方向性の中で、地方自治体が大きく関わるのはどこなのかというのが気になるわけなんですけれども、先ほどの大原委員と同じかもしれませんけれども、新たに加わったところの地方自治体に期待されている役割、先ほどもありましたけど、地域循環共生圏辺りのことなのかなと思いますけれども、具体的に何か考えられているものが今の段階でありましたらぜひ教えてください。</seg>
+          <seg n="p3-part379-br" xml:id="min031-seg379">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u103">
+          <seg n="p3-part380-br" xml:id="min031-seg380">ありがとうございます。</seg>
+          <seg n="p3-part381-br" xml:id="min031-seg381">それでは、続きまして西村委員、お願いいたします。その後、総合政策部会の委員でもございます田中委員、大塚委員、そして髙橋委員と移ってまいります。よろしくお願いいたします。</seg>
+        </u>
+        <u n="西村委員" who="#西村亮平" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u104">
+          <seg n="p3-part382-br" xml:id="min031-seg382">はい。ありがとうございます。西村でございます。</seg>
+          <seg n="p3-part383-br" xml:id="min031-seg383">この中で取り上げられているところ、人獣共通感染症の広がりとか、パンデミックの問題について取り上げられておりまして、これに対してはワンヘルス・アプローチということが書かれているんですけども、全体にこのWell-beingというのがせっかく出てきておりますので、このワンヘルスを超えた新しい概念ですね。ワンウェルフェアという考え方、すなわち人のWell-being、動物のアニマルウェルフェア、非常に密接に関係していて、それを維持するためには環境が健全であるという概念がありますので、ぜひワンウェルフェアの考え方で取り組んでいただけるといいかなと思いますのでどうぞよろしくお願いいたします。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u105">
+          <seg n="p3-part384-br" xml:id="min031-seg384">ありがとうございます。</seg>
+          <seg n="p3-part385-br" xml:id="min031-seg385">今、ご発言いただきました西村委員は、動物愛護部会長、お願いをしております。今、その観点からのご発言でもあったと思います。ありがとうございます。</seg>
+          <seg n="p3-part386-br" xml:id="min031-seg386">それでは、総合政策部会の委員の先生方で、本総会の委員でもございます委員にご発言をお願いしたいと思います。まず、田中里沙委員、お願いいたします。その後、大塚直委員、髙橋委員とお願いしたいと思います。よろしくお願いします。</seg>
+        </u>
+        <u n="田中委員" who="#田中里沙" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u106">
+          <seg n="p3-part387-br" xml:id="min031-seg387">田中でございます。聞こえますでしょうか。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u107">
+          <seg n="p3-part388-br" xml:id="min031-seg388">はい。聞こえております。</seg>
+        </u>
+        <u n="田中委員" who="#田中里沙" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u108">
+          <seg n="p3-part389-br" xml:id="min031-seg389">発言の機会を、ありがとうございます。</seg>
+          <seg n="p3-part390-br" xml:id="min031-seg390">今日も貴重な資料を示していただきありがとうございました。</seg>
+          <seg n="p3-part391-br" xml:id="min031-seg391">冒頭にありました現在及び将来の国民一人一人のWell-beingに資する共通目標は、すばらしいものと思うと同時に、現在及び将来の国民という対象者を明確にして、どういう人なんだろうということを強く意識しながら、さまざまなことを考えていかなければいけないと思いました。</seg>
+          <seg n="p3-part392-br" xml:id="min031-seg392">社会のWell-beingを果たすには、個人の努力や取組と、組織や地域で取り組むこと、また、社会全体で取り組むことがありまして、共進化とまさにセットで成し遂げられるものというふうに感じます。</seg>
+          <seg n="p3-part393-br" xml:id="min031-seg393">この中で、良好な関係や心身の豊かさや幸福感を得るには、さらなる工夫が必要です。かつて、私も環境のメディア編集を通して、理解のある方と、関心がまだ薄いという方々の間には、意識にギャップがあって、そのギャップを埋めていくのは難しいと自分自身のことも鑑みながら思うところがありました。けれども、まさにこれからの時代においては、例えば、自然と人工物の往還をしたり、共生をする、互いの関わり方を高めていくということが、まさにWell-beingの一つであると思うところで、環境社会のデザインを考えることに繋がります。まさに里山、里海、里川の価値の理解と向上というところで、そういうことを少し具体的に、環境の視点で発信したい。Well-beingという言葉は幅広く、いろんなところで今使われていますので、本会議で使っているこのWell-beingの定義ということをぜひもっと見える化するような形で取り組んでいければと思っております。</seg>
+          <seg n="p3-part394-br" xml:id="min031-seg394">同時に、我が国だからこそできる今後の方向性というところについては、イノベーションがどんどんこの環境の分野で起きて、脱炭素の新事業なども注目されて、積極的にこれから生み出されつつあるときだと思いますけれども、そこにやはり地域の自然や文化、慣習等の整合性などがさらに意識され、生かされることを国民の目線でチェックもして、参加もするというふうな流れができることが重要かと考えるところです。</seg>
+          <seg n="p3-part395-br" xml:id="min031-seg395">これらも踏まえて、やはり国民の理解や参加、機運醸成の観点から、皆さんもご指摘のように、対象者は多様で、ステークホルダーもますます複雑になってきていますので、それぞれの政策や取組を個別に趣旨理解を促しながら対話をしていくことが重要と感じます。加えて、少し遠い話との関わりの理解ということも意識したいと思いますので、今進めていただいている関係団体や協会等の方々のヒアリング等を行う際にも、互いにそういうような、自分の分野だけではなく関係者を広げる視点を重視することができればと思うところです。よろしくお願いいたします。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u109">
+          <seg n="p3-part396-br" xml:id="min031-seg396">ありがとうございます。</seg>
+          <seg n="p3-part397-br" xml:id="min031-seg397">それでは、続きまして、大塚委員、お願いしたいと思います。大塚委員は地球環境部会、環境保健部会の部会長を務めていただいております。</seg>
+          <seg n="p3-part398-br" xml:id="min031-seg398">それでは、大塚委員、お願いいたします。</seg>
+        </u>
+        <u n="大塚委員" who="#大塚直" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u110">
+          <seg n="p3-part399-br" xml:id="min031-seg399">はい。手短に話をしていきたいと思います。</seg>
+          <seg n="p3-part400-br" xml:id="min031-seg400">先ほど勢一委員が言われた人口減少の関係の点については、確かにちょっと記述が薄いかもしれないので、もう少し加えなくちゃいけないかなと思いました。</seg>
+          <seg n="p3-part401-br" xml:id="min031-seg401">総合政策部会でいろいろ参加させていただいておりますので、そこで幾つか申し上げていますので、本日は部会長としてお話したいと思いますけれども、まず、地球環境部会のほうですけども、気候変動に関しては、様々な環境政策の統合的な解決のためのシナジーのところを出していっていただければと思っておりますが、再生資源の促進、循環促進を通じたサプライチェーン全体での資源循環と脱炭素の両立という、まさに循環経済と気候変動との対策の両立とかシナジーのことを打ち出していっていただくなど、様々なシナジーについてお話を入れていっていただくといいと思っております。</seg>
+          <seg n="p3-part402-br" xml:id="min031-seg402">それから、2050年のカーボンニュートラルに向けては、環境価値の高い製品とかサービスの社会的受容性を向上させて、公共調達のグリーン化をしていくというようなことを入れていく必要があるとか、あと、2050年カーボンニュートラルに向けて吸収源の対策の重要性が高まっていますので、ネガティブエミッションの技術なども含めて、書き込んでいっていただければと思っております。</seg>
+          <seg n="p3-part403-br" xml:id="min031-seg403">それから、環境保健部会長としての発言として、今年の9月にICCM5で採択されました「Global Framework on Chemicals」というGFCという枠組みが出てきていますので、これを全体のコンセプトと若干関係させることができるんじゃないかということを申し上げておきたいと思いますが、ここでは、安全で健康的な持続可能な未来のために、化学物質や廃棄物による悪影響から解放された地球というのをコンセプトとして考えておりますので、この考え方は、化学物質管理の考え方として、この計画全体にも影響を及ぼすことになるかと思いますので、ぜひそれを入れていっていただければと思っております。</seg>
+          <seg n="p3-part404-br" xml:id="min031-seg404">取りあえず、そこだけ申し上げておきます。ありがとうございました。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u111">
+          <seg n="p3-part405-br" xml:id="min031-seg405">ありがとうございます。</seg>
+          <seg n="p3-part406-br" xml:id="min031-seg406">それでは、今、ご発言ご希望では最後の委員になりますけれども、髙橋勝浩委員、稲城市の髙橋市長、よろしくお願いいたします。</seg>
+        </u>
+        <u n="髙橋委員" who="#髙橋勝浩" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u112">
+          <seg n="p3-part407-br" xml:id="min031-seg407">はい。稲城市長の髙橋です。よろしくお願いいたします。</seg>
+          <seg n="p3-part408-br" xml:id="min031-seg408">市の立場からご意見をさせていただきたいと思いますが、今回の計画の中で非常に多岐にわたってそれぞれの分野での課題が書かれております。大変すばらしい計画になるのではないかと思います。我々、地方自治体の中では、地域循環共生圏の構築が役割として一番大きいのではないかと思っておりますが、これについては行政だけでできるものではないので、地域の参加者、ステークホルダーの協力によって、各地域で進めていくということがまず大切なのではないかと思いました。</seg>
+          <seg n="p3-part409-br" xml:id="min031-seg409">食料やエネルギーの地産地消は非常にキーワードになると思いますが、地産地消の効果が大きいかというと、実質的な効果はそれほど望めないのではないかと思っております。むしろこの地域循環共生圏というのは、地域ごとに環境問題に関心を持って、みんなで脱炭素を考えていこうという、意識啓発的な意味が非常に大きいのではないかと思っております。</seg>
+          <seg n="p3-part410-br" xml:id="min031-seg410">一方で、脱炭素の一番大きな鍵になるのは基幹エネルギーだと思っております。化石燃料に依存した現在の発電を続けていく限り、なかなか目標は達成できないのではないかと思っております。原子力発電なども有効活用しながら、なるべく多くのことを再生可能な発電に切り替えていくことが望まれますが、そうした部分の書きぶりが十分ではないと思っております。</seg>
+          <seg n="p3-part411-br" xml:id="min031-seg411">特に日本で風力発電や太陽光発電といった再生可能エネルギーがなかなか進まないのは、広域での送配電が十分ではないということがありまして、採算ベースや敷設に当たっての反対運動ということもありますが、送配電を国営化して公営で十分整備をする、あるいは、民間に委ねるとすれば、十分採算の合うような形の仕組みをつくっていかないと再生可能エネルギーは進んでいかないと思います。</seg>
+          <seg n="p3-part412-br" xml:id="min031-seg412">ぜひとも地域循環共生圏、我々自治体は頑張りますが、広域での基幹エネルギー、基幹発電についても進められるような十分な投資を、国を挙げてお願いしたいと思っております。</seg>
+          <seg n="p3-part413-br" xml:id="min031-seg413">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u113">
+          <seg n="p3-part414-br" xml:id="min031-seg414">髙橋市長、どうもありがとうございました。</seg>
+          <seg n="p3-part415-br" xml:id="min031-seg415">委員の皆様方のご協力で、ご発言ご希望の皆様全てにご発言いただくことができました。ありがとうございました。</seg>
+          <seg n="p3-part416-br" xml:id="min031-seg416">もちろん追加で、あるいは、補足でご発言、ご意見もあろうかと思いますけれども、そちらにつきましては、会議の後……</seg>
+          <seg n="p3-part417-br" xml:id="min031-seg417">今、政務官ご退席であります。ありがとうございます。</seg>
+        </u>
+        <incident type="other" n="p3-part418-br" xml:id="min031-event1">
+          <desc>朝日大臣政務官退席</desc>
+        </incident>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u114">
+          <seg n="p3-part419-br" xml:id="min031-seg418">もし追加でご意見がございましたら、事務局宛に、環境省宛にお願いをできればと思います。</seg>
+          <seg n="p3-part420-br" xml:id="min031-seg419">多くの本日意見をいただきましたので、環境省から今の時点でご回答ができるものがございましたら、ご回答いただければと思います。その上で、もしよろしければ、副大臣、あるいは環境省の次官等からご発言があればお願いしたいと思います。</seg>
+          <seg n="p3-part421-br" xml:id="min031-seg420">それでは、まず。</seg>
+        </u>
+        <u n="鑓水総合環境政策統括官" who="#鑓水" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u115">
+          <seg n="p3-part422-br" xml:id="min031-seg421">たくさんご意見、ご指摘をいただきまして本当にありがとうございます。</seg>
+          <seg n="p3-part423-br" xml:id="min031-seg422">たくさんのご意見をいただきましたので、この場で一つ一つご回答というわけにはなかなかまいりませんけれども、いずれにいたしましても、これから、この中間取りまとめから、それから計画本体のほうの策定プロセスにおきまして、今日いただいたご意見の中で理念にわたる部分は十分ご参考にさせていただきたいと思いますし、それから具体化の部分は、これからまさしく書き込んでいく部分でございますので、うまく反映できるように、これからしっかりブラッシュアップさせていただきたいというふうに思っております。</seg>
+          <seg n="p3-part424-br" xml:id="min031-seg423">いずれにいたしましても、今日いただいたご意見の多くの中でWell-beingについて、どうやって分かりやすくお伝えしていくか、指標化ということをどこまでできるかという話はもちろんあるわけでございますが、そういったことについては、まさしく今回、環境価値ということを重要視する中で、これまでの経済的価値だけではなくて、環境価値をどうやって入れ込んでいくか、それを指標化するとなると、一つは、多分いかに内部経済化していくかというプロセスが必要になってくる。そうなれば、ある程度、価値ができるということなんでしょうけれども、ただ、それだけでは、多分図りきれない部分は多く残ってくるんだと思います。それをどうやって分かりやすくお示ししていくかというのは、確かに大きな課題であろうというふうに思います。</seg>
+          <seg n="p3-part425-br" xml:id="min031-seg424">それから、何人かの方からご発言ありました、やっぱり危機感と、それからスピード感、ここにつきましても、我々、非常に危機感を持って今取り組んでいるところでございますが、まだまだ表現できていないところがあるかと思いますので、それらも含めて伝わるように、ぜひ総政部会でも部会長のご指導の下、さらに議論を深めてまいりたいというふうに思います。</seg>
+          <seg n="p3-part426-br" xml:id="min031-seg425">どうもありがとうございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u116">
+          <seg n="p3-part427-br" xml:id="min031-seg426">鑓水統括官、ありがとうございます。</seg>
+          <seg n="p3-part428-br" xml:id="min031-seg427">大倉課長も何かございますか。</seg>
+        </u>
+        <u n="大倉課長" who="#大倉" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u117">
+          <seg n="p3-part429-br" xml:id="min031-seg428">山神委員からちょっとご質問がありましたので、それだけ私から。</seg>
+          <seg n="p3-part430-br" xml:id="min031-seg429">自治体の役割、新しいのは何でしょうかという問いだったと思いますけれども、一言で言えば、地域循環共生圏という大きな柱は五次計画から変わらないと思っておりますけども、その中身については、中間まとめの本体の27ページのほうの5行目ぐらいにも書いていますけども、今回、今日、いろんな先生方から新しいキーワードとしてWell-beingとか「新たな成長」とか、そういう言葉をいただきましたけども、それをまさに地域の現場の場で実践をしていただくと、より高みを目指していただくというのが、今回、第五次環境基本計画から第六次環境基本計画の地域循環共生圏のちょっと違いといいますか、バージョンアップ部分かなと思ってございます。</seg>
+          <seg n="p3-part431-br" xml:id="min031-seg430">エリア・ベースド・アプローチという言葉も書いていますけども、まさに環境・経済・社会の統合的向上の次のステップみたいなものを地域循環共生圏で実現していただくと。当然、先ほど自治体だけじゃできないということもありましたので、国としても発信を一緒に考えていくということだと思いますが、そういったところが、今回新しいところかなと思ってございます。</seg>
+          <seg n="p3-part432-br" xml:id="min031-seg431">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u118">
+          <seg n="p3-part433-br" xml:id="min031-seg432">ありがとうございます。</seg>
+          <seg n="p3-part434-br" xml:id="min031-seg433">委員から他にご発言のご希望ございますでしょうか。</seg>
+          <seg n="p3-part435-br" xml:id="min031-seg434">もしよろしければ、八木副大臣、滝沢副大臣から、ご発言がございましたらお願いできればと思いますが。</seg>
+        </u>
+        <u n="八木副大臣" who="#八木哲也" ana="#区分_環境省 #役割_事務局" cert="medium" xml:id="min031-u119">
+          <seg n="p3-part436-br" xml:id="min031-seg435">はい。ありがとうございます。</seg>
+          <seg n="p3-part437-br" xml:id="min031-seg436">有意義な議論だったと思います。そういう中にあってWell-beingという概念が非常に浸透しておるといいますか、たくさんの皆さんからご意見をいただいて、正直言ってびっくりしたんですけれども、今、経済的な指標の中でGDPという言い方があるんですが、ここでも市場的な価値という形で掲載されておりますが、これだけでは満足いく経済活動には至っていかないのではないか。プラスGDW、Well-beingですね、この指標をきちんとしていかなければいけないのではないかという意見も一部あります。</seg>
+          <seg n="p3-part438-br" xml:id="min031-seg437">そういう中で、自民党として6年前からWell-being推進特命委員会というのがありまして、私もなるべく出るようにしておるんですけれども、昨年、Well-being学会というのができたようでありまして、そこでは、経済指標の四半期ごとのGDPと合わせて、その学会で独自にGDWの指標を出していく、それを並行しながら、どういうふうに分析していくかという、今、状況にあります。まだ緒に就いたばかり、という思いはしますけれども、いずれにしても、そういう今、世の中になってきておると思います。</seg>
+          <seg n="p3-part439-br" xml:id="min031-seg438">そういう中にあって、Well-beingという概念的な部分で議論があったような気がしますけれども、やはりこれをどのように、どういう物差しを当てはめていくのかということの一歩踏み込んだ議論が、これから必要になってくるような感じがいたしました。</seg>
+          <seg n="p3-part440-br" xml:id="min031-seg439">本当にこういうふうな世の中になっていくと思いますので、先を取ったまとめだと、こういうふうに思います。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u120">
+          <seg n="p3-part441-br" xml:id="min031-seg440">副大臣、どうもありがとうございました。</seg>
+          <seg n="p3-part442-br" xml:id="min031-seg441">滝沢副大臣、いかがでしょうか。</seg>
+        </u>
+        <u n="滝沢副大臣" who="#滝沢求" ana="#区分_環境省 #役割_事務局" cert="medium" xml:id="min031-u121">
+          <seg n="p3-part443-br" xml:id="min031-seg442">本日は活発なご議論をいただきまして本当にありがとうございます。</seg>
+          <seg n="p3-part444-br" xml:id="min031-seg443">私は環境行政の大きな礎が、いわゆる今日、こうして皆様方が審議会の委員の皆様方の専門的な知見の議論、まさにそれが、議論が大きな礎だと、私はそう考えております。</seg>
+          <seg n="p3-part445-br" xml:id="min031-seg444">先ほどいろいろ委員の方からも、複数の委員の方からスピード感の重要性ということも、極めてこれも重要でございますし、危機感を持ってこれから第六次基本計画の策定に当たっていきたいと改めて決意を新たにしたところでございます。</seg>
+          <seg n="p3-part446-br" xml:id="min031-seg445">以上であります。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u122">
+          <seg n="p3-part447-br" xml:id="min031-seg446">ありがとうございます。</seg>
+          <seg n="p3-part448-br" xml:id="min031-seg447">それでは、もしよろしければですけれども、和田次官、あるいは幹部職員の皆様から、もしご発言ご希望がありましたら、よろしくお願いします。</seg>
+          <seg n="p3-part449-br" xml:id="min031-seg448">では、次官、お願いいたします。</seg>
+        </u>
+        <u n="和田環境事務次官" who="#和田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u123">
+          <seg n="p3-part450-br" xml:id="min031-seg449">まず、今日の議論、非常にありがとうございました。</seg>
+          <seg n="p3-part451-br" xml:id="min031-seg450">毎年聞くたびに、何というのですか、身の引き締まる思いというのか、私が三十数年前に就職した頃とはもう全然違うなというふうに思っています。</seg>
+          <seg n="p3-part452-br" xml:id="min031-seg451">ちょっと感想なんですけども、この今回の環境基本計画で鑓水統括官をいわゆる司令官として中身をブラッシュアップして、審議会の先生方にさらに磨いていただいたというところまで来たわけですが、私なりに少し斜めから見ていて思った感想は、今回の基本計画は、いよいよ文明論にチャレンジするということかなというふうに思っていました。</seg>
+          <seg n="p3-part453-br" xml:id="min031-seg452">環境庁ができる前には、公害対策基本法に、経済との調和条項なんていう、今では信じがたいような条文があって、それを一発撃破して、その次のステージとしては、経済に規制をかけるという規制行政で必ずしも勢いには乗れなかったかもしれませんが、規制官庁として任務を担ってきたというので長きにわたっていたかと思います。</seg>
+          <seg n="p3-part454-br" xml:id="min031-seg453">その後、今に至るまでは、今では環境と経済の好循環と、こういうふうなところまで来ているわけなんですが、その次が何なのかというところを、今回、環境省のほうで、何というのですかね、新しい文明論を、次なる環境省は、いわゆる環境政策が提示する新たな未来像って何なのかと、50年後100年後ってどうあるべきなのかということにチャレンジしたということはあろうかなと思っています。</seg>
+          <seg n="p3-part455-br" xml:id="min031-seg454">ただ、今日お聞きして、インパクトがありましたのは、こちら、私自身がインパクトを受けたことが幾つかあって、一つは何といっても、鑓水統括官からもありましたけど、小西委員と有村委員からありましたスピード感ですね。これはやっぱり未来の文明論を提示するだけでは駄目で、地球の危機感は待ったなしというところを、もうちょっと未来図を提示するだけじゃなくて、そこに向けて緊迫感、あふれますと、それじゃないと地球が待ってくれないというようなところは、もう少し肝に銘じなきゃいけないかなと感じたところです。</seg>
+          <seg n="p3-part456-br" xml:id="min031-seg455">2点目は、私、今まで考えたことがあんまりなかったんですけれども、非常に鋭いなと今日思ったところがございましたのは、環境政策らしさというところに非常にちょっと深いところを覚えたところです。</seg>
+          <seg n="p3-part457-br" xml:id="min031-seg456">ややもすると、ネットゼロとかカーボンニュートラル、ややもするとエネルギー政策に取り込まれてしまうんじゃないかと、こういうような視点もあるんですが、よく考えてみると、自然資本という世界とか、それから、私は、資源循環のようなサーキュラーエコノミーもそうだと思っているんですが、環境政策らしさというのが、非常に柱が太いと思っているんですね。実は自然資本の話とか、サーキュラーエコノミー、資源循環というのは、実はネットゼロとかには本質的に効くような話じゃないのかというような哲学論にちゃんとあるんじゃないかということで、エネルギー政策だけでネットゼロをやっていくわけじゃないのでというところにも今日、非常に気づきを与えていただいたかなと思っています。</seg>
+          <seg n="p3-part458-br" xml:id="min031-seg457">最後の1点は、じゃあ地方自治体の役割とかというキーワードが今日非常に出てきたと思うんですけど、私自身はちょっとユニークなことを思っているのは、地方自治体としての真骨頂というか、地方自治体には敵わないというところがあるのは、国が敵わないというところがあるのは、やっぱりニーズを正確に把握されているところじゃないかなと、最近は、次の行政はニーズ・オリエンテッドじゃなきゃいけないと私自身思っているんですけども、ニーズの現場は地方自治体にありという感じというところを、私自身、今日改めて呼び起こして、地域循環共生圏というものを国が支援するんですけども、ニーズにマッチしていない地域循環共生圏はあり得ないと思っているので、そのニーズの一番きめ細かく尖った部分を把握できるフレームワークをお持ちなのは自治体、それを国が支援をしっかりしていくというところについては、改めて肝に銘じなきゃいけないかなというふうに思った次第です。</seg>
+          <seg n="p3-part459-br" xml:id="min031-seg458">ありがとうございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u124">
+          <seg n="p3-part460-br" xml:id="min031-seg459">ありがとうございます。</seg>
+          <seg n="p3-part461-br" xml:id="min031-seg460">今、八木副大臣、滝沢副大臣、そして、和田次官からお話をいただきました。委員の皆様方のやはり共通した指摘は、一つは、今もありましたスピード感、危機感というものをやはり明確に打ち出して、滝沢副大臣がおっしゃった環境行政のしっかりした礎となる基本計画をつくっていくということ、これは非常に重要な点であろうというふうに思っております。</seg>
+          <seg n="p3-part462-br" xml:id="min031-seg461">それから、もう一つはやはり多くの皆さん、八木副大臣はじめ、やっぱりWell-being、国民の幸せ、国民にとってやはりその生活の質を高める環境政策、それを支える環境基本計画と、これはやはり具体的に進めていくための、これ、何人かの委員からもご指摘がありました指標などの評価の仕方、あるいは、利害、トレードオフがある場合に、どう調整していくかといったような考え方、こうしたものも含めてやはり具体的にもう少し検討する必要があるということをご指摘いただいたかというふうに思っております。</seg>
+          <seg n="p3-part463-br" xml:id="min031-seg462">そのほかの意見も含めまして、総合政策部会で改めて、このいただいた意見を検討し、また委員の先生方のご意見をいただく機会を得たいというふうに思っております。</seg>
+          <seg n="p3-part464-br" xml:id="min031-seg463">もしよろしければ、この最初の議題について、以上とさせていただければと思いますけれどもよろしいでしょうか。</seg>
+          <seg n="p3-part465-br" xml:id="min031-seg464">失礼いたしました。大塚委員、ご発言ご希望でしょうか。</seg>
+        </u>
+        <u n="大塚委員" who="#大塚直" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u125">
+          <seg n="p3-part466-br" xml:id="min031-seg465">すみません、ちょっとだけお願いします。</seg>
+          <seg n="p3-part467-br" xml:id="min031-seg466">Well-beingに関してですけども、今回、第六次環境基本計画をつくる前のWell-beingに関連する検討会で座長をさせていただいていたところもあって、一言だけ申し上げておきたいと思います。先ほど勢一委員がおっしゃったことが重要だと思いますけども、環境政策としてのWell-beingの在り方はどうかという問題は大事な問題で、国全体としてWell-beingを目指していくことは非常に重要なのですが、環境基本計画の中でのWell-beingの位置づけというのはやっぱり環境政策との関係で考えていくところも結構大事だと思います。それは、結局、現在の世代のWell-beingだけじゃなくて、将来世代のWell-beingも考えなくちゃいけないというところも同時に入ってくると思いますので、今の世代で我々がどういうWell-beingを目指すかということをどんどん追求していくのは非常に重要だと思いますけれど、同時に、将来世代との衡平のことも考えてWell-beingを考えなくちゃいけないということもございますので、ぜひその辺も含めて環境基本計画で検討していければと思っております。すでに第6次計画中間答申案には含まれているところですが、念のため確認として申し上げます。恐れ入ります。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u126">
+          <seg n="p3-part468-br" xml:id="min031-seg467">ありがとうございます。</seg>
+          <seg n="p3-part469-br" xml:id="min031-seg468">たくさん宿題をいただいた形かというふうに思います。ありがとうございます。</seg>
+          <seg n="p3-part470-br" xml:id="min031-seg469">それでは、次の議事に移ってまいります。</seg>
+          <seg n="p3-part471-br" xml:id="min031-seg470">中央環境審議会の審議状況等について、2番目の議事でございます。</seg>
+          <seg n="p3-part472-br" xml:id="min031-seg471">審議会議事運営規則第六条第三項によりますと、会長の同意を得て、審議会の決議とした部会の決議については、会長は総会に報告をするものとされております。資料3、中央環境審議会の審議状況等についてご覧いただきますと、こちら、今年2月の総会以降、前回の総会以降、昨日までの中央環境審議会の審議状況を取りまとめております。</seg>
+          <seg n="p3-part473-br" xml:id="min031-seg472">具体的には、Ⅰとして本年2月の総会以降の答申などを時系列に整理をさせていただいております。</seg>
+          <seg n="p3-part474-br" xml:id="min031-seg473">また、Ⅱにおきましては、各部会の審議状況として、部会ごとの諮問、審議状況をまとめさせていただいております。</seg>
+          <seg n="p3-part475-br" xml:id="min031-seg474">今回、この資料をもちまして、この資料を配付することをもちまして、総会に対する報告とさせていただきたいと思います。そのような形でご了承いただければというふうに存じます。</seg>
+          <seg n="p3-part476-br" xml:id="min031-seg475">それでは、続いて次の議事でございます。</seg>
+          <seg n="p3-part477-br" xml:id="min031-seg476">先ほどの1番目の議事の中でも幾つか関係するご発言がございましたが、当面の諸課題についてでございます。環境行政、多くの取組を日々行っていただいておりますけれども、資料4④～⑪は資料配付のみというふうに今回は事務局から伺っております。</seg>
+          <seg n="p3-part478-br" xml:id="min031-seg477">したがいまして、①～③につきまして、環境省からご報告をお願いしたいと思います。</seg>
+          <seg n="p3-part479-br" xml:id="min031-seg478">それでは、最初に地球環境局長の秦局長、お願いいたします。</seg>
+        </u>
+        <u n="秦地球環境局長" who="#秦" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u127">
+          <seg n="p3-part480-br" xml:id="min031-seg479">はい。私からは、間もなく開催されます気候変動枠組条約のCOP28につきまして、ご説明を申し上げます。</seg>
+          <seg n="p3-part481-br" xml:id="min031-seg480">今回のテーマは、資料①の真ん中辺にありますグローバル・ストックテイクというものになります。これは、世界全体の気候変動対策の進捗評価を行うと、これを初めてやるわけであります。</seg>
+          <seg n="p3-part482-br" xml:id="min031-seg481">科学的な結果というのはもう既に出ておりまして、要は、各国の目標を全て足しても1.5℃の経路はもとより、2℃の経路にも遠く及ばないという状況になっております。このため、我が国としては、他の先進国と共同して、以下の三つを主張したいと考えております。</seg>
+          <seg n="p3-part483-br" xml:id="min031-seg482">まず1点目に、1.5℃目標に整合したNDCをお願いしたいということ。</seg>
+          <seg n="p3-part484-br" xml:id="min031-seg483">それから、2点目に、全ての温室効果ガスを対象にし、かつ、総量で目標を立ててほしいということです。多くの新興国・途上国は、CO2だけを目標にしていると。それだけじゃなくてメタンとかフロンとか、そういったものもきちっと加えて、全てのガスを対象にしてほしいということ。プラス、原単位の目標じゃなくて総量で目標を出してほしいと、これを主張したいと、これが2点目であります。</seg>
+          <seg n="p3-part485-br" xml:id="min031-seg484">それから、3点目に、2025年までにピークアウトするような目標を立ててほしいと。</seg>
+          <seg n="p3-part486-br" xml:id="min031-seg485">この3点をここでは主張してまいりたいと考えてございます。</seg>
+          <seg n="p3-part487-br" xml:id="min031-seg486">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u128">
+          <seg n="p3-part488-br" xml:id="min031-seg487">ありがとうございます。</seg>
+          <seg n="p3-part489-br" xml:id="min031-seg488">続きまして、水・大気環境局長の土居局長からお願いいたします。</seg>
+        </u>
+        <u n="土居水・大気環境局長" who="#土居" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u129">
+          <seg n="p3-part490-br" xml:id="min031-seg489">資料4②に基づきまして、プラスチック汚染に関する条約交渉に関しましてご報告いたします。</seg>
+          <seg n="p3-part491-br" xml:id="min031-seg490">一昨日までケニアにおきまして、INC3が開催されておりました。INC3におきましては、9月上旬に事務局から公表されました条文案の原案、ゼロドラフトと呼ばれておりますが、これを基に条約の具体的な規定ぶり、また、今後の作業の進め方に関しまして、精力的な議論が行われました。プラスチック汚染に対処するためには、ライフサイクル全体にわたっての対策が必要であるという認識は各国の間で共有されておりますけれども、条約の目的、各国の義務、また、実施するための支援など、多くの論点につきまして多様な意見が出されたという状況でございます。</seg>
+          <seg n="p3-part492-br" xml:id="min031-seg491">今回の議論の結果を基に、事務局が条約案の改訂版、これを整理いたしまして、それをベースといたしまして、来年4月、カナダで開催されますINC4でさらに交渉を行うということになっております。</seg>
+          <seg n="p3-part493-br" xml:id="min031-seg492">引き続き日本といたしましては、できるだけ多くの国が参加する実効的、また進歩的な取組を目指して交渉に貢献してまいりたいというふうに考えております。</seg>
+          <seg n="p3-part494-br" xml:id="min031-seg493">以上でございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u130">
+          <seg n="p3-part495-br" xml:id="min031-seg494">ありがとうございます。</seg>
+          <seg n="p3-part496-br" xml:id="min031-seg495">続きまして、環境再生・資源循環局次長の角倉次長、よろしくお願いします。</seg>
+        </u>
+        <u n="角倉環境再生・資源循環局次長" who="#角倉" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u131">
+          <seg n="p3-part497-br" xml:id="min031-seg496">はい。資料4③に基づきまして、新たな循環型社会形成推進基本計画の策定状況についてご報告、ご説明を申し上げます。</seg>
+          <seg n="p3-part498-br" xml:id="min031-seg497">資料の1ページ右下の番号のページ番号の1ページをご覧いただければと思います。現在の検討状況でございますけれども、まず、この循環基本計画は来年6月頃の閣議決定を予定しております。計画策定に向けてはですけれども、計画策定の前に、中央環境審議会がこの計画の具体的な指針について意見を述べる、このようにされております。</seg>
+          <seg n="p3-part499-br" xml:id="min031-seg498">このため、中央環境審議会の循環部会でのご審議を経て、10月17日に環境大臣に意見具申をいただいているところでございます。今後、この意見具申に基づきまして、計画本文の策定に向けた議論を中央環境審議会の循環部会で進めていただくと、こういうことで予定をしております。</seg>
+          <seg n="p3-part500-br" xml:id="min031-seg499">資料の2ページをご覧いただければと思います。</seg>
+          <seg n="p3-part501-br" xml:id="min031-seg500">10月に出していただいた意見具申としての指針の具体的内容でございますけれども、2ページの上のほうに書いてございますけれども、ポイントは上のほう、1ポツのところに書いてございます。循環経済への移行によりカーボンニュートラルやネイチャーポジティブを実現するとともに、経済安全保障や産業競争力強化に貢献し、地域課題解決等を達成して、持続可能な地域づくりや地方創生、これを行って、それによって循環型社会の形成を進めると、こういう考え方で指針として方向性を示していただいております。</seg>
+          <seg n="p3-part502-br" xml:id="min031-seg501">3ページをご覧いただければと思いますけれども、循環基本計画は、環境基本計画を基本として策定すると、このように法律上もされているところでございます。本日いただきましたご議論も十分に踏まえた上で、また、循環型社会部会の酒井部会長のご指導も仰ぎながら、さらに、この本文の策定に向けて議論を深めてまいりたいと考えております。</seg>
+          <seg n="p3-part503-br" xml:id="min031-seg502">以上でございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u132">
+          <seg n="p3-part504-br" xml:id="min031-seg503">ありがとうございます。</seg>
+          <seg n="p3-part505-br" xml:id="min031-seg504">それでは、ただいまいただきました三つの資料についてのご説明、それから④以下の配付資料、配付でご報告と代えさせていただきました資料について、ご意見がある委員がございましたら、会場の委員はネームプレートを立てて、ウェブ参加の委員は挙手の機能を使ってお知らせいただければと思います。</seg>
+          <seg n="p3-part506-br" xml:id="min031-seg505">時間に限りがございますので、簡潔なご発言、ご質問をお願いできればと思います。</seg>
+          <seg n="p3-part507-br" xml:id="min031-seg506">それでは、崎田委員、ご発言、お願いいたします。</seg>
+        </u>
+        <u n="崎田委員" who="#崎田裕子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u133">
+          <seg n="p3-part508-br" xml:id="min031-seg507">はい。ありがとうございます。</seg>
+          <seg n="p3-part509-br" xml:id="min031-seg508">当面の諸課題に関して、3点ほど質問させていただきたいので、できるだけ簡潔にお話をします。</seg>
+          <seg n="p3-part510-br" xml:id="min031-seg509">まず最初の循環型社会のところなのですけれども、プラスチックのことが詳細にありましたが、食品ロス削減に関しても、ぜひ、今、社会的な課題としては盛り上がっているというか、持続可能な地域づくりに向けてこれをきちんと取り組まないといけないという思いは大変強くなっておりますので、やはりそういう動きを環境政策が押してくださる、あるいは、国の政策で応援してくださるというのが大事だと思いますので、こういう会議などのときに状況などを出していただければ大変うれしい。</seg>
+          <seg n="p3-part511-br" xml:id="min031-seg510">ただし、私は、自治体の食品ロス削減のネットワーク「全国おいしい食べきり運動ネットワーク協議会」の会長を務めておりますが、10月の全国大会は環境省をはじめ、消費者庁や農林水産省など政府の応援でしっかりとやらせていただきました。現実的には消極的に取組んでいただいているというふうに感謝しておりますので、発信力の面でも、ぜひ、こういうときにも出していただきたいと思いました。</seg>
+          <seg n="p3-part512-br" xml:id="min031-seg511">2番目なのですけれども、東日本大震災の状況のご報告の資料があります。その中で、今の状況、いわゆる中間貯蔵施設がしっかりできてきて、これから再生利用とか、高線量の土壌の最終処分が大事という事が描かれています。今の状況はしっかり報告していただいているのですが、最近、浜通りに行きますと、もともと住んでおられた方が戻ってこられて頑張っていこうという方と、新しい移住された方と、本当にその両者が相まって、どうやってこれからまちづくりをしていくかというターニングポイントに来ているというふうに思います。</seg>
+          <seg n="p3-part513-br" xml:id="min031-seg512">ですから、環境省のこういう情報提供も、できれば、これまで12年間除染から仮置き、中間貯蔵施設用地を住民の方にご協力いただき、除去土壌の運搬、そして線量の分級に取組み、これから線量の低い土壌を長泥などでの活用を広げて、全国に広げたいという、何かその辺が分かりやすく伝わるように発信に努めていただければというふうに思います。</seg>
+          <seg n="p3-part514-br" xml:id="min031-seg513">また非常に熱心な地域再生プロジェクトも増えてきていますので、環境省の中で「FUKUSHIMA NEXT」とか、いろいろと応援する政策も取り組んでくださっていますので、そういう先進事例をぜひ発信して、多くの方が意欲を持って復興に取り組んでいるんだということを示していただければありがたいというふうに思います。</seg>
+          <seg n="p3-part515-br" xml:id="min031-seg514">3点目は質問なのですけれども、最後の資料で、脱炭素に向けて支援をする環境省の加わった金融プロジェクトが紹介されていました。こういうのは大変重要だと思いました。</seg>
+          <seg n="p3-part516-br" xml:id="min031-seg515">特に、私は今、東京23区の連携による「ゼロカーボンシティ特別区」に向けた脱炭素の取組みの協力をしているのですけれども、ちょうど特別区長会が10月16日に各区がそれぞれ取組むだけでなく、23区が連携して相乗効果を上げようという、そういう宣言をしたところです。例えば、東京23区の約45％のCO2が事業者、特に中小企業から出ており、その削減をしっかりと支援していただくというのは大事ですので、この資料の最終ページに支援している企業のいろいろな取組が書いてありますが、どのくらいの規模の企業なのでしょうか。いわゆる大企業、中小企業とかあると思いますが、ぜひ、地域密着型の中小企業支援などにもしっかりと取り組んでいただきたいというような意味で質問させていただきました。よろしくお願いします。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u134">
+          <seg n="p3-part517-br" xml:id="min031-seg516">ありがとうございます。</seg>
+          <seg n="p3-part518-br" xml:id="min031-seg517">それでは、お二人から、あと、発言希望がございます。</seg>
+          <seg n="p3-part519-br" xml:id="min031-seg518">会場の小西委員、それから、オンラインでご出席の武内委員、お願いしようと思います。大変恐縮ですけれども、簡潔なご発言をお願いできればと思います。</seg>
+          <seg n="p3-part520-br" xml:id="min031-seg519">では、小西委員、お願いいたします。</seg>
+        </u>
+        <u n="小西委員" who="#小西雅子" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u135">
+          <seg n="p3-part521-br" xml:id="min031-seg520">はい。ありがとうございます。</seg>
+          <seg n="p3-part522-br" xml:id="min031-seg521">間もなく始まるCOP28、まさに先ほど和田さんもおっしゃったように、スピード感とか非常に重要になるときに、今、日本は2035年目標、このNDCを次、もう間もなく検討、本当に今でも、もう開始する必要があると思います。その2035年目標、特に今おっしゃったように、環境省さんの自然資本、生物多様性と脱炭素化のシナジーって非常に重要になってきますので、リーダーシップを期待したいところなんですが、この2035年目標の検討会って、COP28を受けて立ち上がる予定はすぐにあるのでしょうか。</seg>
+          <seg n="p3-part523-br" xml:id="min031-seg522">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u136">
+          <seg n="p3-part524-br" xml:id="min031-seg523">ありがとうございます。</seg>
+          <seg n="p3-part525-br" xml:id="min031-seg524">それでは、自然環境部会長を務めていただいている武内委員、お願いいたします。</seg>
+        </u>
+        <u n="武内委員" who="#武内和彦" ana="#区分_委員 #役割_委員" cert="medium" xml:id="min031-u137">
+          <seg n="p3-part526-br" xml:id="min031-seg525">はい。今日、説明にはなかったんですが、生物多様性に係る動きということで、私のほうから報告をさせていただきたいんですが、昨年のCOP15以来、ネイチャーポジティブとか、30by30という言葉が広く社会に定着するようになって、大変いいことだと思っております。</seg>
+          <seg n="p3-part527-br" xml:id="min031-seg526">日本の中でも、最近、自然共生サイトの認定というふうなことが始まりまして、民間企業の方、自治体の方、大変熱心にこれに応募してくれているという状況で、非常にいい動きになったんだというふうに思っています。</seg>
+          <seg n="p3-part528-br" xml:id="min031-seg527">これまで気候変動の取組については、かなり民間も含めて、深い関心を持つ企業が多かったりしたんですけれども、それに対して、いわゆる生物多様性分野では、一部の企業は関心を持っているんだけれども、あまりそれが広がらなかったというふうな状況がございましたけれども、今回のこういう新しい動きで、私も経済界と一緒の新しい運動の取組に参画しておりますけれども、従来と違う形になってきているなと、フェーズが変わったなという気がしております。</seg>
+          <seg n="p3-part529-br" xml:id="min031-seg528">そういう意味で、気候変動とも関連づけながら、かつ、SDGsとも結びつけて、この生物多様性分野については、これまで以上に盛り上げていきたいなというふうに思っているところでございます。</seg>
+          <seg n="p3-part530-br" xml:id="min031-seg529">以上です。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u138">
+          <seg n="p3-part531-br" xml:id="min031-seg530">ありがとうございます。</seg>
+          <seg n="p3-part532-br" xml:id="min031-seg531">それでは、幾つかご質問もありましたので、もし環境省からお答えいただけるところがあれば、お答えいただければと思います。よろしくお願いします。</seg>
+        </u>
+        <u n="秦地球環境局長" who="#秦" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u139">
+          <seg n="p3-part533-br" xml:id="min031-seg532">はい。地球環境局、秦でございます。</seg>
+          <seg n="p3-part534-br" xml:id="min031-seg533">小西委員から、次のNDC、そろそろ検討を始めるのかということでございます。委員からもご指摘があったように、シナジー、大変大事なので、今まさに環境基本計画、それで循環基本計画、それから、今日、資料でのご紹介でしたけども、ネイチャーポジティブ経済戦略と、こういったものが順次進行してまいりますので、こういった動きと連動しながら、NDCの検討を始めていきたいと思っています。</seg>
+          <seg n="p3-part535-br" xml:id="min031-seg534">以上です。</seg>
+        </u>
+        <u n="角倉環境再生・資源循環局次長" who="#角倉" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u140">
+          <seg n="p3-part536-br" xml:id="min031-seg535">先ほど崎田先生からお話がありました食品ロスについてでございますけれども、先ほどの資料の中にも、食品ロスの削減のところ、指針の中に書かせていただいているところでございまして、食品ロスの削減、大変重要な課題ですので、循環基本計画の中でもしっかり位置づけた上で、取組が前に進むよう、環境省、それから、関係省庁とも連携をしながらしっかりこの政策の重要性、発信をし取組を前に進めていきたいと考えておりますので、引き続きご意見いただければと思います。どうかよろしくお願いいたします。</seg>
+        </u>
+        <u n="前佛環境再生・資源循環局長" who="#前佛" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u141">
+          <seg n="p3-part537-br" xml:id="min031-seg536">環境再生・資源循環局長の前佛でございます。</seg>
+          <seg n="p3-part538-br" xml:id="min031-seg537">先ほど崎田委員から東日本大震災の関係についてご意見ございました。ありがとうございます。今日は説明ございませんでしたが、資料4⑥として、今の取組についてご紹介をさせていただいております。ご指摘のとおり、やはり様々な方々に知っていただくというのは大変重要な問題でございまして、また一方で、大変課題があるところでございます。県内の方も県外の方も、この分野、ご関心をなかなか持っていただけないところもございます。私ども、理解醸成ということで、様々な取組を展開させていただいており、まだまだ不十分というふうに思っており、しっかり取り組んでいきたいと思いますので、よろしくお願いいたします。</seg>
+          <seg n="p3-part539-br" xml:id="min031-seg538">以上です。</seg>
+        </u>
+        <u n="植田地域脱炭素推進審議官" who="#植田" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u142">
+          <seg n="p3-part540-br" xml:id="min031-seg539">地域脱炭素の審議官、植田でございます。</seg>
+          <seg n="p3-part541-br" xml:id="min031-seg540">崎田委員からご指摘をいただきましたJICN、株式会社脱炭素化支援機構についてでございます。これは、まさに地域の脱炭素を金融の面から支援をするという官民ファンドで、ちょうど設立１年になります。まだ緒に就いたばかりでありますけれども、委員ご指摘のように大企業だけではなくて、まさにスタートアップするような中小企業というのも案件に入ってきておりますので、地域脱炭素を一緒になって伴走していけるような案件をこれからも形成をしていきたいと思います。ありがとうございます。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u143">
+          <seg n="p3-part542-br" xml:id="min031-seg541">環境省からよろしいでしょうか。</seg>
+        </u>
+        <incident type="other" n="p3-part543-br" xml:id="min031-event2">
+          <desc>なし</desc>
+        </incident>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u144">
+          <seg n="p3-part544-br" xml:id="min031-seg542">ありがとうございます。</seg>
+          <seg n="p3-part545-br" xml:id="min031-seg543">それでは、申し訳ありません、予定の時間を少し過ぎております。本日も大変闊達なご議論をいただきましたけれども、本日の議題につきましては、これで審議を終了としたいと思います。</seg>
+          <seg n="p3-part546-br" xml:id="min031-seg544">冒頭の第六次環境基本計画をはじめ、後半にも様々な環境政策についてのご議論をいただきました。環境省におかれましては、本日、委員からいただいたご意見を参考に、今後の環境政策をよりよく発展させていただきたいというふうに思っております。</seg>
+          <seg n="p3-part547-br" xml:id="min031-seg545">最後に、環境省から何かご発言ございますでしょうか。よろしいですか。</seg>
+          <seg n="p3-part548-br" xml:id="min031-seg546">副大臣からよろしいですか。</seg>
+          <seg n="p3-part549-br" xml:id="min031-seg547">では滝沢副大臣から最後のご挨拶をお願いしてもよろしいでしょうか。よろしくお願いします。</seg>
+        </u>
+        <u n="滝沢副大臣" who="#滝沢求" ana="#区分_環境省 #役割_事務局" cert="medium" xml:id="min031-u145">
+          <seg n="p3-part550-br" xml:id="min031-seg548">はい、分かりました。</seg>
+          <seg n="p3-part551-br" xml:id="min031-seg549">皆様方、本当に長時間にわたる活発なご議論、誠にありがとうございます。</seg>
+          <seg n="p3-part552-br" xml:id="min031-seg550">今回のいただいたこのご議論、しっかり踏まえまして、第六次環境基本計画策定作業をしっかりと進めてまいりたいと考えております。そしてまた、来年の春をめどに取りまとめ、環境政策のグランドデザインを提示していきたいと考えておりますのでよろしくお願いします。</seg>
+          <seg n="p3-part553-br" xml:id="min031-seg551">委員の皆様方におかれては、引き続き、ご指導、ご鞭撻のほど、心からお願いし、閉会の言葉とさせていただきます。ありがとうございました。</seg>
+        </u>
+        <u n="高村（ゆ）会長" who="#高村ゆかり" ana="#区分_委員 #役割_会長" cert="medium" xml:id="min031-u146">
+          <seg n="p3-part554-br" xml:id="min031-seg552">ありがとうございました。</seg>
+          <seg n="p3-part555-br" xml:id="min031-seg553">今、滝沢副大臣、ご挨拶をいただきましてありがとうございます。</seg>
+          <seg n="p3-part556-br" xml:id="min031-seg554">本日は八木副大臣、滝沢副大臣にはもう最初から最後までご陪席、ご出席をいただきまして、本当にありがとうございます。</seg>
+          <seg n="p3-part557-br" xml:id="min031-seg555">もちろん委員の皆様におかれましても、本当に重要なご議論をいただいたと思っております。とりわけ、第六次の環境基本計画についてですけれども、もし何かご意見がございましたら、ぜひ事務局までご意見をお願いしたいと思います。</seg>
+          <seg n="p3-part558-br" xml:id="min031-seg556">それでは、事務的なご案内があると思いますので、事務局にマイクをお返ししたいと思います。よろしくお願いします。</seg>
+        </u>
+        <u n="福島総務課長" who="#福島" ana="#区分_環境省 #役割_事務局" cert="low" xml:id="min031-u147">
+          <seg n="p3-part559-br" xml:id="min031-seg557">本日の議事録につきましては、本日、ご出席の委員の皆様にお送りして、ご確認をいただいた後にホームページで公開させていただきますのでよろしくお願いいたします。</seg>
+          <seg n="p3-part560-p" xml:id="min031-seg558">以上をもちまして終了いたします。ありがとうございました。</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

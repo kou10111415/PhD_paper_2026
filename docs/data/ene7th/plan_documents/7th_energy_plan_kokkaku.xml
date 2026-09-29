@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>次期エネルギー基本計画の骨格（案）</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from 7th_energy_plan_kokkaku.html.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="level0">
+        <head>次期エネルギー基本計画の骨格（案）</head>
+      </div>
+      <div type="level0">
+        <head>目次</head>
+        <div type="level1">
+          <p>
+            <ref target="#div0001">Ⅰ．東京電力福島第一原子力発電所事故後の歩み</ref>
+          </p>
+          <div type="level2">
+            <p>
+              <ref target="#div0002">１．総論</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0003">２. 福島復興への取組状況</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0004">３．今後の福島復興への取組</ref>
+            </p>
+          </div>
+        </div>
+        <div type="level1">
+          <p>
+            <ref target="#div0005">Ⅱ．第６次エネルギー基本計画以降の状況変化</ref>
+          </p>
+          <div type="level2">
+            <p>
+              <ref target="#div0006">１．総論</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0007">２．ロシアによるウクライナ侵略等による経済安全保障上の要請の高まり</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0008">３．気候変動の野心維持と現実的かつ多様な対応</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0009">４．エネルギー政策と産業政策の一体化</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0010">５．ＤＸやＧＸなどの進展に伴う電力需要増加の可能性</ref>
+            </p>
+          </div>
+        </div>
+        <div type="level1">
+          <p>
+            <ref target="#div0011">Ⅲ．エネルギー政策の基本的視点（Ｓ＋３Ｅ）</ref>
+          </p>
+          <div type="level2">
+            <p>
+              <ref target="#div0012">１．総論</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0013">２. 安全性</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0014">３．安定供給</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0015">４．経済効率性</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0016">５．環境適合性</ref>
+            </p>
+          </div>
+        </div>
+        <div type="level1">
+          <p>
+            <ref target="#div0017">Ⅳ．2040 年に向けた政策の方向性</ref>
+          </p>
+          <div type="level2">
+            <p>
+              <ref target="#div0018">１．総論</ref>
+            </p>
+            <div type="level3">
+              <p>
+                <ref target="#div0019">（１）2040 年に向けたエネルギー政策の基本的考え方</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0020">（２）GX2040 ビジョンとの関係</ref>
+              </p>
+            </div>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0021">２．需要側の省エネ・非化石転換</ref>
+            </p>
+            <div type="level3">
+              <p>
+                <ref target="#div0022">（１）総論</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0023">（２）省エネ</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0024">（３）非化石転換</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0025">（４）産業・業務・家庭・運輸部門に求められる取組</ref>
+              </p>
+              <div type="level4">
+                <p>
+                  <ref target="#div0026">①産業</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0027">②業務</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0028">③家庭</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0029">④運輸</ref>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0030">３．脱炭素電源の拡大と系統整備</ref>
+            </p>
+            <div type="level3">
+              <p>
+                <ref target="#div0031">（１） 総論（エネルギー事業環境整備）</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0032">（２） 再生可能エネルギー</ref>
+              </p>
+              <div type="level4">
+                <p>
+                  <ref target="#div0033">①総論</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0034">②太陽光</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0035">③風力</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0036">④地熱</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0037">⑤水力</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0038">⑥バイオマス</ref>
+                </p>
+              </div>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0039">（３）原子力発電</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0040">（４）火力発電とその脱炭素化</ref>
+              </p>
+              <div type="level4">
+                <p>
+                  <ref target="#div0041">①総論</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0042">②ガス火力</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0043">③石炭火力</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0044">④石油等火力</ref>
+                </p>
+              </div>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0045">（５）次世代電力ネットワークの構築</ref>
+              </p>
+              <div type="level4">
+                <p>
+                  <ref target="#div0046">① 総論</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0047">② 系統</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0048">③ 蓄電池</ref>
+                </p>
+              </div>
+              <div type="level4">
+                <p>
+                  <ref target="#div0049">④ 揚水等</ref>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0050">４．次世代エネルギーの確保/供給体制</ref>
+            </p>
+            <div type="level3">
+              <p>
+                <ref target="#div0051">（１）総論</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0052">（２）水素</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0053">（３）アンモニア</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0054">（４）合成メタン等</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0055">（５）バイオ燃料、合成燃料等</ref>
+              </p>
+            </div>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0056">５．化石資源の確保/供給体制</ref>
+            </p>
+            <div type="level3">
+              <p>
+                <ref target="#div0057">（１）総論</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0058">（２）天然ガス</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0059">（３）石油（備蓄/SS 等を含む）</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0060">（４）LＰガス</ref>
+              </p>
+            </div>
+            <div type="level3">
+              <p>
+                <ref target="#div0061">（５）石炭</ref>
+              </p>
+            </div>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0062">６．ＣＣＵＳ</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0063">７．重要鉱物の確保</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0064">８．エネルギーシステム改革</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0065">９．国際協力と国際協調</ref>
+            </p>
+          </div>
+        </div>
+        <div type="level1">
+          <p>
+            <ref target="#div0066">Ⅴ．2050 年ネットゼロに向けたイノベーション</ref>
+          </p>
+          <div type="level2">
+            <p>
+              <ref target="#div0067">１．総論</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0068">２．各論</ref>
+            </p>
+          </div>
+        </div>
+        <div type="level1">
+          <p>
+            <ref target="#div0069">Ⅵ．国民各層とのコミュニケーション</ref>
+          </p>
+          <div type="level2">
+            <p>
+              <ref target="#div0070">１．総論</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0071">２. エネルギーに関する国民各層の理解促進</ref>
+            </p>
+          </div>
+          <div type="level2">
+            <p>
+              <ref target="#div0072">３．政策立案プロセスの透明化と双方向的なコミュニケーション</ref>
+            </p>
+          </div>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div type="level1" xml:id="div0001" n="toc-target-1">
+        <head xml:id="head0001">Ⅰ．東京電力福島第一原子力発電所事故後の歩み</head>
+        <div type="level2" xml:id="div0002" n="toc-target-2">
+          <head xml:id="head0002">１．総論</head>
+        </div>
+        <div type="level2" xml:id="div0003" n="toc-target-3">
+          <head xml:id="head0003">２. 福島復興への取組状況</head>
+        </div>
+        <div type="level2" xml:id="div0004" n="toc-target-4">
+          <head xml:id="head0004">３．今後の福島復興への取組</head>
+        </div>
+      </div>
+      <div type="level1" xml:id="div0005" n="toc-target-5">
+        <head xml:id="head0005">Ⅱ．第６次エネルギー基本計画以降の状況変化</head>
+        <div type="level2" xml:id="div0006" n="toc-target-6">
+          <head xml:id="head0006">１．総論</head>
+        </div>
+        <div type="level2" xml:id="div0007" n="toc-target-7">
+          <head xml:id="head0007">２．ロシアによるウクライナ侵略等による経済安全保障上の要請の高まり</head>
+        </div>
+        <div type="level2" xml:id="div0008" n="toc-target-8">
+          <head xml:id="head0008">３．気候変動の野心維持と現実的かつ多様な対応</head>
+        </div>
+        <div type="level2" xml:id="div0009" n="toc-target-9">
+          <head xml:id="head0009">４．エネルギー政策と産業政策の一体化</head>
+        </div>
+        <div type="level2" xml:id="div0010" n="toc-target-10">
+          <head xml:id="head0010">５．ＤＸやＧＸなどの進展に伴う電力需要増加の可能性</head>
+        </div>
+      </div>
+      <div type="level1" xml:id="div0011" n="toc-target-11">
+        <head xml:id="head0011">Ⅲ．エネルギー政策の基本的視点（Ｓ＋３Ｅ）</head>
+        <div type="level2" xml:id="div0012" n="toc-target-12">
+          <head xml:id="head0012">１．総論</head>
+        </div>
+        <div type="level2" xml:id="div0013" n="toc-target-13">
+          <head xml:id="head0013">２. 安全性</head>
+        </div>
+        <div type="level2" xml:id="div0014" n="toc-target-14">
+          <head xml:id="head0014">３．安定供給</head>
+        </div>
+        <div type="level2" xml:id="div0015" n="toc-target-15">
+          <head xml:id="head0015">４．経済効率性</head>
+        </div>
+        <div type="level2" xml:id="div0016" n="toc-target-16">
+          <head xml:id="head0016">５．環境適合性</head>
+        </div>
+      </div>
+      <div type="level1" xml:id="div0017" n="toc-target-17">
+        <head xml:id="head0017">Ⅳ．2040 年に向けた政策の方向性</head>
+        <div type="level2" xml:id="div0018" n="toc-target-18">
+          <head xml:id="head0018">１．総論</head>
+          <div type="level3" xml:id="div0019" n="toc-target-19">
+            <head xml:id="head0019">（１）2040 年に向けたエネルギー政策の基本的考え方</head>
+          </div>
+          <div type="level3" xml:id="div0020" n="toc-target-20">
+            <head xml:id="head0020">（２）GX2040 ビジョンとの関係</head>
+          </div>
+        </div>
+        <div type="level2" xml:id="div0021" n="toc-target-21">
+          <head xml:id="head0021">２．需要側の省エネ・非化石転換</head>
+          <div type="level3" xml:id="div0022" n="toc-target-22">
+            <head xml:id="head0022">（１）総論</head>
+          </div>
+          <div type="level3" xml:id="div0023" n="toc-target-23">
+            <head xml:id="head0023">（２）省エネ</head>
+          </div>
+          <div type="level3" xml:id="div0024" n="toc-target-24">
+            <head xml:id="head0024">（３）非化石転換</head>
+          </div>
+          <div type="level3" xml:id="div0025" n="toc-target-25">
+            <head xml:id="head0025">（４）産業・業務・家庭・運輸部門に求められる取組</head>
+            <div type="level4" xml:id="div0026" n="toc-target-26">
+              <head xml:id="head0026">①産業</head>
+            </div>
+            <div type="level4" xml:id="div0027" n="toc-target-27">
+              <head xml:id="head0027">②業務</head>
+            </div>
+            <div type="level4" xml:id="div0028" n="toc-target-28">
+              <head xml:id="head0028">③家庭</head>
+            </div>
+            <div type="level4" xml:id="div0029" n="toc-target-29">
+              <head xml:id="head0029">④運輸</head>
+            </div>
+          </div>
+        </div>
+        <div type="level2" xml:id="div0030" n="toc-target-30">
+          <head xml:id="head0030">３．脱炭素電源の拡大と系統整備</head>
+          <div type="level3" xml:id="div0031" n="toc-target-31">
+            <head xml:id="head0031">（１） 総論（エネルギー事業環境整備）</head>
+          </div>
+          <div type="level3" xml:id="div0032" n="toc-target-32">
+            <head xml:id="head0032">（２） 再生可能エネルギー</head>
+            <div type="level4" xml:id="div0033" n="toc-target-33">
+              <head xml:id="head0033">①総論</head>
+            </div>
+            <div type="level4" xml:id="div0034" n="toc-target-34">
+              <head xml:id="head0034">②太陽光</head>
+            </div>
+            <div type="level4" xml:id="div0035" n="toc-target-35">
+              <head xml:id="head0035">③風力</head>
+            </div>
+            <div type="level4" xml:id="div0036" n="toc-target-36">
+              <head xml:id="head0036">④地熱</head>
+            </div>
+            <div type="level4" xml:id="div0037" n="toc-target-37">
+              <head xml:id="head0037">⑤水力</head>
+            </div>
+            <div type="level4" xml:id="div0038" n="toc-target-38">
+              <head xml:id="head0038">⑥バイオマス</head>
+            </div>
+          </div>
+          <div type="level3" xml:id="div0039" n="toc-target-39">
+            <head xml:id="head0039">（３）原子力発電</head>
+          </div>
+          <div type="level3" xml:id="div0040" n="toc-target-40">
+            <head xml:id="head0040">（４）火力発電とその脱炭素化</head>
+            <div type="level4" xml:id="div0041" n="toc-target-41">
+              <head xml:id="head0041">①総論</head>
+            </div>
+            <div type="level4" xml:id="div0042" n="toc-target-42">
+              <head xml:id="head0042">②ガス火力</head>
+            </div>
+            <div type="level4" xml:id="div0043" n="toc-target-43">
+              <head xml:id="head0043">③石炭火力</head>
+            </div>
+            <div type="level4" xml:id="div0044" n="toc-target-44">
+              <head xml:id="head0044">④石油等火力</head>
+            </div>
+          </div>
+          <div type="level3" xml:id="div0045" n="toc-target-45">
+            <head xml:id="head0045">（５）次世代電力ネットワークの構築</head>
+            <div type="level4" xml:id="div0046" n="toc-target-46">
+              <head xml:id="head0046">① 総論</head>
+            </div>
+            <div type="level4" xml:id="div0047" n="toc-target-47">
+              <head xml:id="head0047">② 系統</head>
+            </div>
+            <div type="level4" xml:id="div0048" n="toc-target-48">
+              <head xml:id="head0048">③ 蓄電池</head>
+            </div>
+            <div type="level4" xml:id="div0049" n="toc-target-49">
+              <head xml:id="head0049">④ 揚水等</head>
+            </div>
+          </div>
+        </div>
+        <div type="level2" xml:id="div0050" n="toc-target-50">
+          <head xml:id="head0050">４．次世代エネルギーの確保/供給体制</head>
+          <div type="level3" xml:id="div0051" n="toc-target-51">
+            <head xml:id="head0051">（１）総論</head>
+          </div>
+          <div type="level3" xml:id="div0052" n="toc-target-52">
+            <head xml:id="head0052">（２）水素</head>
+          </div>
+          <div type="level3" xml:id="div0053" n="toc-target-53">
+            <head xml:id="head0053">（３）アンモニア</head>
+          </div>
+          <div type="level3" xml:id="div0054" n="toc-target-54">
+            <head xml:id="head0054">（４）合成メタン等</head>
+          </div>
+          <div type="level3" xml:id="div0055" n="toc-target-55">
+            <head xml:id="head0055">（５）バイオ燃料、合成燃料等</head>
+          </div>
+        </div>
+        <div type="level2" xml:id="div0056" n="toc-target-56">
+          <head xml:id="head0056">５．化石資源の確保/供給体制</head>
+          <div type="level3" xml:id="div0057" n="toc-target-57">
+            <head xml:id="head0057">（１）総論</head>
+          </div>
+          <div type="level3" xml:id="div0058" n="toc-target-58">
+            <head xml:id="head0058">（２）天然ガス</head>
+          </div>
+          <div type="level3" xml:id="div0059" n="toc-target-59">
+            <head xml:id="head0059">（３）石油（備蓄/SS 等を含む）</head>
+          </div>
+          <div type="level3" xml:id="div0060" n="toc-target-60">
+            <head xml:id="head0060">（４）LＰガス</head>
+          </div>
+          <div type="level3" xml:id="div0061" n="toc-target-61">
+            <head xml:id="head0061">（５）石炭</head>
+          </div>
+        </div>
+        <div type="level2" xml:id="div0062" n="toc-target-62">
+          <head xml:id="head0062">６．ＣＣＵＳ</head>
+        </div>
+        <div type="level2" xml:id="div0063" n="toc-target-63">
+          <head xml:id="head0063">７．重要鉱物の確保</head>
+        </div>
+        <div type="level2" xml:id="div0064" n="toc-target-64">
+          <head xml:id="head0064">８．エネルギーシステム改革</head>
+        </div>
+        <div type="level2" xml:id="div0065" n="toc-target-65">
+          <head xml:id="head0065">９．国際協力と国際協調</head>
+        </div>
+      </div>
+      <div type="level1" xml:id="div0066" n="toc-target-66">
+        <head xml:id="head0066">Ⅴ．2050 年ネットゼロに向けたイノベーション</head>
+        <div type="level2" xml:id="div0067" n="toc-target-67">
+          <head xml:id="head0067">１．総論</head>
+        </div>
+        <div type="level2" xml:id="div0068" n="toc-target-68">
+          <head xml:id="head0068">２．各論</head>
+        </div>
+      </div>
+      <div type="level1" xml:id="div0069" n="toc-target-69">
+        <head xml:id="head0069">Ⅵ．国民各層とのコミュニケーション</head>
+        <div type="level2" xml:id="div0070" n="toc-target-70">
+          <head xml:id="head0070">１．総論</head>
+        </div>
+        <div type="level2" xml:id="div0071" n="toc-target-71">
+          <head xml:id="head0071">２. エネルギーに関する国民各層の理解促進</head>
+        </div>
+        <div type="level2" xml:id="div0072" n="toc-target-72">
+          <head xml:id="head0072">３．政策立案プロセスの透明化と双方向的なコミュニケーション</head>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

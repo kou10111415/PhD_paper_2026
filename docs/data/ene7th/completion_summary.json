@@ -1,0 +1,69 @@
+{
+  "status": "complete",
+  "plan": "第7次エネルギー基本計画",
+  "rows": 5094,
+  "unique_request_ids": 5094,
+  "clustering": {
+    "embedding_dimensions": 3072,
+    "umap_cluster_dimensions": 5,
+    "umap_visualization_dimensions": 2,
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "random_state": 42,
+    "lower_clusters": 289,
+    "upper_clusters": 17
+  },
+  "validation": {
+    "duplicate_request_ids": 0,
+    "unlabeled_lower_clusters": 0,
+    "unlabeled_upper_clusters": 0
+  },
+  "counts": {
+    "source": {
+      "パブコメ": 1233,
+      "分科会": 1248,
+      "意見箱": 2613
+    },
+    "policy_stage": {
+      "": 1233,
+      "原案の修正段階": 63,
+      "原案の検討段階": 115,
+      "原案作成前の意見収集段階": 2399,
+      "原案作成前の意見聴取段階": 380,
+      "原案作成前の論点検討段階": 614,
+      "原案修正後の意見収集段階": 73,
+      "原案公表後の意見収集段階": 141,
+      "計画原案の形成及び意見聴取段階": 76
+    },
+    "consideration_target": {
+      "": 2613,
+      "なし": 994,
+      "次期エネルギー基本計画の骨格（案）": 76,
+      "第7次エネルギー基本計画原案": 115,
+      "第7次エネルギー基本計画原案の修正版": 63,
+      "第7次エネルギー基本計画案": 1233
+    },
+    "utterance_type": {
+      "": 3846,
+      "会議中の発言": 1148,
+      "委員の追加意見": 100
+    },
+    "request_type": {
+      "explicit_request": 4565,
+      "implicit_request": 529
+    },
+    "request_category": {
+      "agenda": 305,
+      "consideration": 273,
+      "content": 3459,
+      "framing": 402,
+      "justification": 286,
+      "procedure": 369
+    },
+    "judge_decision": {
+      "accepted": 1052,
+      "recovered_request": 896,
+      "revised": 3146
+    }
+  }
+}

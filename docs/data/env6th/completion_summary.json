@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "plan": "第六次環境基本計画",
+  "rows": 2298,
+  "unique_request_ids": 2298,
+  "clustering": {
+    "embedding_dimensions": 3072,
+    "umap_cluster_dimensions": 5,
+    "umap_visualization_dimensions": 2,
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "random_state": 42,
+    "lower_clusters": 169,
+    "upper_clusters": 13
+  },
+  "validation": {
+    "duplicate_request_ids": 0,
+    "unlabeled_lower_clusters": 0,
+    "unlabeled_upper_clusters": 0
+  },
+  "counts": {
+    "source": {
+      "パブコメ": 933,
+      "団体ヒヤリング": 162,
+      "総会": 55,
+      "部会": 1148
+    },
+    "policy_stage": {
+      "": 1150,
+      "中間取りまとめの確定段階": 131,
+      "中間取りまとめ案の検討段階": 179,
+      "答申案の最終検討段階": 87,
+      "策定に向けた論点整理及び意見聴取段階": 178,
+      "策定に向けた論点整理段階": 132,
+      "素案の検討段階": 140,
+      "計画案の検討段階": 145,
+      "計画素案の形成段階": 156
+    },
+    "consideration_target": {
+      "第五次環境基本計画の見直しに向けた論点": 310,
+      "第六次環境基本計画に向けた中間取りまとめ": 476,
+      "第六次環境基本計画に向けた中間取りまとめ及び第六次環境基本計画の構成（事務局素案）": 156,
+      "第六次環境基本計画に向けた中間取りまとめ（修正案）": 131,
+      "第六次環境基本計画に向けた中間取りまとめ（案）": 179,
+      "第六次環境基本計画案": 819,
+      "第六次環境基本計画答申案": 87,
+      "第六次環境基本計画素案": 140
+    },
+    "utterance_type": {
+      "": 1150,
+      "会議中の発言": 896,
+      "委員の事前意見": 252
+    },
+    "request_type": {
+      "explicit_request": 2035,
+      "implicit_request": 263
+    },
+    "request_category": {
+      "agenda": 156,
+      "consideration": 66,
+      "content": 1674,
+      "framing": 278,
+      "justification": 65,
+      "procedure": 59
+    },
+    "judge_decision": {
+      "accepted": 695,
+      "recovered_request": 312,
+      "revised": 1291
+    }
+  }
+}
