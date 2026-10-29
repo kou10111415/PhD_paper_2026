@@ -20,6 +20,7 @@ import xml.etree.ElementTree as ET
 
 XID = '{http://www.w3.org/XML/1998/namespace}id'
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
+ASSET_VERSIONS = {}
 DISPLAY_JUDGMENTS = {
     'corresponding': '対応あり', 'present_correspondence': '対応あり',
     'partially_corresponding': '一部対応', 'partial_present_correspondence': '一部対応',
@@ -69,8 +70,15 @@ def text_of(node, plan=False):
     return re.sub(r'[ \t]+', ' ', ''.join(parts)).strip()
 
 
+def version_assets(document):
+    """Change resource URLs with their contents, avoiding stale browser/CDN caches."""
+    return re.sub(r'((?:src|href)="[^"]*/assets/([^"?]+))(?:\?v=[^"]*)?(\")',
+        lambda m: m[1] + '?v=' + ASSET_VERSIONS[m[2]] + m[3]
+        if m[2] in ASSET_VERSIONS else m[0], document)
+
+
 def page(title, body, script='', stylesheet='../../assets/reader.css'):
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><link rel="stylesheet" href="{stylesheet}"></head><body>{body}{script}</body></html>'''
+    return version_assets(f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><link rel="stylesheet" href="{stylesheet}"></head><body>{body}{script}</body></html>''')
 
 
 class Readers:
@@ -110,7 +118,8 @@ class Readers:
         raw_url = '../../' + str(source.relative_to(self.docs))
         body = f'<header class="reader-header"><a href="../../">サイトトップ</a><h1>{html.escape(title)}</h1><p><a href="{html.escape(raw_url)}" download>元のTEI XML</a> <button id="copy-link">この箇所のリンクをコピー</button></p><p id="reader-status" role="status"></p><nav id="target-nav"></nav></header><main class="reading">{"".join(contents)}</main>'
         target.write_text(page(title, body, '<script src="../../assets/reader.js"></script>'), encoding='utf-8')
-        self.documents[key] = {'title': title, 'blocks': lookup, 'url': f'../../readers/{self.plan}/{key}.html'}
+        self.documents[key] = {'title': title, 'blocks': lookup,
+            'url': f'../../readers/{self.plan}/{key}.html?v={sha(target)[:12]}'}
         if not is_plan:
             for b in blocks:
                 if b['kind'] == 'u':
@@ -326,6 +335,7 @@ def build_site(analysis, repo):
     assets.mkdir(exist_ok=True)
     for src in (repo / 'scripts/web').iterdir():
         shutil.copy2(src, assets / src.name)
+    ASSET_VERSIONS.update({src.name: sha(src)[:12] for src in assets.iterdir() if src.is_file()})
     for plan, title in [('env6th', '第六次環境基本計画'), ('ene7th', '第7次エネルギー基本計画')]:
         readers = build_readers(analysis, docs, plan, manifest)
         rows, metadata, missing = prepare_rows(analysis, plan, manifest)
@@ -349,7 +359,7 @@ def build_site(analysis, repo):
             'opinion_heading_reference','label','reply','administrative_reply_reference','_publication_source'}
         display = [{k:v for k,v in r.items() if k in fields} for r in rows]
         viewer_dir = docs / 'viewers' / plan
-        body = f'<header><a href="../../">← トップ</a><h1>{title}：改訂対応判定</h1><p>本文ボタンから前後の文脈を確認できます。</p></header><main id="viewer-main"><div class="controls"><label>検索<input id="search" placeholder="要求ID・要約・原文・本文ID"></label><label>判定方法<select id="mode"></select></label><label>版間<select id="stage"></select></label><label>資料<select id="source"></select></label><label>表示判定<select id="judgment"></select></label><label>LLM判定<select id="llm"></select></label><label>人手探索<select id="manual"></select></label></div><p id="summary" role="status"></p><p class="legend">黄色枠：本文の対象箇所 ／ 黄色：根拠引用 ／ <ins>緑：追加</ins> ／ <del>赤：削除</del></p><div class="pager"><button id="prev">前へ</button><span id="page"></span><button id="next">次へ</button></div><div id="cards"></div></main>'
+        body = f'<div class="viewer-toolbar"><header><a href="../../">← トップ</a><h1>{title}：改訂対応判定</h1></header><div class="controls viewer-controls"><label>検索<input id="search" placeholder="要求ID・要約・原文・本文ID"></label><label>判定方法<select id="mode"></select></label><label>版間<select id="stage"></select></label><label>資料<select id="source"></select></label><label>表示判定<select id="judgment"></select></label><label>LLM判定<select id="llm"></select></label><label>人手探索<select id="manual"></select></label></div></div><main id="viewer-main"><p id="summary" role="status"></p><p class="legend">黄色枠：本文の対象箇所 ／ 黄色：根拠引用 ／ <ins>緑：追加</ins> ／ <del>赤：削除</del></p><div class="pager"><button id="prev">前へ</button><span id="page"></span><button id="next">次へ</button></div><div id="cards"></div></main>'
         scripts = f'<script id="data" type="application/json">{payload(display)}</script><script src="../../assets/navigation.js"></script><script src="../../assets/judgments.js"></script>'
         (viewer_dir / 'judgments.html').write_text(page(title + ' 改訂対応判定', body, scripts), encoding='utf-8')
         cluster = analysis / plan / '要求クラスタリング/runs/final'
@@ -365,7 +375,7 @@ def build_site(analysis, repo):
         s = (cluster / 'cluster_explorer.html').read_text()
         manifest[str((cluster / 'cluster_explorer.html').relative_to(analysis))] = sha(cluster / 'cluster_explorer.html')
         injection = f'<link rel="stylesheet" href="../../assets/reader.css"><script id="source-navigation" type="application/json">{payload(source_map)}</script><script src="../../assets/navigation.js"></script><script src="../../assets/clustering-navigation.js"></script>'
-        (viewer_dir / 'clustering.html').write_text(s.replace('</body>', injection + '</body>'), encoding='utf-8')
+        (viewer_dir / 'clustering.html').write_text(version_assets(s.replace('</body>', injection + '</body>')), encoding='utf-8')
         audits[plan] = {'requests': len(rows), 'evaluated': len(rows)-len(missing), 'not_evaluated': len(missing),
             'not_evaluated_requests': [{k:r[k] for k in ['request_id','source_location','policy_stage','consideration_target']} for r in missing],
             'confirmed_human_reviews': sum(bool(r.get('human_review')) for r in rows),
@@ -379,6 +389,10 @@ def build_site(analysis, repo):
         'previous_site_archive': 'backups/site_before_20261030.zip',
         'environment_gap_explanation': '87要求はすべて第116回部会・答申案の最終検討段階。最新版に保存済み判定がなく未判定として保持。',
         'human_review_policy': '環境の人手確認44件は2026-10-30の研究者による全件確認済みとの明示に基づき確認済みとして扱う。判定内容・根拠・元のLLM判定は変更しない。'})
+    # Homepage links also bypass cached copies of older viewer HTML.
+    index = docs / 'index.html'
+    index.write_text(re.sub(r'(href=")(viewers/[^"?]+\.html)(?:\?v=[^"]*)?(\")',
+        lambda m: m[1] + m[2] + '?v=' + sha(docs / m[2])[:12] + m[3], index.read_text()), encoding='utf-8')
     # Include every deployed asset (including index and scripts), not only data copies.
     files = sorted(p for p in docs.rglob('*') if p.is_file() and p.name != 'SHA256SUMS.txt')
     (docs / 'SHA256SUMS.txt').write_text(''.join(f'{sha(p)}  {p.relative_to(docs)}\n' for p in files))

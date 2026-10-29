@@ -3,8 +3,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base=process.env.VIEWER_BASE_URL||'http://127.0.0.1:8765';
+const viewerUrl=async(plan,name='judgments')=>{
+  const bytes=await fs.readFile(path.join(root,'docs','viewers',plan,`${name}.html`));
+  return `${base}/viewers/${plan}/${name}.html?v=${createHash('sha256').update(bytes).digest('hex').slice(0,12)}`;
+};
 const browser=await chromium.launch({headless:true,channel:'chrome'});
 const context=await browser.newContext({viewport:{width:1440,height:1000}});
 const errors=[],checks=[];
@@ -12,10 +17,20 @@ context.on('page',p=>p.on('pageerror',e=>errors.push(e.message)));
 const page=await context.newPage();
 try {
   for(const [plan,count] of [['env6th',2298],['ene7th',5094]]) {
-    await page.goto(`${base}/viewers/${plan}/judgments.html`);
+    await page.goto(await viewerUrl(plan));
     await page.waitForFunction(()=>window.judgmentViewer);
     assert.equal(await page.evaluate(()=>judgmentViewer.all.length),count);
     assert.equal(await page.locator('.card').count(),20);
+    assert.ok(!(await page.locator('#cards').textContent()).includes('採用元：'));
+    assert.equal(await page.locator('text=本文ボタンから前後の文脈を確認できます。').count(),0);
+    assert.ok(await page.locator('script[src*="/assets/"]').evaluateAll(es=>es.every(e=>new URL(e.src).searchParams.has('v'))));
+    await page.evaluate(()=>window.scrollTo(0,1200));
+    const toolbar=await page.locator('.viewer-toolbar').boundingBox();
+    const controls=await page.locator('.viewer-controls').boundingBox();
+    assert.ok(Math.abs(toolbar.y)<1,'title toolbar remains at top after scrolling');
+    assert.ok(controls.y>=0&&controls.y+controls.height<1000,'filters remain visible after scrolling');
+    assert.equal(await page.locator('.display-judgment').first().evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(220, 252, 231)');
+    await page.evaluate(()=>window.scrollTo(0,0));
     assert.deepEqual(await page.locator('#judgment option').allTextContents(),
       ['すべて','対応あり','一部対応','対応なし','判定不可',...(plan==='env6th'?['未判定']:[])]);
     assert.deepEqual(new Set(await page.locator('#manual option').allTextContents()),
@@ -44,6 +59,8 @@ try {
     const [popup]=await Promise.all([page.waitForEvent('popup'),separate.click()]);
     await popup.waitForFunction(()=>window.readerResult);
     assert.ok((await popup.evaluate(()=>readerResult)).found>0);
+    assert.ok(new URL(popup.url()).searchParams.has('v'));
+    assert.ok(await popup.locator('.source-block').evaluateAll(es=>es.every(e=>!(e.querySelector('.block-meta')?.textContent||'').includes(e.id))));
     await popup.close();
     const label=await page.locator('button[data-source-ref]').allTextContents();
     const targetButton=page.getByRole('button',{name:label.find(s=>s==='新版の本文を表示'||s==='本文を表示'),exact:true}).first();
@@ -88,7 +105,7 @@ try {
   }
   // Check multiple paragraph targets and a footnote and heading on each plan.
   for(const plan of ['env6th','ene7th']) {
-    await page.goto(`${base}/viewers/${plan}/judgments.html`);
+    await page.goto(await viewerUrl(plan));
     const refs=await page.evaluate(()=>judgmentViewer.all.flatMap(r=>(r.matched_revisions||[]).flatMap(v=>[v.old_ref,v.new_ref]).filter(Boolean)));
     for(const kind of ['multi','note','head']) {
       const ref=refs.find(r=>kind==='multi'?r.ids.length>1:r.ids.some(id=>id.startsWith(kind)));
@@ -99,7 +116,7 @@ try {
       assert.equal((await p.evaluate(()=>readerResult)).found,ref.ids.length);await p.close();
       checks.push(`${plan}: ${kind} reader targets`);
     }
-    await page.goto(`${base}/viewers/${plan}/clustering.html`,{waitUntil:'networkidle'});
+    await page.goto(await viewerUrl(plan,'clustering'),{waitUntil:'networkidle'});
     await page.waitForFunction(()=>window.Plotly&&document.querySelector('#scatter').data?.length,{timeout:30000});
     const info=await page.evaluate(()=>{
       const plot=document.getElementById('scatter'),trace=plot.data.find(t=>t.customdata.some(r=>r[0]==='分科会'||r[0]==='部会'||r[0]==='総会'));

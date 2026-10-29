@@ -34,7 +34,7 @@ def refs(value):
     global link_count
     if isinstance(value, dict):
         if {'url','ids','quotes','role'} <= value.keys():
-            target = value['url'].removeprefix('../../')
+            target = value['url'].removeprefix('../../').split('?', 1)[0]
             assert target in targets, target
             assert set(value['ids']) <= targets[target], (target, value['ids'])
             link_count += 1
