@@ -50,7 +50,8 @@
       if(content)count+=highlight(content,quotes);
     }
     const status=document.getElementById('reader-status');
-    status.textContent=missing.length?`該当IDを確認できません：${missing.join(', ')}`:ids.length?`対象 ${found.length}箇所${count?`・引用 ${count}箇所を強調表示`:quotes.length?'・引用の完全一致がないため段落のみ強調表示':'を強調表示'}`:'本文全文を表示しています。';
+    status.textContent=missing.length?'対象箇所を確認できませんでした。':'';
+    status.hidden=!missing.length;
     const nav=document.getElementById('target-nav');nav.replaceChildren();
     if(found.length>1) found.forEach((el,i)=>{const a=document.createElement('a');a.href='#'+new URLSearchParams([['id',el.id],...quotes.map(q=>['q',q])]).toString();a.textContent=`該当箇所 ${i+1}`;a.onclick=e=>{e.preventDefault();el.scrollIntoView({block:'center',behavior:'smooth'});};nav.append(a);});
     requestAnimationFrame(()=>found[0]?.scrollIntoView({block:'center'}));
@@ -59,7 +60,7 @@
   }
   document.getElementById('copy-link').onclick=async e=>{
     try{await navigator.clipboard.writeText(location.href);e.target.textContent='コピーしました';}
-    catch{document.getElementById('reader-status').textContent='アドレスバーのURLをコピーしてください。';}
+    catch{const status=document.getElementById('reader-status');status.hidden=false;status.textContent='アドレスバーのURLをコピーしてください。';}
   };
   window.addEventListener('hashchange',navigate);navigate();
 })();
