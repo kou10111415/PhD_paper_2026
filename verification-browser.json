@@ -1,0 +1,16 @@
+{
+  "base": "http://127.0.0.1:8765",
+  "checks": [
+    "env6th: rows, filters, source panel, close/Escape, reader highlight, hash navigation, mobile",
+    "ene7th: rows, filters, source panel, close/Escape, reader highlight, hash navigation, mobile",
+    "env6th: multi reader targets",
+    "env6th: note reader targets",
+    "env6th: head reader targets",
+    "env6th: Plotly point → source panel and judgment deep link",
+    "ene7th: multi reader targets",
+    "ene7th: note reader targets",
+    "ene7th: head reader targets",
+    "ene7th: Plotly point → source panel and judgment deep link"
+  ],
+  "errors": []
+}

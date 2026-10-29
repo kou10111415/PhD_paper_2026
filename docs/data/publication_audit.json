@@ -1,0 +1,601 @@
+{
+  "build_date": "2026-10-30",
+  "plans": {
+    "env6th": {
+      "requests": 2298,
+      "evaluated": 2211,
+      "not_evaluated": 87,
+      "not_evaluated_requests": [
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u74:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u74",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u15:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u15",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u48:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u48",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u27:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u27",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u31:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u31",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u31:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u31",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u31:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u31",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u31:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u31",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u13:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u13",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u13:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u13",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u13:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u13",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u13:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u13",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u86:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u86",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u39:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u39",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u39:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u39",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u39:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u39",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u39:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u39",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u9:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u9",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u9:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u9",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u9:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u9",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u19:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u19",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u112:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u112",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u112:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u112",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u112:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u112",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u112:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u112",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u88:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u88",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u88:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u88",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u88:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u88",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-pre-meeting-116-pre116-u1:r1",
+          "source_location": "TEI pre-meeting-116 / u xml:id=pre116-u1",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-pre-meeting-116-pre116-u1:r2",
+          "source_location": "TEI pre-meeting-116 / u xml:id=pre116-u1",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-pre-meeting-116-pre116-u1:r3",
+          "source_location": "TEI pre-meeting-116 / u xml:id=pre116-u1",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u104:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u104",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u104:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u104",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u104:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u104",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u104:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u104",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u100:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u100",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u100:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u100",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u11:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u11",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u11:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u11",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u11:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u11",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u29:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u29",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u29:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u29",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u115:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u115",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u33:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u33",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u52:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u52",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u52:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u52",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u52:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u52",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u52:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u52",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u17:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u17",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u17:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u17",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u17:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u17",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u17:r4",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u17",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u113:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u113",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u113:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u113",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u94:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u94",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u82:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u82",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u82:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u82",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u82:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u82",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u84:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u84",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u84:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u84",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u21:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u21",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u21:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u21",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u60:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u60",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u60:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u60",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u60:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u60",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u35:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u35",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u106:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u106",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u106:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u106",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u106:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u106",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u73:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u73",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u90:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u90",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u90:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u90",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u108:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u108",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u108:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u108",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u108:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u108",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u37:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u37",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u37:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u37",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u92:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u92",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u92:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u92",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u92:r3",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u92",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u98:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u98",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u98:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u98",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u110:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u110",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u110:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u110",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u102:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u102",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u102:r2",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u102",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        },
+        {
+          "request_id": "sol_astra:env-部会-meeting-116-min116-u7:r1",
+          "source_location": "TEI meeting-116 / u xml:id=min116-u7",
+          "policy_stage": "答申案の最終検討段階",
+          "consideration_target": "第六次環境基本計画答申案"
+        }
+      ],
+      "provisional_human_reviews": 44,
+      "source_links": 1365,
+      "reader_documents": 28,
+      "link_verification": {
+        "verified_quotes": 11489,
+        "resolved_links": 9575,
+        "paragraph_only_quotes": 2376
+      },
+      "issues": []
+    },
+    "ene7th": {
+      "requests": 5094,
+      "evaluated": 5094,
+      "not_evaluated": 0,
+      "not_evaluated_requests": [],
+      "provisional_human_reviews": 0,
+      "source_links": 1248,
+      "reader_documents": 26,
+      "link_verification": {
+        "verified_quotes": 20838,
+        "resolved_links": 19145,
+        "paragraph_only_quotes": 1288
+      },
+      "issues": []
+    }
+  },
+  "source_sha256": {
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_chukan-an_ver1.normalized.xml": "07732c204d3ee926bb388b6f3c896d183efbf535d9658368131fcdc5f03bf307",
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_chukan-an_ver2.xml": "3764900528bf707fc72e3b91aecb8f17e48230579c74d92200a2800322b0ce0c",
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_chukan.tei.xml": "ebc5aee296c3ae466436cee7dbbba1e14343f14e6d513cc563815dbf50320572",
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_soan.tei.xml": "a353d1ac55054cf40225f4a2b007c79dc2984c90c6894c213c7af17996f42caf",
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_an.tei.xml": "64a01d59370f14c8cc9695dfa035bc0567643a58da95338f77cdfa58dc11907d",
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_toshin.tei.xml": "a6680f62d45ffb86466d05179d1e8376b49eaef29f1e04a23256b2f5875c945c",
+    "env6th/追加修正_本文以降ID連番整理_全7版_20261028/tei/6th_env_plan_kakugi.tei.xml": "ee63e5c59026a30e66e9379e06c9f1d6aa570cca2580eb68aaa32ba8beab10ec",
+    "env6th/意見発言データ/sogo_seisaku_107-116.xml": "5b9cc44a96cef35ca3f05637720537644435b473914b78874e7fe0ef9fadc570",
+    "env6th/意見発言データ/sokai_031.xml": "8755893d64945440e777eff1c0c796c8721969424b1f161cda6d08b36690a5cf",
+    "env6th/意見発言データ/dantai_1-4.xml": "0dc44ba44c22c2c7ed9507c7ddf4785eb91261188d57df3d05f4b8c6601bb284",
+    "env6th/意見発言データ/env6th-chukan_pc.csv": "8af5bba783f05df9b0019942d88320c265e68b24406f53809c0d851d398c2660",
+    "env6th/意見発言データ/env6th-an_pc.csv": "9087ce4183a4bd3dd96e22b0ba4b432f6c2a3cc1b978cc0201aeb1b3558738fc",
+    "env6th/追加実験_最終7版Batch判定_20261028/uncertain_review_20261028/review_overlay/パブリックコメント/judgments_with_provisional_review.jsonl": "8e20d28ee6a2e44215220b2a55e119265cf5cad9acdc2f1889ab453389bff5f5",
+    "env6th/追加実験_最終7版Batch判定_20261028/uncertain_review_20261028/review_overlay/単一文書_ver1/judgments_with_provisional_review.jsonl": "5294445a2817e204396398b0c24619cd9ed8a70bd3a6e1e4f7e1852cf0ca4cfc",
+    "env6th/追加実験_最終7版Batch判定_20261028/uncertain_review_20261028/review_overlay/団体意見交換会/judgments_with_provisional_review.jsonl": "216b9d3d87f680e00a28d826b67f17e8097ef34051350761aaa4d9984481b6e1",
+    "env6th/追加実験_最終7版Batch判定_20261028/uncertain_review_20261028/review_overlay/総会/judgments_with_provisional_review.jsonl": "4d034a0907bf450d612451cbe4cf50a445f27b688095a39af0f0b794af1d2aff",
+    "env6th/追加実験_最終7版Batch判定_20261028/uncertain_review_20261028/review_overlay/部会/judgments_with_provisional_review.jsonl": "5af16fdf92f0b1cd2866838394a76eeccc10a446dfd125554ebfaca0dfa58e9d",
+    "env6th/要求クラスタリング/runs/final/metadata.jsonl": "26df27aa919882f12867314d23ec5357389eebbce93d7754d2dc748b18583e9b",
+    "env6th/要求クラスタリング/runs/final/assignments.jsonl": "6298047d4c23223cb1dcbc1499ac961b3502389ccb24747c1d8227ac0a134ef0",
+    "env6th/要求クラスタリング/runs/final/lower_clusters.json": "9d70d379930a56167a70eb99b4eefb6eb6415a0baf324b8a7b2e7f02dc1b07c6",
+    "env6th/要求クラスタリング/runs/final/upper_clusters.json": "4548bffe0b1850e2f3cd478f8d833e1fff1e8bc355bd4914c1ac31afa427ef69",
+    "env6th/要求クラスタリング/runs/final/completion_summary.json": "795f6372bba152710327f74d3351c6d4d9b619ea60d0b005b9c385289b4e69a6",
+    "env6th/要求クラスタリング/runs/final/cluster_explorer.html": "27676eccaeae431834a69037ede976fd76290958a99f1589f569c10637e8c668",
+    "ene7th/計画案/7th_energy_plan_kokkaku.xml": "9e0456020016e6600cd2c8fb05058da87ef6946109ce2b6e6e290eeeb3e1c8d4",
+    "ene7th/計画案/7th_energy_plan_genan.xml": "eeb6797e0371059cce7ce12326c10edd41bf7757445a8e54255210e7136a1748",
+    "ene7th/計画案/7th_energy_plan_an.xml": "0aff48d0642918eec3d8863d29750e1c6501e727b230069f72ab84591c7627ca",
+    "ene7th/計画案/7th_energy_plan_saisyu.xml": "8c0565a0b51967540575015658e44dcdda0a03ab8894d13bfcece0cb67e9a3a2",
+    "ene7th/意見発言データ/kihon_seisaku_055-068.xml": "23d6b5ebdf0d829d310ee36e6f06302192f4abced5ae5ecf9f53ad55d4bae7f7",
+    "ene7th/意見発言データ/ene7th_opinions_box.csv": "e28286acc241b94755f92ecbc8329557587ff941ca7b309951f224e5f2753815",
+    "ene7th/意見発言データ/ene7th-an_pc.csv": "dfcb830f3ef208d514865c18f4ef32852424699a09d3aaa09312f5dc77a87059",
+    "ene7th/統合最新結果_全5094要求_20261017/data/energy_latest_integrated.json": "bba706f9c904123a0a880542620bb33aa627160c2a6ab71bbead8cc2d86fce17",
+    "ene7th/統合最新結果_全5094要求_20261017/viewer_data/all.json": "64ad3b83147b9116b0b6ec8e515cb206afd47d2147cc5b86cb41a4903dd3cdeb",
+    "ene7th/要求クラスタリング/runs/final/metadata.jsonl": "aa33f2e420feee3d7fe142c4d15ec7660d1f5e3cfeafcf5627fa8cec6377542c",
+    "ene7th/要求クラスタリング/runs/final/assignments.jsonl": "3152c16ea46da67d342244f9d560bb949b3af80be37244ff9d5c777dc8e63e89",
+    "ene7th/要求クラスタリング/runs/final/lower_clusters.json": "9dfc115693b6077ff06000e85db4d70c768ff0e00410d010e9182ef1f1b68ff6",
+    "ene7th/要求クラスタリング/runs/final/upper_clusters.json": "36dab4f8e666d8e97cf21d105f12961efc526813b6fbb3acbb5a78b5d3bb8670",
+    "ene7th/要求クラスタリング/runs/final/completion_summary.json": "6a59c8c1aefa1f257766966d32d4ce2699062651324c4a71603c54dd6cfe148f",
+    "ene7th/要求クラスタリング/runs/final/cluster_explorer.html": "8274fb6bea68599a0229e9c577738610311bec84d58df7a0b8c6a46a80bc4f0a"
+  },
+  "previous_site_archive": "backups/site_before_20261030.zip",
+  "environment_gap_explanation": "87要求はすべて第116回部会・答申案の最終検討段階。最新版に保存済み判定がなく未判定として保持。",
+  "provisional_review_policy": "環境の暫定人手確認44件はLLM判定と分け、暫定と明示する。"
+}
