@@ -61,9 +61,11 @@ try {
       assert.equal(await page.evaluate(()=>judgmentViewer.filtered().length),87);
       assert.ok((await page.locator('#cards').textContent()).includes('保存済みの判定結果がありません'));
       await page.locator('#judgment').selectOption('');
-      const provisional=await page.evaluate(()=>judgmentViewer.all.find(r=>r.human_review_provisional).request_id);
-      await page.locator('#search').fill(provisional);
-      assert.ok((await page.locator('#cards').textContent()).includes('人手確認（暫定）'));
+      const confirmed=await page.evaluate(()=>judgmentViewer.all.find(r=>r.human_review).request_id);
+      await page.locator('#search').fill(confirmed);
+      assert.ok((await page.locator('#cards').textContent()).includes('人手確認済み'));
+      assert.ok(!(await page.locator('#cards').textContent()).includes('暫定'));
+      assert.equal(await page.evaluate(()=>judgmentViewer.all.filter(r=>r.human_review?.review_status==='confirmed').length),44);
     }
     await page.setViewportSize({width:390,height:844});
     await page.locator('#search').fill(sample.id);

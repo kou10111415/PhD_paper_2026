@@ -54,7 +54,18 @@ for plan, expected in [('env6th',2298),('ene7th',5094)]:
     assert {r['request_id'] for r in rows} == {r['request_id'] for r in metadata}
     assert sum(r['judgment'] == 'not_evaluated' for r in rows) == (87 if plan == 'env6th' else 0)
     if plan == 'env6th':
-        assert sum(bool(r.get('human_review_provisional')) for r in rows) == 44
+        reviews = [r for r in rows if r.get('human_review')]
+        assert len(reviews) == 44
+        assert all(r['human_review']['review_status'] == 'confirmed' for r in reviews)
+        assert all('human_review_provisional' not in r for r in rows)
+        overlay = ROOT.parent / 'env6th/追加実験_最終7版Batch判定_20261028/uncertain_review_20261028/review_overlay'
+        original_review = {r['request_id']:r for p in overlay.glob('*/judgments_with_provisional_review.jsonl')
+            for line in p.open() if (r := json.loads(line)).get('human_review_provisional')}
+        for r in reviews:
+            original = original_review[r['request_id']]
+            assert r['final_judgment'] == original['final_judgment']
+            assert r['final_judgment_label_ja'] == original['final_judgment_label_ja']
+            assert r['human_review']['rationale'] == original['human_review_provisional']['rationale']
         for p in (ROOT.parent / 'env6th/追加実験_最終7版Batch判定_20261028/quote_corrected').glob('*/judgments_quote_corrected.jsonl'):
             by_id = {r['request_id']:r for r in rows}
             for line in p.open():

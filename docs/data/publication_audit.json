@@ -529,7 +529,7 @@
           "consideration_target": "第六次環境基本計画答申案"
         }
       ],
-      "provisional_human_reviews": 44,
+      "confirmed_human_reviews": 44,
       "source_links": 1365,
       "reader_documents": 28,
       "link_verification": {
@@ -544,7 +544,7 @@
       "evaluated": 5094,
       "not_evaluated": 0,
       "not_evaluated_requests": [],
-      "provisional_human_reviews": 0,
+      "confirmed_human_reviews": 0,
       "source_links": 1248,
       "reader_documents": 26,
       "link_verification": {
@@ -597,5 +597,5 @@
   },
   "previous_site_archive": "backups/site_before_20261030.zip",
   "environment_gap_explanation": "87要求はすべて第116回部会・答申案の最終検討段階。最新版に保存済み判定がなく未判定として保持。",
-  "provisional_review_policy": "環境の暫定人手確認44件はLLM判定と分け、暫定と明示する。"
+  "human_review_policy": "環境の人手確認44件は2026-10-30の研究者による全件確認済みとの明示に基づき確認済みとして扱う。判定内容・根拠・元のLLM判定は変更しない。"
 }

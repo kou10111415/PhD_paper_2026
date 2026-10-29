@@ -226,6 +226,17 @@ def prepare_rows(analysis, plan, manifest):
     for p in [*files, cluster / 'metadata.jsonl']:
         manifest[str(p.relative_to(analysis))] = sha(p)
     for r in rows:
+        if plan == 'env6th' and r.get('human_review_provisional'):
+            previous = r.pop('human_review_provisional')
+            r['review_history'] = [{'human_review_provisional': previous,
+                'final_judgment_basis': r.get('final_judgment_basis'),
+                'effective_judgment_provisional': r.pop('effective_judgment_provisional', None)}]
+            # The researcher explicitly confirmed all 44 reviews on 2026-10-30.
+            # This promotes their status; no substantive judgment or evidence changes.
+            r['human_review'] = {**previous, 'review_status': 'confirmed',
+                'confirmed_by': 'researcher', 'confirmed_on': '2026-10-30'}
+            r['final_judgment_basis'] = '人手確認済み。元のLLM判定はjudgmentに保持'
+            r['effective_judgment'] = r['final_judgment']
         m = by_id[r['request_id']]
         r['source_group'] = r.get('source_group') or m['source_label']
         r['speaker_display'] = r.get('speaker_display') or r.get('speaker_name') or m.get('speaker_or_heading', '')
@@ -259,7 +270,7 @@ def attach_navigation(rows, metadata, readers):
                 attach_revision(r, rev, readers)
         if isinstance(manual.get('revision'), dict):
             attach_revision(r, manual['revision'], readers)
-        review = r.get('human_review_provisional') or {}
+        review = r.get('human_review') or {}
         refs = []
         grouped = {}
         for qualified in review.get('evidence_element_ids', []):
@@ -325,7 +336,7 @@ def build_site(analysis, repo):
             'source_group','speaker_display','old_document_label','new_document_label','stage',
             'judgment_mode','judgment','judgment_label_ja','final_judgment','final_judgment_label_ja',
             'final_judgment_basis','reason','confidence_components','evidence','document_evidence_quotes',
-            'human_review_provisional','manual_search','review_refs','source_ref','matched_revisions','additional_evidence',
+            'human_review','manual_search','review_refs','source_ref','matched_revisions','additional_evidence',
             'opinion_heading_reference','label','reply','administrative_reply_reference','_publication_source'}
         display = [{k:v for k,v in r.items() if k in fields} for r in rows]
         viewer_dir = docs / 'viewers' / plan
@@ -348,7 +359,7 @@ def build_site(analysis, repo):
         (viewer_dir / 'clustering.html').write_text(s.replace('</body>', injection + '</body>'), encoding='utf-8')
         audits[plan] = {'requests': len(rows), 'evaluated': len(rows)-len(missing), 'not_evaluated': len(missing),
             'not_evaluated_requests': [{k:r[k] for k in ['request_id','source_location','policy_stage','consideration_target']} for r in missing],
-            'provisional_human_reviews': sum(bool(r.get('human_review_provisional')) for r in rows),
+            'confirmed_human_reviews': sum(bool(r.get('human_review')) for r in rows),
             'source_links': sum(bool(ref) for ref in source_map.values()),
             'reader_documents': len(readers.documents), 'link_verification': dict(readers.stats), 'issues': readers.issues}
         for sub in ['source_materials', 'plan_documents']:
@@ -358,7 +369,7 @@ def build_site(analysis, repo):
     write_json(docs / 'data/publication_audit.json', {'build_date': '2026-10-30', 'plans': audits, 'source_sha256': manifest,
         'previous_site_archive': 'backups/site_before_20261030.zip',
         'environment_gap_explanation': '87要求はすべて第116回部会・答申案の最終検討段階。最新版に保存済み判定がなく未判定として保持。',
-        'provisional_review_policy': '環境の暫定人手確認44件はLLM判定と分け、暫定と明示する。'})
+        'human_review_policy': '環境の人手確認44件は2026-10-30の研究者による全件確認済みとの明示に基づき確認済みとして扱う。判定内容・根拠・元のLLM判定は変更しない。'})
     # Include every deployed asset (including index and scripts), not only data copies.
     files = sorted(p for p in docs.rglob('*') if p.is_file() and p.name != 'SHA256SUMS.txt')
     (docs / 'SHA256SUMS.txt').write_text(''.join(f'{sha(p)}  {p.relative_to(docs)}\n' for p in files))
