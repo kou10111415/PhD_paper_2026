@@ -52,7 +52,7 @@
     const status=document.getElementById('reader-status');
     status.textContent=missing.length?`該当IDを確認できません：${missing.join(', ')}`:ids.length?`対象 ${found.length}箇所${count?`・引用 ${count}箇所を強調表示`:quotes.length?'・引用の完全一致がないため段落のみ強調表示':'を強調表示'}`:'本文全文を表示しています。';
     const nav=document.getElementById('target-nav');nav.replaceChildren();
-    found.forEach(el=>{const a=document.createElement('a');a.href='#'+new URLSearchParams([['id',el.id],...quotes.map(q=>['q',q])]).toString();a.textContent=el.id;a.onclick=e=>{e.preventDefault();el.scrollIntoView({block:'center',behavior:'smooth'});};nav.append(a);});
+    if(found.length>1) found.forEach((el,i)=>{const a=document.createElement('a');a.href='#'+new URLSearchParams([['id',el.id],...quotes.map(q=>['q',q])]).toString();a.textContent=`該当箇所 ${i+1}`;a.onclick=e=>{e.preventDefault();el.scrollIntoView({block:'center',behavior:'smooth'});};nav.append(a);});
     requestAnimationFrame(()=>found[0]?.scrollIntoView({block:'center'}));
     // Exposed as diagnostics for the regression suite, no private state.
     window.readerResult={ids,found:found.length,missing,highlights:count};

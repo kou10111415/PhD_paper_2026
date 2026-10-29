@@ -105,8 +105,8 @@ class Readers:
         contents = []
         for b in blocks:
             heading = f'<h2>{html.escape(b["text"])}</h2>' if b['kind'] == 'head' else f'<div class="source-text">{html.escape(b["text"])}</div>'
-            speaker = f'<b>{html.escape(b["speaker"])}</b> · ' if b['speaker'] else ''
-            contents.append(f'<section id="{html.escape(b["id"])}" class="source-block {b["kind"]}"><div class="block-meta">{speaker}{html.escape(b["id"])}</div>{heading}</section>')
+            speaker = f'<div class="block-meta"><b>{html.escape(b["speaker"])}</b></div>' if b['speaker'] else ''
+            contents.append(f'<section id="{html.escape(b["id"])}" class="source-block {b["kind"]}">{speaker}{heading}</section>')
         raw_url = '../../' + str(source.relative_to(self.docs))
         body = f'<header class="reader-header"><a href="../../">サイトトップ</a><h1>{html.escape(title)}</h1><p><a href="{html.escape(raw_url)}" download>元のTEI XML</a> <button id="copy-link">この箇所のリンクをコピー</button></p><p id="reader-status" role="status"></p><nav id="target-nav"></nav></header><main class="reading">{"".join(contents)}</main>'
         target.write_text(page(title, body, '<script src="../../assets/reader.js"></script>'), encoding='utf-8')
