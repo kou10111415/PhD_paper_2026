@@ -21,11 +21,6 @@
     const q=search.value.trim().toLowerCase();
     return all.filter(r=>Object.entries(fields).every(([id,value])=>!document.getElementById(id).value||document.getElementById(id).value===value(r))&&(!q||[r.request_id,r.request_summary,r.original_text_display,r.request_quote,r.reason,...(r.matched_revisions||[]).map(v=>[v.alignment_id,...(v.old||[]),...(v.new||[])].join(' '))].join(' ').toLowerCase().includes(q)));
   }
-  function changed(text,quote,tag) {
-    if(!text)return '対応記載なし';
-    if(!quote||!text.includes(quote))return esc(text);
-    return text.split(quote).map(esc).join(`<${tag}>${esc(quote)}</${tag}>`);
-  }
   function quotes(r,aid) {
     const evidence=(r.evidence||[]).filter(e=>e.alignment_id===aid);
     const single=(r.document_evidence_quotes||[]).filter(e=>e.alignment_id===aid);
@@ -37,8 +32,8 @@
   }
   function revision(r,v,index,manual=false) {
     const presence=r.judgment_mode==='single_document_presence';
-    const old=presence?'':`<section class="panel"><b>${esc(r.old_document_label||'旧版')} · ${esc((v.old||[]).join(', '))}</b>${N.actions(v.old_ref,'旧版の本文を表示')}<div>${changed(v.old_text,v.removed_text,'del')}</div></section>`;
-    return `<section class="rev"><h3>${manual?'人手確認箇所':presence?'記載箇所':'対応改訂'} ${index+1} · ${esc(v.alignment_id)}</h3><p class="meta">${esc(v.element_type)} · ${esc(v.relation)} · ${esc(v.section_heading)}</p><div class="${presence?'':'pair'}">${old}<section class="panel"><b>${esc(r.new_document_label||'本文')} · ${esc((v.new||[]).join(', '))}</b>${N.actions(v.new_ref,presence?'本文を表示':'新版の本文を表示')}<div>${presence?esc(v.new_text):changed(v.new_text,v.added_text,'ins')}</div></section></div>${!presence&&v.inline_diff&&/\[[+-]/.test(v.inline_diff)?`<section class="diff-panel"><h4>差分ハイライト</h4><div class="panel">${diffMarkup(v.inline_diff)}</div></section>`:''}${quotes(r,v.alignment_id)}${v.selection_reason?`<p>${esc(v.selection_reason)}</p>`:''}</section>`;
+    const old=presence?'':`<section class="panel"><b>${esc(r.old_document_label||'旧版')} · ${esc((v.old||[]).join(', '))}</b>${N.actions(v.old_ref,'旧版の本文を表示')}<div>${esc(v.old_text||'対応記載なし')}</div></section>`;
+    return `<section class="rev"><h3>${manual?'人手確認箇所':presence?'記載箇所':'対応改訂'} ${index+1} · ${esc(v.alignment_id)}</h3><p class="meta">${esc(v.element_type)} · ${esc(v.relation)} · ${esc(v.section_heading)}</p><div class="${presence?'':'pair'}">${old}<section class="panel"><b>${esc(r.new_document_label||'本文')} · ${esc((v.new||[]).join(', '))}</b>${N.actions(v.new_ref,presence?'本文を表示':'新版の本文を表示')}<div>${esc(v.new_text||'対応記載なし')}</div></section></div>${!presence&&v.inline_diff&&/\[[+-]/.test(v.inline_diff)?`<section class="diff-panel"><h4>差分ハイライト</h4><div class="panel">${diffMarkup(v.inline_diff)}</div></section>`:''}${quotes(r,v.alignment_id)}${v.selection_reason?`<p>${esc(v.selection_reason)}</p>`:''}</section>`;
   }
   function manualRevisions(m) {
     const vals=[...(m.revisions||[]),...(m.related_revisions||[]),...(m.matched_revisions||[]),...(m.revision?[m.revision]:[])];
