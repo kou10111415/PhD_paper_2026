@@ -8,7 +8,10 @@
   let page=0;const size=20;
   for(const [id,value] of Object.entries(fields)) {
     const el=document.getElementById(id);el.add(new Option('すべて',''));
-    [...new Set(all.map(value).filter(Boolean))].forEach(v=>el.add(new Option(v,v)));
+    const options=id==='judgment'
+      ? ['対応あり','一部対応','対応なし','判定不可',...(all.some(r=>r.final_judgment==='not_evaluated')?['未判定']:[])]
+      : [...new Set(all.map(value).filter(Boolean))];
+    options.forEach(v=>el.add(new Option(v,v)));
     el.onchange=()=>{page=0;render();};
   }
   const search=document.getElementById('search');

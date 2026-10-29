@@ -16,6 +16,13 @@ try {
     await page.waitForFunction(()=>window.judgmentViewer);
     assert.equal(await page.evaluate(()=>judgmentViewer.all.length),count);
     assert.equal(await page.locator('.card').count(),20);
+    assert.deepEqual(await page.locator('#judgment option').allTextContents(),
+      ['すべて','対応あり','一部対応','対応なし','判定不可',...(plan==='env6th'?['未判定']:[])]);
+    for(const label of ['対応あり','一部対応','対応なし','判定不可']) {
+      await page.locator('#judgment').selectOption(label);
+      assert.ok(await page.evaluate(label=>judgmentViewer.filtered().every(r=>r.final_judgment_label_ja===label),label));
+    }
+    await page.locator('#judgment').selectOption('');
     const sample=await page.evaluate(()=>{
       const r=judgmentViewer.all.find(r=>r.source_ref&&(r.matched_revisions||[]).some(v=>v.new_ref?.quotes.length));
       return {id:r.request_id,ref:r.matched_revisions.find(v=>v.new_ref?.quotes.length).new_ref};

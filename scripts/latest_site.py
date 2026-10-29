@@ -20,6 +20,12 @@ import xml.etree.ElementTree as ET
 
 XID = '{http://www.w3.org/XML/1998/namespace}id'
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
+DISPLAY_JUDGMENTS = {
+    'corresponding': '対応あり', 'present_correspondence': '対応あり',
+    'partially_corresponding': '一部対応', 'partial_present_correspondence': '一部対応',
+    'not_corresponding': '対応なし', 'no_present_correspondence': '対応なし',
+    'uncertain': '判定不可', 'unjudgeable': '判定不可', 'not_evaluated': '未判定',
+}
 LABELS = {'env6th': {'ver1': '中間取りまとめ案 初版', 'ver2': '中間取りまとめ案 修正版',
     'chukan': '中間取りまとめ', 'soan': '素案', 'an': '案', 'toshin': '答申案', 'kakugi': '閣議決定'},
     'ene7th': {'kokkaku': '骨格案', 'genan': '原案', 'an': '案', 'saisyu': '最終案'}}
@@ -244,7 +250,10 @@ def prepare_rows(analysis, plan, manifest):
         r['old_document_label'] = r.get('old_document_label') or LABELS[plan].get(r.get('old_document'), '')
         r['new_document_label'] = r.get('new_document_label') or LABELS[plan].get(r.get('new_document'), '')
         r['final_judgment'] = r.get('final_judgment') or r['judgment']
-        r['final_judgment_label_ja'] = r.get('final_judgment_label_ja') or r.get('judgment_label_ja') or r['judgment']
+        original_label = r.get('final_judgment_label_ja') or r.get('judgment_label_ja') or r['judgment']
+        r['final_judgment_label_ja'] = DISPLAY_JUDGMENTS[r['final_judgment']]
+        if original_label != r['final_judgment_label_ja']:
+            r['original_final_judgment_label_ja'] = original_label
     return rows, metadata, missing
 
 

@@ -53,6 +53,10 @@ for plan, expected in [('env6th',2298),('ene7th',5094)]:
     assert len(rows) == len({r['request_id'] for r in rows}) == expected
     assert {r['request_id'] for r in rows} == {r['request_id'] for r in metadata}
     assert sum(r['judgment'] == 'not_evaluated' for r in rows) == (87 if plan == 'env6th' else 0)
+    labels = Counter(r['final_judgment_label_ja'] for r in rows)
+    expected_labels = ({'対応あり':295,'一部対応':822,'対応なし':1089,'判定不可':5,'未判定':87}
+        if plan == 'env6th' else {'対応あり':590,'一部対応':1799,'対応なし':2702,'判定不可':3})
+    assert labels == expected_labels, labels
     if plan == 'env6th':
         reviews = [r for r in rows if r.get('human_review')]
         assert len(reviews) == 44
