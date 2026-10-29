@@ -18,6 +18,9 @@ try {
     assert.equal(await page.locator('.card').count(),20);
     assert.deepEqual(await page.locator('#judgment option').allTextContents(),
       ['すべて','対応あり','一部対応','対応なし','判定不可',...(plan==='env6th'?['未判定']:[])]);
+    assert.deepEqual(new Set(await page.locator('#manual option').allTextContents()),
+      new Set(['すべて','該当あり','該当なし']));
+    assert.ok(!(await page.locator('#cards').textContent()).includes('人手探索情報なし'));
     for(const label of ['対応あり','一部対応','対応なし','判定不可']) {
       await page.locator('#judgment').selectOption(label);
       assert.ok(await page.evaluate(label=>judgmentViewer.filtered().every(r=>r.final_judgment_label_ja===label),label));
