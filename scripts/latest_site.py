@@ -7,6 +7,8 @@ from __future__ import annotations
 
 from collections import Counter
 import csv
+import difflib
+from functools import lru_cache
 import gzip
 import hashlib
 import html
@@ -52,6 +54,21 @@ def norm(value):
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+@lru_cache(maxsize=8192)
+def display_diff(old, new):
+    """Use the same character-level diff convention as the energy pipeline."""
+    parts = []
+    for tag, i, j, k, l in difflib.SequenceMatcher(None, old, new, autojunk=False).get_opcodes():
+        if tag == 'equal':
+            parts.append(old[i:j])
+        else:
+            if tag in {'replace', 'delete'}:
+                parts.append('[-' + old[i:j] + '-]')
+            if tag in {'replace', 'insert'}:
+                parts.append('[+' + new[k:l] + '+]')
+    return ''.join(parts)
 
 
 def text_of(node, plan=False):
@@ -301,6 +318,9 @@ def attach_navigation(rows, metadata, readers):
 
 
 def attach_revision(row, rev, readers):
+    if row.get('judgment_mode') == 'old_new_comparison' and not rev.get('inline_diff'):
+        rev['inline_diff'] = display_diff(rev.get('old_text') or '', rev.get('new_text') or '')
+        rev['inline_diff_origin'] = 'generated_from_old_new_text'
     aid = rev.get('alignment_id', '')
     quotes = [q for q in row.get('document_evidence_quotes', []) if q.get('alignment_id') == aid]
     evidence = [e for e in row.get('evidence', []) if e.get('alignment_id') == aid]
@@ -354,10 +374,13 @@ def build_site(analysis, repo):
         fields = {'request_id','request_summary','request_quote','original_text_display',
             'source_group','speaker_display','old_document_label','new_document_label','stage',
             'judgment_mode','judgment','judgment_label_ja','final_judgment','final_judgment_label_ja',
-            'final_judgment_basis','reason','confidence_components','evidence','document_evidence_quotes',
-            'human_review','manual_search','review_refs','source_ref','matched_revisions','additional_evidence',
-            'opinion_heading_reference','label','reply','administrative_reply_reference','_publication_source'}
+            'reason','confidence_components','evidence','document_evidence_quotes',
+            'manual_search','source_ref','matched_revisions','additional_evidence',
+            'opinion_heading_reference','label','reply','administrative_reply_reference'}
         display = [{k:v for k,v in r.items() if k in fields} for r in rows]
+        for item in display:
+            if isinstance(item.get('manual_search'), dict):
+                item['manual_search'] = {k:v for k,v in item['manual_search'].items() if k in {'status', 'label'}}
         viewer_dir = docs / 'viewers' / plan
         body = f'<div class="viewer-toolbar"><header><a href="../../">← トップ</a><h1>{title}：改訂対応判定</h1></header><div class="controls viewer-controls"><label>検索<input id="search" placeholder="要求ID・要約・原文・本文ID"></label><label>判定方法<select id="mode"></select></label><label>版間<select id="stage"></select></label><label>資料<select id="source"></select></label><label>表示判定<select id="judgment"></select></label><label>LLM判定<select id="llm"></select></label><label>人手探索<select id="manual"></select></label></div></div><main id="viewer-main"><p id="summary" role="status"></p><p class="legend">黄色枠：本文の対象箇所 ／ 黄色：根拠引用 ／ <ins>緑：追加</ins> ／ <del>赤：削除</del></p><div class="pager"><button id="prev">前へ</button><span id="page"></span><button id="next">次へ</button></div><div id="cards"></div></main>'
         scripts = f'<script id="data" type="application/json">{payload(display)}</script><script src="../../assets/navigation.js"></script><script src="../../assets/judgments.js"></script>'

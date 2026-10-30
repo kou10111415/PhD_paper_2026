@@ -88,12 +88,23 @@ try {
       assert.equal(await page.evaluate(()=>judgmentViewer.filtered().length),87);
       assert.ok((await page.locator('#cards').textContent()).includes('保存済みの判定結果がありません'));
       await page.locator('#judgment').selectOption('');
-      const confirmed=await page.evaluate(()=>judgmentViewer.all.find(r=>r.human_review).request_id);
-      await page.locator('#search').fill(confirmed);
-      assert.ok((await page.locator('#cards').textContent()).includes('人手確認済み'));
-      assert.ok(!(await page.locator('#cards').textContent()).includes('暫定'));
-      assert.equal(await page.evaluate(()=>judgmentViewer.all.filter(r=>r.human_review?.review_status==='confirmed').length),44);
+      await page.locator('#search').fill('sol_astra:env-interim-comment-121:r1');
+      assert.equal(await page.locator('.card').count(),1);
+      assert.equal(await page.locator('.manual-section').count(),0);
+      assert.ok(!(await page.locator('#cards').textContent()).includes('人手確認済み'));
+      assert.ok(await page.evaluate(()=>judgmentViewer.all.every(r=>!r.human_review&&!r.review_refs)));
     }
+    const comparison=await page.evaluate(()=>{
+      const row=judgmentViewer.all.find(r=>r.judgment_mode==='old_new_comparison'&&(r.matched_revisions||[]).some(v=>(v.old_text||'')!==(v.new_text||'')));
+      return {id:row.request_id,count:row.matched_revisions.length};
+    });
+    await page.locator('#search').fill(comparison.id);
+    assert.equal(await page.locator('.card .diff-panel').count(),comparison.count);
+    assert.ok(await page.locator('.card .diff-panel ins,.card .diff-panel del').count()>0);
+    assert.equal(await page.locator('.card .pair ins,.card .pair del,.card .pair mark').count(),0);
+    assert.equal(await page.locator('.card details .diff-panel').count(),0);
+    assert.equal(await page.locator('.manual-section').count(),0);
+    assert.ok(await page.evaluate(()=>judgmentViewer.all.every(r=>Object.keys(r.manual_search||{}).every(k=>['status','label'].includes(k)))));
     await page.setViewportSize({width:390,height:844});
     await page.locator('#search').fill(sample.id);
     await page.getByRole('button',{name:'議事録・原資料を表示',exact:true}).click();

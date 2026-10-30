@@ -57,6 +57,19 @@ for plan, expected in [('env6th',2298),('ene7th',5094)]:
     expected_labels = ({'対応あり':295,'一部対応':822,'対応なし':1089,'判定不可':5,'未判定':87}
         if plan == 'env6th' else {'対応あり':590,'一部対応':1799,'対応なし':2702,'判定不可':3})
     assert labels == expected_labels, labels
+    for row in rows:
+        if row['judgment_mode'] != 'old_new_comparison':
+            continue
+        for revision in row.get('matched_revisions', []):
+            diff = revision.get('inline_diff')
+            assert isinstance(diff, str), (plan, row['request_id'], revision['alignment_id'])
+            if revision.get('inline_diff_origin') == 'generated_from_old_new_text':
+                old = re.sub(r'\[\+([\s\S]*?)\+\]', '', diff, flags=re.S)
+                old = re.sub(r'\[\-([\s\S]*?)\-\]', r'\1', old)
+                new = re.sub(r'\[\-([\s\S]*?)\-\]', '', diff)
+                new = re.sub(r'\[\+([\s\S]*?)\+\]', r'\1', new)
+                assert old == (revision.get('old_text') or '')
+                assert new == (revision.get('new_text') or '')
     if plan == 'env6th':
         reviews = [r for r in rows if r.get('human_review')]
         assert len(reviews) == 44
@@ -76,10 +89,17 @@ for plan, expected in [('env6th',2298),('ene7th',5094)]:
                 original = json.loads(line)
                 assert by_id[original['request_id']]['judgment'] == original['judgment']
                 assert by_id[original['request_id']]['reason'] == original['reason']
+                current = by_id[original['request_id']]
+                assert len(current.get('matched_revisions', [])) == len(original.get('matched_revisions', []))
+                for before, after in zip(original.get('matched_revisions', []), current.get('matched_revisions', [])):
+                    for field in ['alignment_id','old_text','new_text','old','new']:
+                        assert before.get(field) == after.get(field)
     refs(rows)
     viewer = (DOCS / 'viewers' / plan / 'judgments.html').read_text()
     display = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', viewer, re.S)[1])
     assert len(display) == expected
+    assert all('human_review' not in r and 'review_refs' not in r for r in display)
+    assert all(set((r.get('manual_search') or {}).keys()) <= {'status','label'} for r in display)
     assert (DOCS / 'viewers' / plan / 'judgments.html').stat().st_size < 100 * 1024**2
 
 with zipfile.ZipFile(ROOT / 'backups/site_before_20261030.zip') as z:
