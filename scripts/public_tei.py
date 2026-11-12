@@ -27,6 +27,24 @@ LOCAL_FILE_IDNO = re.compile(
     re.M,
 )
 WORKING_TITLE_SUFFIX = re.compile(r'\s*［(?:統合試作版|TEI統合版)］\s*$')
+WORD_EDITION_SUFFIX = re.compile(r'\s*(?:［Word版］|\[Word版\])\s*$', re.I)
+ENCODING_DESCRIPTION_EDITS = {
+    'kihon_seisaku_055-068.xml': (
+        ('経済産業省公開のWord議事録の段落を論理的な段落境界として抽出し、',
+         '原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、'),
+        ('Word段落を論理的な段落境界として抽出し、',
+         '原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、'),
+        ('委員から提出された追加意見のWord文書', '委員から提出された追加意見'),
+    ),
+    'dantai_1-4.xml': (
+        ('環境省公開Wordの各論理段落', '環境省が公開する議事録（PDF）の各論理段落'),
+        ('公開Word議事録の段落を論理的な段落境界として抽出し、',
+         '環境省が公開する議事録（PDF）の段落を単位とし、'),
+    ),
+    'sogo_seisaku_107-116.xml': (
+        ('会議開催前に委員から提出されたWord文書', '会議開催前に委員から提出された事前意見'),
+    ),
+}
 HEADER = re.compile(rb'<teiHeader(?:\s[^>]*)?>.*?</teiHeader>', re.S)
 PUBLICATION = re.compile(rb'(<publicationStmt(?:\s[^>]*)?>)(.*?)(\n([ \t]*)</publicationStmt>)', re.S)
 LICENCE = (
@@ -165,6 +183,16 @@ def prepare_public_tei(data, filename):
         publication.insert(1, date)
 
         source = file_desc.find(TEI + 'sourceDesc')
+        if filename == 'kihon_seisaku_055-068.xml':
+            for title in source.iter(TEI + 'title'):
+                if title.text:
+                    title.text = WORD_EDITION_SUFFIX.sub('', title.text)
+        for paragraph in header.findall(f'{TEI}encodingDesc/{TEI}projectDesc/{TEI}p'):
+            if paragraph.text:
+                for previous, current in ENCODING_DESCRIPTION_EDITS.get(filename, ()):
+                    paragraph.text = paragraph.text.replace(previous, current)
+                paragraph.text = paragraph.text.replace('符号化した試作コーパス。', '符号化した。')
+                paragraph.text = paragraph.text.replace('符号化した試作データ。', '符号化した。')
         citation = source.find(f'{TEI}bibl[@type="sourceReference"]')
         if citation is None:
             citation = ET.SubElement(source, TEI + 'bibl', {'type': 'sourceReference'})

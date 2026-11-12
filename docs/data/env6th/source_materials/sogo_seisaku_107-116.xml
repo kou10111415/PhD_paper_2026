@@ -40,8 +40,8 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
-        <p>会議開催前に委員から提出されたWord文書を、会議回ごとに独立したTEIとして対応する議事録TEIの直後に配置した。委員ごとの事前意見をuとし、意見全文を単一のsegとして符号化した。事前意見のuにはana="#資料種別_事前意見 #区分_委員"を付した。</p>
+        <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
+        <p>会議開催前に委員から提出された事前意見を、会議回ごとに独立したTEIとして対応する議事録TEIの直後に配置した。委員ごとの事前意見をuとし、意見全文を単一のsegとして符号化した。事前意見のuにはana="#資料種別_事前意見 #区分_委員"を付した。</p>
       </projectDesc>
       <classDecl>
         <taxonomy xml:id="参加者区分">
@@ -612,7 +612,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -1310,7 +1310,7 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -2172,7 +2172,7 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -2990,7 +2990,7 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -3760,7 +3760,7 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -4441,7 +4441,7 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -5194,7 +5194,7 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -6081,7 +6081,7 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した試作コーパス。</p>
+          <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
