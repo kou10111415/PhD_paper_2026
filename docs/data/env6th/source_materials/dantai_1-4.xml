@@ -37,7 +37,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。第1回から第4回までをteiCorpusに統合した。事前意見および意見概要文書は収録していない。</p>
+        <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。第1回から第4回までを&lt;teiCorpus&gt;に統合した。事前意見および意見概要文書は収録していない。</p>
       </projectDesc>
       <classDecl>
         <taxonomy xml:id="参加者区分">
