@@ -20,6 +20,7 @@ MINUTES_AUTHORS = {
 }
 OPINION_TITLE = re.compile(r'第\d+回基本政策分科会 (.+?)委員 追加意見')
 DATE_RANGE = re.compile(r'(\d{4}-\d{2}-\d{2})/(\d{4}-\d{2}-\d{2})')
+CONVERSION_NOTE = re.compile(r'Converted from [\w.-]+\.(?:html|docx)\.|Produced by pandoc\.')
 WORKING_TITLE_SUFFIX = re.compile(r'\s*［(?:統合試作版|TEI統合版)］\s*$')
 HEADER = re.compile(rb'<teiHeader(?:\s[^>]*)?>.*?</teiHeader>', re.S)
 PUBLICATION = re.compile(rb'(<publicationStmt(?:\s[^>]*)?>)(.*?)(\n([ \t]*)</publicationStmt>)', re.S)
@@ -163,11 +164,14 @@ def prepare_public_tei(data, filename):
         if 'title' in reference and citation.find(TEI + 'title') is None:
             ET.SubElement(citation, TEI + 'title').text = reference['title']
         citation.extend(original_publishers)
-        # Keep the input filename or conversion note in the source citation.
+        # Retain substantive source descriptions while omitting local conversion notes.
         for paragraph in source.findall(TEI + 'p'):
             source.remove(paragraph)
             paragraph.tag = TEI + 'note'
             citation.append(paragraph)
+        for note in citation.findall(TEI + 'note'):
+            if not note.attrib and not len(note) and CONVERSION_NOTE.fullmatch((note.text or '').strip()):
+                citation.remove(note)
         record_source_metadata(source, citation, reference, filename, owner, key, people)
         for field, label in (
             ('document', '原資料'),

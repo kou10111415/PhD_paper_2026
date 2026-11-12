@@ -20,7 +20,6 @@
         <bibl type="sourceReference">
           <author>環境省</author>
           <title>第六次環境基本計画（閣議決定版）</title>
-          <note>Produced by pandoc.</note>
           <date when="2024-05-21" type="cabinetDecision">2024-05-21</date>
           <ref type="document" target="https://www.env.go.jp/council/content/i_01/000225523.pdf">原資料</ref>
           <ref type="page" target="https://www.env.go.jp/press/press_03210.html">公開・配付資料ページ</ref>
