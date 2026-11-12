@@ -19,6 +19,7 @@ import shutil
 import tomllib
 import unicodedata
 import xml.etree.ElementTree as ET
+from public_tei import licensed_public_copy
 
 XID = '{http://www.w3.org/XML/1998/namespace}id'
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
@@ -196,7 +197,10 @@ def build_readers(analysis, docs, plan, manifest):
     def copy(src, kind, name=None):
         dest = target / kind / (name or src.name)
         dest.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(src, dest)
+        if src.suffix == '.xml':
+            dest.write_bytes(licensed_public_copy(src.read_bytes()))
+        else:
+            shutil.copy2(src, dest)
         manifest[str(src.relative_to(analysis))] = sha(src)
         return dest
     for key, src in plans.items():

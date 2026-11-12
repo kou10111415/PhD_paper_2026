@@ -23,6 +23,9 @@
         <publisher>環境省</publisher>
         <authority>石井康平</authority>
         <date>2026-09-02</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -586,6 +589,9 @@
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -1151,7 +1157,11 @@
           <title type="main">中央環境審議会 総合政策部会 第107回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -1258,6 +1268,9 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -1965,7 +1978,11 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
           <title type="main">中央環境審議会 総合政策部会 第108回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -2093,6 +2110,9 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -2785,7 +2805,11 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
           <title type="main">中央環境審議会 総合政策部会 第109回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -2886,6 +2910,9 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -3563,7 +3590,11 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
           <title type="main">中央環境審議会 総合政策部会 第110回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -3634,6 +3665,9 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -4222,7 +4256,11 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <title type="main">中央環境審議会 総合政策部会 第112回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -4293,6 +4331,9 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -4930,7 +4971,11 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <title type="main">中央環境審議会 総合政策部会 第113回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -5022,6 +5067,9 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -5780,7 +5828,11 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <title type="main">中央環境審議会 総合政策部会 第115回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -5884,6 +5936,9 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
           <publisher>環境省</publisher>
           <authority>石井康平</authority>
           <date>2026-07-29</date>
+          <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -6662,7 +6717,11 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
           <title type="main">中央環境審議会 総合政策部会 第116回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <p>研究用TEI符号化資料</p>
+          <authority>PhD_paper_2026</authority>
+          <availability>
+            <p>研究用TEI符号化資料</p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+          </availability>
         </publicationStmt>
         <sourceDesc>
           <bibl>

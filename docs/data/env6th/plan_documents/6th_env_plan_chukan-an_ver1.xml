@@ -6,7 +6,10 @@
         <title>第六次環境基本計画に向けた中間取りまとめ</title>
       </titleStmt>
       <publicationStmt>
-        <p />
+        <authority>PhD_paper_2026</authority>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <p>Converted from env6th_plan_chukan-an_ver1.docx.</p>
