@@ -59,10 +59,10 @@ ENCODING_TAG_WORDING = (
      '独立した<TEI>要素にまとめ、対応する議事録の<TEI>要素の直後に配置した'),
     ('意見をuとし', '意見を<u>とし'),
     ('単一のsegとして', '単一の<seg>として'),
-    ('意見のuにはana=', '意見の<u>にはana='),
     ('HTMLのp要素およびbr要素', 'HTMLの<p>要素および<br>要素'),
     ('をteiCorpusに統合した', 'を<teiCorpus>に統合した'),
 )
+OPINION_ANA_WORDING = re.compile(r'意見の(?:u|<u>)にはana="([^"]+)"を付した')
 HEADER = re.compile(rb'<teiHeader(?:\s[^>]*)?>.*?</teiHeader>', re.S)
 PUBLICATION = re.compile(rb'(<publicationStmt(?:\s[^>]*)?>)(.*?)(\n([ \t]*)</publicationStmt>)', re.S)
 LICENCE = (
@@ -214,6 +214,9 @@ def prepare_public_tei(data, filename):
                 paragraph.text = paragraph.text.replace('符号化した試作データ。', '符号化した。')
                 for previous, current in ENCODING_TAG_WORDING:
                     paragraph.text = paragraph.text.replace(previous, current)
+                paragraph.text = OPINION_ANA_WORDING.sub(
+                    r'意見の<u>には @ana 属性を付け、値を「\1」とした', paragraph.text
+                )
         citation = source.find(f'{TEI}bibl[@type="sourceReference"]')
         if citation is None:
             citation = ET.SubElement(source, TEI + 'bibl', {'type': 'sourceReference'})
