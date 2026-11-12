@@ -21,6 +21,11 @@ MINUTES_AUTHORS = {
 OPINION_TITLE = re.compile(r'第\d+回基本政策分科会 (.+?)委員 追加意見')
 DATE_RANGE = re.compile(r'(\d{4}-\d{2}-\d{2})/(\d{4}-\d{2}-\d{2})')
 CONVERSION_NOTE = re.compile(r'Converted from [\w.-]+\.(?:html|docx)\.|Produced by pandoc\.')
+LOCAL_FILE_IDNO = re.compile(
+    rb'^[ \t]*<idno type="(?:filename|local-filename|localPath)">'
+    rb'(?![ \t]*(?:[A-Za-z][A-Za-z0-9+.-]*:|//))[^<\r\n]+</idno>[ \t]*\r?\n',
+    re.M,
+)
 WORKING_TITLE_SUFFIX = re.compile(r'\s*［(?:統合試作版|TEI統合版)］\s*$')
 HEADER = re.compile(rb'<teiHeader(?:\s[^>]*)?>.*?</teiHeader>', re.S)
 PUBLICATION = re.compile(rb'(<publicationStmt(?:\s[^>]*)?>)(.*?)(\n([ \t]*)</publicationStmt>)', re.S)
@@ -114,6 +119,8 @@ def record_source_metadata(source, citation, reference, filename, owner, key, pe
 
 def prepare_public_tei(data, filename):
     """Normalize publication metadata and link the official source for each header."""
+    # Bibliographies outside teiHeader also carry local conversion filenames.
+    data = LOCAL_FILE_IDNO.sub(b'', data)
     data = licensed_public_copy(data)
     root = ET.fromstring(data)
     references = SOURCE_REFERENCES[filename]
