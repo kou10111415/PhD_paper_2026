@@ -28,18 +28,27 @@ LOCAL_FILE_IDNO = re.compile(
 )
 WORKING_TITLE_SUFFIX = re.compile(r'\s*［(?:統合試作版|TEI統合版)］\s*$')
 WORD_EDITION_SUFFIX = re.compile(r'\s*(?:［Word版］|\[Word版\])\s*$', re.I)
+MINUTES_ENCODING = '一つの発言を<u>、各発言段落を<seg>として符号化した'
+MINUTES_ENCODING_WORDING = re.compile(
+    r'(?:○で始まる発言者の交替|話者交替|発言者の交替)をu、'
+    r'(?:各発言段落|発言段落|原HTMLの各論理段落|各段落)をsegとして符号化した'
+)
+ENERGY_MINUTES_SOURCE = '原資料は資源エネルギー庁が公開する議事録（PDF）。'
+ENV_HEARING_SOURCE = '原資料は環境省が公開する議事録（PDF）。'
 ENCODING_DESCRIPTION_EDITS = {
     'kihon_seisaku_055-068.xml': (
-        ('経済産業省公開のWord議事録の段落を論理的な段落境界として抽出し、',
-         '原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、'),
-        ('Word段落を論理的な段落境界として抽出し、',
-         '原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、'),
+        ('経済産業省公開のWord議事録の段落を論理的な段落境界として抽出し、', ENERGY_MINUTES_SOURCE),
+        ('Word段落を論理的な段落境界として抽出し、', ENERGY_MINUTES_SOURCE),
+        (ENERGY_MINUTES_SOURCE + '議事録の段落を単位とし、', ENERGY_MINUTES_SOURCE),
         ('委員から提出された追加意見のWord文書', '委員から提出された追加意見'),
     ),
     'dantai_1-4.xml': (
-        ('環境省公開Wordの各論理段落', '環境省が公開する議事録（PDF）の各論理段落'),
-        ('公開Word議事録の段落を論理的な段落境界として抽出し、',
-         '環境省が公開する議事録（PDF）の段落を単位とし、'),
+        ('環境省公開Wordの各論理段落をseg、発言者の交替をuとして符号化し、',
+         ENV_HEARING_SOURCE + MINUTES_ENCODING + '。'),
+        ('環境省が公開する議事録（PDF）の各論理段落をseg、発言者の交替をuとして符号化し、',
+         ENV_HEARING_SOURCE + MINUTES_ENCODING + '。'),
+        ('公開Word議事録の段落を論理的な段落境界として抽出し、', ENV_HEARING_SOURCE),
+        ('環境省が公開する議事録（PDF）の段落を単位とし、', ENV_HEARING_SOURCE),
     ),
     'sogo_seisaku_107-116.xml': (
         ('会議開催前に委員から提出されたWord文書', '会議開催前に委員から提出された事前意見'),
@@ -191,6 +200,7 @@ def prepare_public_tei(data, filename):
             if paragraph.text:
                 for previous, current in ENCODING_DESCRIPTION_EDITS.get(filename, ()):
                     paragraph.text = paragraph.text.replace(previous, current)
+                paragraph.text = MINUTES_ENCODING_WORDING.sub(MINUTES_ENCODING, paragraph.text)
                 paragraph.text = paragraph.text.replace('符号化した試作コーパス。', '符号化した。')
                 paragraph.text = paragraph.text.replace('符号化した試作データ。', '符号化した。')
         citation = source.find(f'{TEI}bibl[@type="sourceReference"]')

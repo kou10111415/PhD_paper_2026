@@ -36,7 +36,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、発言者の交替をu、原HTMLの各論理段落をsegとして符号化した。</p>
+        <p>環境省公開HTMLのp要素およびbr要素を論理的な段落境界として抽出し、一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
       </projectDesc>
       <classDecl>
         <taxonomy xml:id="参加者区分">

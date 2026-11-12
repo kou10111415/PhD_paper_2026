@@ -37,7 +37,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>環境省が公開する議事録（PDF）の各論理段落をseg、発言者の交替をuとして符号化し、第1回から第4回までをteiCorpusに統合した。事前意見および意見概要文書は収録していない。</p>
+        <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。第1回から第4回までをteiCorpusに統合した。事前意見および意見概要文書は収録していない。</p>
       </projectDesc>
       <classDecl>
         <taxonomy xml:id="参加者区分">
@@ -262,7 +262,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省が公開する議事録（PDF）の段落を単位とし、発言者の交替をu、各段落をsegとして符号化した。</p>
+          <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -901,7 +901,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省が公開する議事録（PDF）の段落を単位とし、発言者の交替をu、各段落をsegとして符号化した。</p>
+          <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -1379,7 +1379,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省が公開する議事録（PDF）の段落を単位とし、発言者の交替をu、各段落をsegとして符号化した。</p>
+          <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -2093,7 +2093,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>環境省が公開する議事録（PDF）の段落を単位とし、発言者の交替をu、各段落をsegとして符号化した。</p>
+          <p>原資料は環境省が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>

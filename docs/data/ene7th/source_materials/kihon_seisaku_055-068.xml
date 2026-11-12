@@ -40,7 +40,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、○で始まる発言者の交替をu、各発言段落をsegとして符号化した。</p>
+        <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         <p>委員から提出された追加意見を、会議回ごとに独立したTEIとして対応する議事録TEIの直後に配置した。委員ごとの追加意見をuとし、意見全文を単一のsegとして符号化した。追加意見のuにはana="#資料種別_追加意見 #区分_委員"を付した。</p>
       </projectDesc>
       <classDecl>
@@ -1132,7 +1132,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -1723,7 +1723,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -2263,7 +2263,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -2898,7 +2898,7 @@
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -3425,7 +3425,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -3953,7 +3953,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -4678,7 +4678,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -5469,7 +5469,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -5935,7 +5935,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -6597,7 +6597,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -7089,7 +7089,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -7625,7 +7625,7 @@ AI の社会実装やデジタルトランスフォーメーション（DX）の
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -8584,7 +8584,7 @@ CCUS は明記されているのですが、炭素除去は明⽰的には掲げ
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -9306,7 +9306,7 @@ CCUS は明記されているのですが、炭素除去は明⽰的には掲げ
       </fileDesc>
       <encodingDesc>
         <projectDesc>
-          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。議事録の段落を単位とし、話者交替をu、発言段落をsegとして符号化した。</p>
+          <p>原資料は資源エネルギー庁が公開する議事録（PDF）。一つの発言を&lt;u&gt;、各発言段落を&lt;seg&gt;として符号化した。</p>
         </projectDesc>
       </encodingDesc>
       <profileDesc>
