@@ -8,7 +8,18 @@ import xml.etree.ElementTree as ET
 TEI = '{http://www.tei-c.org/ns/1.0}'
 XML_ID = '{http://www.w3.org/XML/1998/namespace}id'
 CC_BY = 'https://creativecommons.org/licenses/by/4.0/'
+ENCODER = '石井康平'
 SOURCE_REFERENCES = json.loads(Path(__file__).with_name('public_tei_sources.json').read_text(encoding='utf-8'))
+ENV_COMMITTEE = '中央環境審議会総合政策部会'
+ENERGY_COMMITTEE = '総合資源エネルギー調査会基本政策分科会'
+MINUTES_AUTHORS = {
+    'dantai_1-4.xml': ENV_COMMITTEE,
+    'sogo_seisaku_107-116.xml': ENV_COMMITTEE,
+    'sokai_031.xml': '中央環境審議会',
+    'kihon_seisaku_055-068.xml': ENERGY_COMMITTEE,
+}
+OPINION_TITLE = re.compile(r'第\d+回基本政策分科会 (.+?)委員 追加意見')
+DATE_RANGE = re.compile(r'(\d{4}-\d{2}-\d{2})/(\d{4}-\d{2}-\d{2})')
 WORKING_TITLE_SUFFIX = re.compile(r'\s*［(?:統合試作版|TEI統合版)］\s*$')
 HEADER = re.compile(rb'<teiHeader(?:\s[^>]*)?>.*?</teiHeader>', re.S)
 PUBLICATION = re.compile(rb'(<publicationStmt(?:\s[^>]*)?>)(.*?)(\n([ \t]*)</publicationStmt>)', re.S)
@@ -64,11 +75,52 @@ def licensed_public_copy(data):
     return result
 
 
+def record_source_metadata(source, citation, reference, filename, owner, key, people):
+    bibliographies = [bibl for bibl in source.iter(TEI + 'bibl') if bibl is not citation]
+    for bibl in bibliographies or [citation]:
+        if key.startswith('additional-meeting-'):
+            title = bibl.findtext(TEI + 'title', '')
+            match = OPINION_TITLE.fullmatch(title)
+            if match is None:
+                raise ValueError(f'No contributor in additional opinion title: {title}')
+            authors = [match[1]]
+        elif key.startswith('pre-meeting-'):
+            # These TEI documents transcribe the committee members' written submissions.
+            contributors = dict.fromkeys(u.get('who', '').removeprefix('#') for u in owner.iter(TEI + 'u'))
+            authors = [people[contributor] for contributor in contributors]
+        else:
+            authors = [reference.get('author') or MINUTES_AUTHORS[filename]]
+        if bibl.find(TEI + 'author') is None:
+            for position, name in enumerate(authors):
+                author = ET.Element(TEI + 'author')
+                author.text = name
+                bibl.insert(position, author)
+
+        date = bibl.find(TEI + 'date')
+        if date is None and 'date' in reference:
+            date = ET.SubElement(bibl, TEI + 'date', {'when': reference['date']})
+            date.text = reference['date']
+            if 'dateType' in reference:
+                date.set('type', reference['dateType'])
+        elif date is not None and filename in MINUTES_AUTHORS:
+            period = DATE_RANGE.fullmatch(date.text or '')
+            if period:
+                date.attrib.pop('when', None)
+                date.attrib.update({'from': period[1], 'to': period[2], 'type': 'coverage'})
+            elif key.startswith('meeting'):
+                date.attrib.setdefault('type', 'meeting')
+
+
 def prepare_public_tei(data, filename):
     """Normalize publication metadata and link the official source for each header."""
     data = licensed_public_copy(data)
     root = ET.fromstring(data)
     references = SOURCE_REFERENCES[filename]
+    people = {
+        person.get(XML_ID): ''.join(part.strip() for part in name.itertext())
+        for person in root.iter(TEI + 'person')
+        if (name := person.find(TEI + 'persName')) is not None
+    }
     headers = []
     used_keys = set()
     for owner in root.iter():
@@ -79,9 +131,18 @@ def prepare_public_tei(data, filename):
         used_keys.add(key)
         reference = references[key]
         file_desc = header.find(TEI + 'fileDesc')
-        for title in file_desc.findall(f'{TEI}titleStmt/{TEI}title'):
+        title_stmt = file_desc.find(TEI + 'titleStmt')
+        for title in title_stmt.findall(TEI + 'title'):
             if title.text:
                 title.text = WORKING_TITLE_SUFFIX.sub('', title.text)
+        if not any(
+            responsibility.findtext(TEI + 'resp') == 'TEI符号化'
+            and ENCODER in [name.text for name in responsibility.findall(TEI + 'name')]
+            for responsibility in title_stmt.findall(TEI + 'respStmt')
+        ):
+            responsibility = ET.SubElement(title_stmt, TEI + 'respStmt')
+            ET.SubElement(responsibility, TEI + 'resp').text = 'TEI符号化'
+            ET.SubElement(responsibility, TEI + 'name').text = ENCODER
 
         publication = file_desc.find(TEI + 'publicationStmt')
         original_publishers = publication.findall(TEI + 'publisher')
@@ -89,7 +150,7 @@ def prepare_public_tei(data, filename):
             if child.tag in {TEI + tag for tag in ('authority', 'publisher', 'distributor', 'date')}:
                 publication.remove(child)
         distributor = ET.Element(TEI + 'distributor')
-        distributor.text = '石井康平'
+        distributor.text = ENCODER
         publication.insert(0, distributor)
         date = ET.Element(TEI + 'date', {'when': '2026-09-30'})
         date.text = '2026年9月30日'
@@ -107,6 +168,7 @@ def prepare_public_tei(data, filename):
             source.remove(paragraph)
             paragraph.tag = TEI + 'note'
             citation.append(paragraph)
+        record_source_metadata(source, citation, reference, filename, owner, key, people)
         for field, label in (
             ('document', '原資料'),
             ('page', '公開・配付資料ページ'),

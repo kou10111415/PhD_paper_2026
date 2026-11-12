@@ -24,8 +24,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
+          <author>中央環境審議会総合政策部会</author>
           <title>中央環境審議会総合政策部会と各種団体等との意見交換会（第1回～第4回）議事録</title>
-          <date from="2023-10-30" to="2023-11-27">2023-10-30/2023-11-27</date>
+          <date from="2023-10-30" to="2023-11-27" type="coverage">2023-10-30/2023-11-27</date>
         </bibl>
         <bibl type="sourceReference">
           <publisher>環境省</publisher>
@@ -247,8 +248,9 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>第1回中央環境審議会総合政策部会と各種団体等との意見交換会 議事録</title>
-            <date when="2023-10-30">2023-10-30</date>
+            <date when="2023-10-30" type="meeting">2023-10-30</date>
             <idno type="localPath">word_pdf/env6th_dantai1.docx</idno>
             <idno type="SHA-256">72398c757bb88362b82ebbe14f0b6e544929b70ca19162e2f64144b27db2bc88</idno>
           </bibl>
@@ -886,8 +888,9 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>第2回中央環境審議会総合政策部会と各種団体等との意見交換会 議事録</title>
-            <date when="2023-11-22">2023-11-22</date>
+            <date when="2023-11-22" type="meeting">2023-11-22</date>
             <idno type="localPath">word_pdf/env6th_dantai2.docx</idno>
             <idno type="SHA-256">495245deed213b6b312a481a7b38f6656e55ca39b849d3ceb220881d218cab77</idno>
           </bibl>
@@ -1364,8 +1367,9 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>第3回中央環境審議会総合政策部会と各種団体等との意見交換会 議事録</title>
-            <date when="2023-11-24">2023-11-24</date>
+            <date when="2023-11-24" type="meeting">2023-11-24</date>
             <idno type="localPath">word_pdf/env6th_dantai3.docx</idno>
             <idno type="SHA-256">498e06879094cc923ea38e6c38b0fe8024648c0961c4af2292eaabdff8bad7db</idno>
           </bibl>
@@ -2078,8 +2082,9 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>第4回中央環境審議会総合政策部会と各種団体等との意見交換会 議事録</title>
-            <date when="2023-11-27">2023-11-27</date>
+            <date when="2023-11-27" type="meeting">2023-11-27</date>
             <idno type="localPath">word_pdf/env6th_dantai4.docx</idno>
             <idno type="SHA-256">ec1d7f5d77801f8beedace824fffdd5c3fe94b40a887bf0ec960ddcd630a8ff8</idno>
           </bibl>

@@ -22,8 +22,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
+          <author>中央環境審議会</author>
           <title>中央環境審議会第31回総会議事録</title>
-          <date when="2023-11-21">2023-11-21</date>
+          <date when="2023-11-21" type="meeting">2023-11-21</date>
           <idno type="URI">https://www.env.go.jp/council/01chuo/02_4_00007.html</idno>
           <idno type="SHA-256">c2e194fa4444d1a69df78c3461e42741a8bc85fb36424fdd3e1a114951166eb9</idno>
         </bibl>

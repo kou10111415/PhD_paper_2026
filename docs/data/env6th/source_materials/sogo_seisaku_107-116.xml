@@ -28,8 +28,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
+          <author>中央環境審議会総合政策部会</author>
           <title>環境省 中央環境審議会 総合政策部会（第107回～第116回）議事録・事前意見</title>
-          <date when="2023-05-29">2023-05-29/2024-05-09</date>
+          <date from="2023-05-29" to="2024-05-09" type="coverage">2023-05-29/2024-05-09</date>
         </bibl>
         <bibl type="sourceReference">
           <publisher>環境省</publisher>
@@ -597,8 +598,9 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１０７回）議事録</title>
-            <date when="2023-05-29">2023-05-29</date>
+            <date when="2023-05-29" type="meeting">2023-05-29</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00003.html</idno>
             <idno type="SHA-256">5b6a3c97755de2cb9457e56759506a908e7d3247e0c1530faf3e00d8d542469f</idno>
           </bibl>
@@ -1161,6 +1163,10 @@
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第107回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -1172,9 +1178,17 @@
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>石田建一</author>
+            <author>竹ケ原啓介</author>
+            <author>淡路睦</author>
+            <author>馬奈木俊介</author>
+            <author>崎田裕子</author>
+            <author>豊岡和美</author>
+            <author>中村太士</author>
             <title>第107回総合政策部会 事前意見</title>
             <idno type="filename">env107-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-107" />
+            <date when="2023">2023</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00003.html">公開・配付資料ページ</ref>
@@ -1283,8 +1297,9 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１０８回）議事録</title>
-            <date when="2023-06-30">2023-06-30</date>
+            <date when="2023-06-30" type="meeting">2023-06-30</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00004.html</idno>
             <idno type="SHA-256">ecb555e3a0f5717865bf379fa4f60c3a007173fdf23f511cbbb4e0b88ef8f42a</idno>
           </bibl>
@@ -1989,6 +2004,10 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第108回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -2000,9 +2019,18 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>有村俊秀</author>
+            <author>亀山康子</author>
+            <author>崎田裕子</author>
+            <author>武内和彦</author>
+            <author>豊岡和美</author>
+            <author>中村太士</author>
+            <author>石田建一</author>
+            <author>山戸昌子</author>
             <title>第108回総合政策部会 事前意見</title>
             <idno type="filename">env108-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-108" />
+            <date when="2023">2023</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00004.html">公開・配付資料ページ</ref>
@@ -2132,8 +2160,9 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１０９回）議事録</title>
-            <date when="2023-08-02">2023-08-02</date>
+            <date when="2023-08-02" type="meeting">2023-08-02</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00005.html</idno>
             <idno type="SHA-256">c5fb295069a1a14b3824b86e22715ada2f2786be5da0a61a6ce55eafc8dd4f47</idno>
           </bibl>
@@ -2823,6 +2852,10 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第109回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -2834,9 +2867,16 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>崎田裕子</author>
+            <author>石田建一</author>
+            <author>井田徹治</author>
+            <author>河口眞理子</author>
+            <author>小屋かをり</author>
+            <author>諸富徹</author>
             <title>第109回総合政策部会 事前意見</title>
             <idno type="filename">env109-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-109" />
+            <date when="2023">2023</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00005.html">公開・配付資料ページ</ref>
@@ -2939,8 +2979,9 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１１０回）議事録</title>
-            <date when="2023-08-30">2023-08-30</date>
+            <date when="2023-08-30" type="meeting">2023-08-30</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00006.html</idno>
             <idno type="SHA-256">2ec3ed75e8f0250ac6485ea00c5399a7f23ea9babee81ac787cc571a45a5c284</idno>
           </bibl>
@@ -3615,6 +3656,10 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第110回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -3626,9 +3671,13 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>崎田裕子</author>
+            <author>白石寛明</author>
+            <author>淡路睦</author>
             <title>第110回総合政策部会 事前意見</title>
             <idno type="filename">env110-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-110" />
+            <date when="2023">2023</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00006.html">公開・配付資料ページ</ref>
@@ -3701,8 +3750,9 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１１２回）議事録</title>
-            <date when="2023-12-20">2023-12-20</date>
+            <date when="2023-12-20" type="meeting">2023-12-20</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00007.html</idno>
             <idno type="SHA-256">2d3f2e6fb0f1207844222e6bcc886498b31ec735f0378654bf58c9d4da4e5e85</idno>
           </bibl>
@@ -4288,6 +4338,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第112回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -4299,9 +4353,13 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>大塚直</author>
+            <author>崎田裕子</author>
+            <author>石田建一</author>
             <title>第112回総合政策部会 事前意見</title>
             <idno type="filename">env112-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-112" />
+            <date when="2023">2023</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00007.html">公開・配付資料ページ</ref>
@@ -4374,8 +4432,9 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１１３回）議事録</title>
-            <date when="2024-01-29">2024-01-29</date>
+            <date when="2024-01-29" type="meeting">2024-01-29</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00008.html</idno>
             <idno type="SHA-256">74855d167a2483a8929a99816e2bf92e4f7a0fd7be3aa5fc92e045800b1f172d</idno>
           </bibl>
@@ -5010,6 +5069,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第113回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -5021,9 +5084,15 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>崎田裕子</author>
+            <author>中村太士</author>
+            <author>石田建一</author>
+            <author>井田徹治</author>
+            <author>竹ケ原啓介</author>
             <title>第113回総合政策部会 事前意見</title>
             <idno type="filename">env113-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-113" />
+            <date when="2024">2024</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00008.html">公開・配付資料ページ</ref>
@@ -5117,8 +5186,9 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１１５回）議事録</title>
-            <date when="2024-02-26">2024-02-26</date>
+            <date when="2024-02-26" type="meeting">2024-02-26</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00009.html</idno>
             <idno type="SHA-256">9cd97e93c314fe6a187008244a65630b2470fbe865579b273f507cae868ca6bb</idno>
           </bibl>
@@ -5874,6 +5944,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第115回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -5885,9 +5959,16 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>崎田裕子</author>
+            <author>白石寛明</author>
+            <author>髙村典子</author>
+            <author>淡路睦</author>
+            <author>堅達京子</author>
+            <author>小屋かをり</author>
             <title>第115回総合政策部会 事前意見</title>
             <idno type="filename">env115-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-115" />
+            <date when="2024">2024</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00009.html">公開・配付資料ページ</ref>
@@ -5993,8 +6074,9 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>中央環境審議会総合政策部会</author>
             <title>中央環境審議会 総合政策部会（第１１６回）議事録</title>
-            <date when="2024-05-09">2024-05-09</date>
+            <date when="2024-05-09" type="meeting">2024-05-09</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00010.html</idno>
             <idno type="SHA-256">a0e1f3104fbed6379e2de30887f7074e4a3f4cdd6f086f3ce041a262a7c793f5</idno>
           </bibl>
@@ -6770,6 +6852,10 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
       <fileDesc>
         <titleStmt>
           <title type="main">中央環境審議会 総合政策部会 第116回 事前意見</title>
+          <respStmt>
+            <resp>TEI符号化</resp>
+            <name>石井康平</name>
+          </respStmt>
         </titleStmt>
         <publicationStmt>
           <distributor>石井康平</distributor>
@@ -6781,9 +6867,11 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
         </publicationStmt>
         <sourceDesc>
           <bibl>
+            <author>井上久美枝</author>
             <title>第116回総合政策部会 事前意見</title>
             <idno type="filename">env116-事前.docx</idno>
             <relatedItem type="meetingMinutes" target="#meeting-116" />
+            <date when="2024">2024</date>
           </bibl>
           <bibl type="sourceReference">
             <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00010.html">公開・配付資料ページ</ref>

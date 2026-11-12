@@ -4,6 +4,10 @@
     <fileDesc>
       <titleStmt>
         <title>エネルギー基本計画 （原案）</title>
+        <respStmt>
+          <resp>TEI符号化</resp>
+          <name>石井康平</name>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
         <distributor>石井康平</distributor>
@@ -14,8 +18,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="sourceReference">
+          <author>総合資源エネルギー調査会基本政策分科会</author>
           <title>エネルギー基本計画（原案）</title>
           <note>Converted from 7th_energy_plan_genan.html.</note>
+          <date when="2024-12-17" type="distribution">2024-12-17</date>
           <ref type="page" target="https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/067/">公開・配付資料ページ</ref>
         </bibl>
       </sourceDesc>

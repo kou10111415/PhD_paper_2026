@@ -4,6 +4,10 @@
     <fileDesc>
       <titleStmt>
         <title>第六次環境基本計画に向けた中間取りまとめ</title>
+        <respStmt>
+          <resp>TEI符号化</resp>
+          <name>石井康平</name>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
         <distributor>石井康平</distributor>
@@ -14,8 +18,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="sourceReference">
+          <author>中央環境審議会総合政策部会</author>
           <title>第六次環境基本計画に向けた中間取りまとめ（案）</title>
           <note>Converted from env6th_plan_chukan-an_ver1.docx.</note>
+          <date when="2023-08-02" type="distribution">2023-08-02</date>
           <ref type="document" target="https://www.env.go.jp/council/content/i_01/000150953.pdf">原資料</ref>
           <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00005.html">公開・配付資料ページ</ref>
         </bibl>
