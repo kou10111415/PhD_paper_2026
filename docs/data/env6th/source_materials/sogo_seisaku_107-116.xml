@@ -20,9 +20,8 @@
         <measure unit="events" quantity="23">23 events</measure>
       </extent>
       <publicationStmt>
-        <publisher>環境省</publisher>
-        <authority>石井康平</authority>
-        <date>2026-09-02</date>
+        <distributor>石井康平</distributor>
+        <date when="2026-09-30">2026年9月30日</date>
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
         </availability>
@@ -31,6 +30,10 @@
         <bibl>
           <title>環境省 中央環境審議会 総合政策部会（第107回～第116回）議事録・事前意見</title>
           <date when="2023-05-29">2023-05-29/2024-05-09</date>
+        </bibl>
+        <bibl type="sourceReference">
+          <publisher>環境省</publisher>
+          <ref type="page" target="https://www.env.go.jp/council/02policy/yoshi02.html">公開・配付資料ページ</ref>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -586,9 +589,8 @@
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -599,6 +601,10 @@
             <date when="2023-05-29">2023-05-29</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00003.html</idno>
             <idno type="SHA-256">5b6a3c97755de2cb9457e56759506a908e7d3247e0c1530faf3e00d8d542469f</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00003.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -1157,7 +1163,8 @@
           <title type="main">中央環境審議会 総合政策部会 第107回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -1167,7 +1174,10 @@
           <bibl>
             <title>第107回総合政策部会 事前意見</title>
             <idno type="filename">env107-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-107"/>
+            <relatedItem type="meetingMinutes" target="#meeting-107" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00003.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -1265,9 +1275,8 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -1278,6 +1287,10 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
             <date when="2023-06-30">2023-06-30</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00004.html</idno>
             <idno type="SHA-256">ecb555e3a0f5717865bf379fa4f60c3a007173fdf23f511cbbb4e0b88ef8f42a</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00004.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -1978,7 +1991,8 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
           <title type="main">中央環境審議会 総合政策部会 第108回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -1988,7 +2002,10 @@ CEIS からの提言の中に神奈川県相模原市青根の事例がある。
           <bibl>
             <title>第108回総合政策部会 事前意見</title>
             <idno type="filename">env108-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-108"/>
+            <relatedItem type="meetingMinutes" target="#meeting-108" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00004.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -2107,9 +2124,8 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -2120,6 +2136,10 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
             <date when="2023-08-02">2023-08-02</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00005.html</idno>
             <idno type="SHA-256">c5fb295069a1a14b3824b86e22715ada2f2786be5da0a61a6ce55eafc8dd4f47</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00005.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -2805,7 +2825,8 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
           <title type="main">中央環境審議会 総合政策部会 第109回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -2815,7 +2836,10 @@ G7 では我が国は電力の大部分を脱炭素化する」と発言して�
           <bibl>
             <title>第109回総合政策部会 事前意見</title>
             <idno type="filename">env109-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-109"/>
+            <relatedItem type="meetingMinutes" target="#meeting-109" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00005.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -2907,9 +2931,8 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -2920,6 +2943,10 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
             <date when="2023-08-30">2023-08-30</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00006.html</idno>
             <idno type="SHA-256">2ec3ed75e8f0250ac6485ea00c5399a7f23ea9babee81ac787cc571a45a5c284</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00006.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -3590,7 +3617,8 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
           <title type="main">中央環境審議会 総合政策部会 第110回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -3600,7 +3628,10 @@ P13～14 国民意識の変遷に若者の環境意識は高いという記載�
           <bibl>
             <title>第110回総合政策部会 事前意見</title>
             <idno type="filename">env110-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-110"/>
+            <relatedItem type="meetingMinutes" target="#meeting-110" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00006.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -3662,9 +3693,8 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -3675,6 +3705,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
             <date when="2023-12-20">2023-12-20</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00007.html</idno>
             <idno type="SHA-256">2d3f2e6fb0f1207844222e6bcc886498b31ec735f0378654bf58c9d4da4e5e85</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00007.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -4256,7 +4290,8 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <title type="main">中央環境審議会 総合政策部会 第112回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -4266,7 +4301,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <bibl>
             <title>第112回総合政策部会 事前意見</title>
             <idno type="filename">env112-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-112"/>
+            <relatedItem type="meetingMinutes" target="#meeting-112" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00007.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -4328,9 +4366,8 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -4341,6 +4378,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
             <date when="2024-01-29">2024-01-29</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00008.html</idno>
             <idno type="SHA-256">74855d167a2483a8929a99816e2bf92e4f7a0fd7be3aa5fc92e045800b1f172d</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00008.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -4971,7 +5012,8 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <title type="main">中央環境審議会 総合政策部会 第113回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -4981,7 +5023,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <bibl>
             <title>第113回総合政策部会 事前意見</title>
             <idno type="filename">env113-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-113"/>
+            <relatedItem type="meetingMinutes" target="#meeting-113" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00008.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -5064,9 +5109,8 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -5077,6 +5121,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
             <date when="2024-02-26">2024-02-26</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00009.html</idno>
             <idno type="SHA-256">9cd97e93c314fe6a187008244a65630b2470fbe865579b273f507cae868ca6bb</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00009.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -5828,7 +5876,8 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <title type="main">中央環境審議会 総合政策部会 第115回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -5838,7 +5887,10 @@ P4L13「環境、自然資本」 P16L31「自然資本（環境）」、P27L11�
           <bibl>
             <title>第115回総合政策部会 事前意見</title>
             <idno type="filename">env115-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-115"/>
+            <relatedItem type="meetingMinutes" target="#meeting-115" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00009.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -5933,9 +5985,8 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
           </respStmt>
         </titleStmt>
         <publicationStmt>
-          <publisher>環境省</publisher>
-          <authority>石井康平</authority>
-          <date>2026-07-29</date>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
           </availability>
@@ -5946,6 +5997,10 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
             <date when="2024-05-09">2024-05-09</date>
             <idno type="URI">https://www.env.go.jp/council/02policy/post_114_00010.html</idno>
             <idno type="SHA-256">a0e1f3104fbed6379e2de30887f7074e4a3f4cdd6f086f3ce041a262a7c793f5</idno>
+          </bibl>
+          <bibl type="sourceReference">
+            <publisher>環境省</publisher>
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00010.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>
@@ -6717,7 +6772,8 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
           <title type="main">中央環境審議会 総合政策部会 第116回 事前意見</title>
         </titleStmt>
         <publicationStmt>
-          <authority>PhD_paper_2026</authority>
+          <distributor>石井康平</distributor>
+          <date when="2026-09-30">2026年9月30日</date>
           <availability>
             <p>研究用TEI符号化資料</p>
             <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
@@ -6727,7 +6783,10 @@ CRDS-FY2022-FR-03_21002.pdf (jst.go.jp)
           <bibl>
             <title>第116回総合政策部会 事前意見</title>
             <idno type="filename">env116-事前.docx</idno>
-            <relatedItem type="meetingMinutes" target="#meeting-116"/>
+            <relatedItem type="meetingMinutes" target="#meeting-116" />
+          </bibl>
+          <bibl type="sourceReference">
+            <ref type="page" target="https://www.env.go.jp/council/02policy/41124_00010.html">公開・配付資料ページ</ref>
           </bibl>
         </sourceDesc>
       </fileDesc>

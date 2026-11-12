@@ -1,0 +1,224 @@
+{
+  "6th_env_plan_chukan-an_ver1.xml": {
+    "root": {
+      "title": "第六次環境基本計画に向けた中間取りまとめ（案）",
+      "document": "https://www.env.go.jp/council/content/i_01/000150953.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00005.html"
+    }
+  },
+  "6th_env_plan_chukan-an_ver2.xml": {
+    "root": {
+      "title": "第六次環境基本計画に向けた中間取りまとめ（案）（溶け込み版）",
+      "document": "https://www.env.go.jp/council/content/i_01/000156113.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00006.html"
+    }
+  },
+  "6th_env_plan_chukan.xml": {
+    "root": {
+      "title": "第六次環境基本計画に向けた中間取りまとめ",
+      "document": "https://www.env.go.jp/content/000162851.pdf"
+    }
+  },
+  "6th_env_plan_soan.xml": {
+    "root": {
+      "title": "第六次環境基本計画（素案）",
+      "document": "https://www.env.go.jp/council/content/i_01/000193627.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00008.html"
+    }
+  },
+  "6th_env_plan_an.xml": {
+    "root": {
+      "title": "第六次環境基本計画（案）",
+      "document": "https://www.env.go.jp/council/content/i_01/000201880.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00009.html"
+    }
+  },
+  "6th_env_plan_toshin.xml": {
+    "root": {
+      "title": "第六次環境基本計画（答申別冊本文）",
+      "document": "https://www.env.go.jp/council/content/i_01/000224783.pdf"
+    }
+  },
+  "6th_env_plan_kakugi.xml": {
+    "root": {
+      "title": "第六次環境基本計画（閣議決定版）",
+      "document": "https://www.env.go.jp/council/content/i_01/000225523.pdf"
+    }
+  },
+  "7th_energy_plan_kokkaku.xml": {
+    "root": {
+      "title": "次期エネルギー基本計画の骨格（案）",
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/066/"
+    }
+  },
+  "7th_energy_plan_genan.xml": {
+    "root": {
+      "title": "エネルギー基本計画（原案）",
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/067/"
+    }
+  },
+  "7th_energy_plan_an.xml": {
+    "root": {
+      "title": "エネルギー基本計画（案）",
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/068/"
+    }
+  },
+  "7th_energy_plan_saisyu.xml": {
+    "root": {
+      "title": "第7次エネルギー基本計画",
+      "document": "https://www.meti.go.jp/press/2024/02/20250218001/20250218001-1.pdf",
+      "page": "https://www.enecho.meti.go.jp/category/others/basic_plan/"
+    }
+  },
+  "sokai_031.xml": {
+    "meeting-031": {
+      "page": "https://www.env.go.jp/council/01chuo/post_29_00005.html"
+    }
+  },
+  "dantai_1-4.xml": {
+    "root": {
+      "page": "https://www.env.go.jp/council/02policy/yoshi02.html",
+      "related": "https://www.env.go.jp/council/content/i_01/000181937.pdf"
+    },
+    "meeting001": {
+      "document": "https://www.env.go.jp/council/content/i_01/000182011.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00007.html"
+    },
+    "meeting002": {
+      "document": "https://www.env.go.jp/council/content/i_01/000182012.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00007.html"
+    },
+    "meeting003": {
+      "document": "https://www.env.go.jp/council/content/i_01/000182014.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00007.html"
+    },
+    "meeting004": {
+      "document": "https://www.env.go.jp/council/content/i_01/000193630.pdf",
+      "page": "https://www.env.go.jp/council/02policy/41124_00008.html"
+    }
+  },
+  "sogo_seisaku_107-116.xml": {
+    "root": {
+      "page": "https://www.env.go.jp/council/02policy/yoshi02.html"
+    },
+    "meeting-107": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00003.html"
+    },
+    "pre-meeting-107": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00003.html"
+    },
+    "meeting-108": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00004.html"
+    },
+    "pre-meeting-108": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00004.html"
+    },
+    "meeting-109": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00005.html"
+    },
+    "pre-meeting-109": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00005.html"
+    },
+    "meeting-110": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00006.html"
+    },
+    "pre-meeting-110": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00006.html"
+    },
+    "meeting-112": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00007.html"
+    },
+    "pre-meeting-112": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00007.html"
+    },
+    "meeting-113": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00008.html"
+    },
+    "pre-meeting-113": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00008.html"
+    },
+    "meeting-115": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00009.html"
+    },
+    "pre-meeting-115": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00009.html"
+    },
+    "meeting-116": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00010.html"
+    },
+    "pre-meeting-116": {
+      "page": "https://www.env.go.jp/council/02policy/41124_00010.html"
+    }
+  },
+  "kihon_seisaku_055-068.xml": {
+    "root": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/"
+    },
+    "meeting-55": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/055/"
+    },
+    "additional-meeting-55": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/055/"
+    },
+    "meeting-56": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/056/"
+    },
+    "meeting-57": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/057/"
+    },
+    "additional-meeting-57": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/057/"
+    },
+    "meeting-58": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/058/"
+    },
+    "additional-meeting-58": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/058/"
+    },
+    "meeting-59": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/059/"
+    },
+    "additional-meeting-59": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/059/"
+    },
+    "meeting-60": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/060/"
+    },
+    "additional-meeting-60": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/060/"
+    },
+    "meeting-61": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/061/"
+    },
+    "meeting-62": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/062/"
+    },
+    "additional-meeting-62": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/062/"
+    },
+    "meeting-63": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/063/"
+    },
+    "meeting-64": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/064/"
+    },
+    "meeting-65": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/065/"
+    },
+    "meeting-66": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/066/"
+    },
+    "additional-meeting-66": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/066/"
+    },
+    "meeting-67": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/067/"
+    },
+    "additional-meeting-67": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/067/"
+    },
+    "meeting-68": {
+      "page": "https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2024/068/"
+    }
+  }
+}

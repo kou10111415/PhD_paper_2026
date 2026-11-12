@@ -1,10 +1,15 @@
-"""Add project licensing to public TEI copies without reserializing the text."""
+"""Prepare metadata for public TEI copies while preserving the text bytes."""
 
+import json
+from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
 
 TEI = '{http://www.tei-c.org/ns/1.0}'
+XML_ID = '{http://www.w3.org/XML/1998/namespace}id'
 CC_BY = 'https://creativecommons.org/licenses/by/4.0/'
+SOURCE_REFERENCES = json.loads(Path(__file__).with_name('public_tei_sources.json').read_text(encoding='utf-8'))
+WORKING_TITLE_SUFFIX = re.compile(r'\s*［(?:統合試作版|TEI統合版)］\s*$')
 HEADER = re.compile(rb'<teiHeader(?:\s[^>]*)?>.*?</teiHeader>', re.S)
 PUBLICATION = re.compile(rb'(<publicationStmt(?:\s[^>]*)?>)(.*?)(\n([ \t]*)</publicationStmt>)', re.S)
 LICENCE = (
@@ -55,5 +60,82 @@ def licensed_public_copy(data):
     result, count = HEADER.subn(update_header, data)
     if not publications or count != len(publications):
         raise ValueError('Could not account for all TEI headers')
+    ET.fromstring(result)
+    return result
+
+
+def prepare_public_tei(data, filename):
+    """Normalize publication metadata and link the official source for each header."""
+    data = licensed_public_copy(data)
+    root = ET.fromstring(data)
+    references = SOURCE_REFERENCES[filename]
+    headers = []
+    used_keys = set()
+    for owner in root.iter():
+        header = owner.find(TEI + 'teiHeader')
+        if header is None:
+            continue
+        key = owner.get(XML_ID, 'root')
+        used_keys.add(key)
+        reference = references[key]
+        file_desc = header.find(TEI + 'fileDesc')
+        for title in file_desc.findall(f'{TEI}titleStmt/{TEI}title'):
+            if title.text:
+                title.text = WORKING_TITLE_SUFFIX.sub('', title.text)
+
+        publication = file_desc.find(TEI + 'publicationStmt')
+        original_publishers = publication.findall(TEI + 'publisher')
+        for child in list(publication):
+            if child.tag in {TEI + tag for tag in ('authority', 'publisher', 'distributor', 'date')}:
+                publication.remove(child)
+        distributor = ET.Element(TEI + 'distributor')
+        distributor.text = '石井康平'
+        publication.insert(0, distributor)
+        date = ET.Element(TEI + 'date', {'when': '2026-09-30'})
+        date.text = '2026年9月30日'
+        publication.insert(1, date)
+
+        source = file_desc.find(TEI + 'sourceDesc')
+        citation = source.find(f'{TEI}bibl[@type="sourceReference"]')
+        if citation is None:
+            citation = ET.SubElement(source, TEI + 'bibl', {'type': 'sourceReference'})
+        if 'title' in reference and citation.find(TEI + 'title') is None:
+            ET.SubElement(citation, TEI + 'title').text = reference['title']
+        citation.extend(original_publishers)
+        # Keep the input filename or conversion note in the source citation.
+        for paragraph in source.findall(TEI + 'p'):
+            source.remove(paragraph)
+            paragraph.tag = TEI + 'note'
+            citation.append(paragraph)
+        for field, label in (
+            ('document', '原資料'),
+            ('page', '公開・配付資料ページ'),
+            ('related', '関連資料'),
+        ):
+            for old_link in citation.findall(f'{TEI}ref[@type="{field}"]'):
+                citation.remove(old_link)
+            if field in reference:
+                link = ET.SubElement(citation, TEI + 'ref', {'type': field, 'target': reference[field]})
+                link.text = label
+        headers.append(header)
+
+    if used_keys != references.keys():
+        raise ValueError(f'Unused source references for {filename}: {references.keys() - used_keys}')
+    pending = iter(headers)
+    ET.register_namespace('', TEI[1:-1])
+
+    def serialize_header(match):
+        header = next(pending)
+        indent = len(data[data.rfind(b'\n', 0, match.start()) + 1:match.start()])
+        ET.indent(header, space='  ')
+        # The surrounding TEI or teiCorpus already declares the default namespace.
+        rendered = ET.tostring(header, encoding='utf-8').replace(
+            b' xmlns="http://www.tei-c.org/ns/1.0"', b'', 1
+        ).rstrip()
+        return rendered.replace(b'\n', b'\n' + b' ' * indent)
+
+    result, count = HEADER.subn(serialize_header, data)
+    if count != len(headers):
+        raise ValueError(f'Could not account for all TEI headers in {filename}')
     ET.fromstring(result)
     return result

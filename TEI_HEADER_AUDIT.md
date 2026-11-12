@@ -16,3 +16,5 @@
 | `xenoData` | 記載なし | 外部メタデータ形式を埋め込む用途がなければ追加不要。 |
 
 ライセンスの変更は公開用XMLの `publicationStmt` 内に限定した。研究入力・本文は変更せず、再生成時にも同じ記載が入るよう公開用ビルドに組み込んだ。
+
+その後、[EAJ Guidelinesの刊行情報の例](https://teikem.kemco.keio.ac.jp/eajguidelines/basicstructure#howtoheader)に合わせ、全57ヘッダーで頒布者を石井康平、公開日を2026年9月30日とした。コーパス表題の作業用表記2件を取り除いた。論文の資料一覧にある掲載ページと、公開機関のページから確認した資料への直接リンクを `sourceDesc` に記載した。リンクの対応表は [public_tei_sources.json](scripts/public_tei_sources.json) に保存している。

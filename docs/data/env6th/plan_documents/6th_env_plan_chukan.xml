@@ -6,13 +6,18 @@
         <title>第六次環境基本計画に向けた中間取りまとめ</title>
       </titleStmt>
       <publicationStmt>
-        <authority>PhD_paper_2026</authority>
+        <distributor>石井康平</distributor>
+        <date when="2026-09-30">2026年9月30日</date>
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/">本プロジェクトによるTEI符号化およびメタデータのうち、本プロジェクトが許諾できる部分は、Creative Commons 表示 4.0 国際（CC BY 4.0）で提供します。原資料および第三者が権利を持つ内容には、それぞれの利用条件が適用されます。</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>Converted from 6th_env_plan_chukan.docx.</p>
+        <bibl type="sourceReference">
+          <title>第六次環境基本計画に向けた中間取りまとめ</title>
+          <note>Converted from 6th_env_plan_chukan.docx.</note>
+          <ref type="document" target="https://www.env.go.jp/content/000162851.pdf">原資料</ref>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

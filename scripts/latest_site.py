@@ -19,7 +19,7 @@ import shutil
 import tomllib
 import unicodedata
 import xml.etree.ElementTree as ET
-from public_tei import licensed_public_copy
+from public_tei import prepare_public_tei
 
 XID = '{http://www.w3.org/XML/1998/namespace}id'
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
@@ -198,7 +198,7 @@ def build_readers(analysis, docs, plan, manifest):
         dest = target / kind / (name or src.name)
         dest.parent.mkdir(parents=True, exist_ok=True)
         if src.suffix == '.xml':
-            dest.write_bytes(licensed_public_copy(src.read_bytes()))
+            dest.write_bytes(prepare_public_tei(src.read_bytes(), dest.name))
         else:
             shutil.copy2(src, dest)
         manifest[str(src.relative_to(analysis))] = sha(src)
@@ -213,7 +213,7 @@ def build_readers(analysis, docs, plan, manifest):
         dest = copy(src, 'source_materials')
         if src.suffix != '.xml':
             continue
-        root = ET.parse(src).getroot()
+        root = ET.parse(dest).getroot()
         for tei in root.iter():
             if tei.tag.split('}')[-1] != 'TEI':
                 continue
