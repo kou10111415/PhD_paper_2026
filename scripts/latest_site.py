@@ -20,6 +20,7 @@ import tomllib
 import unicodedata
 import xml.etree.ElementTree as ET
 from public_tei import prepare_public_tei
+from public_prompts import publish_prompts
 
 XID = '{http://www.w3.org/XML/1998/namespace}id'
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
@@ -412,6 +413,7 @@ def build_site(analysis, repo):
             d = data / sub
             links = ''.join(f'<li><a href="{html.escape(p.name)}">{html.escape(p.name)}</a></li>' for p in sorted(d.glob('*')) if p.name != 'index.html')
             (d / 'index.html').write_text(page(title, f'<main><a href="../../../">← トップ</a><h1>{title}：元データ</h1><ul>{links}</ul></main>', stylesheet='../../../assets/reader.css'))
+    publish_prompts(analysis, docs, manifest)
     write_json(docs / 'data/publication_audit.json', {'build_date': '2026-10-30', 'plans': audits, 'source_sha256': manifest,
         'previous_site_archive': 'backups/site_before_20261030.zip',
         'environment_gap_explanation': '87要求はすべて第116回部会・答申案の最終検討段階。最新版に保存済み判定がなく未判定として保持。',
